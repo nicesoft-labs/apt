@@ -599,20 +599,12 @@ RPMDBHandler::~RPMDBHandler()
    if (RpmIter != NULL)
       rpmdbFreeIterator(RpmIter);
 
-   /* 
-    * If termination signal, do nothing as rpmdb has already freed
-    * our ts set behind our back and rpmtsFree() will crash and burn with a 
-    * doublefree within rpmlib.
-    * There's a WTF involved as rpmCheckSignals() actually calls exit()
-    * so we shouldn't even get here really?!
+   /*
+    * rpm 4.19 removed the signal queue API (rpmsqIsCaught). The
+    * transaction set cleanup is safe to perform unconditionally in
+    * modern rpm, so always free the handler when present.
     */
-   if (rpmsqIsCaught(SIGINT) || 
-       rpmsqIsCaught(SIGQUIT) ||
-       rpmsqIsCaught(SIGHUP) ||
-       rpmsqIsCaught(SIGTERM) ||
-       rpmsqIsCaught(SIGPIPE)) {
-      /* do nothing */
-   } else if (Handler != NULL) {
+   if (Handler != NULL) {
       rpmtsFree(Handler);
    }
 

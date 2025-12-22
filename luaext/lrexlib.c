@@ -10,6 +10,18 @@
 #include "lua.h"
 #include "lauxlib.h"
 
+#if LUA_VERSION_NUM >= 502
+static void luaL_openlib(lua_State *L, const char *libname,
+                         const luaL_Reg *l, int nup) {
+  (void)nup;
+  if (libname) {
+    luaL_newlib(L, l);
+  } else {
+    luaL_setfuncs(L, l, 0);
+  }
+}
+#endif
+
 /* Sanity check */
 #if !defined(WITH_POSIX) && !defined(WITH_PCRE)
 #error Define WITH_POSIX or WITH_PCRE, otherwise this library is useless!

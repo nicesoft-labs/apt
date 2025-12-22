@@ -38,7 +38,9 @@
 #include <assert.h>
 #include <time.h>
 									/*}}}*/
+#if RPM_VERSION < ((4 << 16) | (19 << 8) | 0)
 extern int _rpmds_nopromote;
+#endif
 
 rpmSystem rpmSys;
 
@@ -161,7 +163,9 @@ bool rpmSystem::Initialize(Configuration &Cnf)
       }
       Opt++;
    }
+#if RPM_VERSION < ((4 << 16) | (19 << 8) | 0)
    _rpmds_nopromote = NoPromote;
+#endif
    HideZeroEpoch = (NoPromote == 1);
 
    return true;

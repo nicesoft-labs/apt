@@ -28,6 +28,10 @@
 
 rpmVersioningSystem rpmVS;
 
+#if RPM_VERSION < ((4 << 16) | (19 << 8) | 0)
+extern int _rpmds_nopromote;
+#endif
+
 // rpmVS::rpmVersioningSystem - Constructor				/*{{{*/
 // ---------------------------------------------------------------------
 /* */
@@ -191,8 +195,10 @@ bool rpmVersioningSystem::CheckDep(const char *PkgVer,
 
    rpmds pds = rpmdsSingle(RPMTAG_PROVIDENAME, "", PkgVer, (raptDepFlags) PkgFlags);
    rpmds dds = rpmdsSingle(RPMTAG_REQUIRENAME, "", DepVer, (raptDepFlags) DepFlags);
+#if RPM_VERSION < ((4 << 16) | (19 << 8) | 0)
    rpmdsSetNoPromote(pds, _rpmds_nopromote);
    rpmdsSetNoPromote(dds, _rpmds_nopromote);
+#endif
    rc = rpmdsCompare(pds, dds);
    rpmdsFree(pds);
    rpmdsFree(dds);

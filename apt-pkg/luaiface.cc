@@ -1564,7 +1564,11 @@ static int AptLua_pkgcomp(lua_State *L)
 static int luaopen_apt(lua_State *L)
 {
    lua_pushglobaltable(L);
+#if LUA_VERSION_NUM >= 502
+   luaL_setfuncs(L, aptlib, 0);
+#else
    luaL_openlib(L, NULL, aptlib, 0);
+#endif
    return 0;
 }
 

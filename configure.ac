@@ -45,6 +45,15 @@ AC_CHECK_LIB(bz2,BZ2_bzopen, [],
 AC_CHECK_LIB(z,gzopen, [],
 	[AC_MSG_ERROR([Can't find libz library])])
 
+dnl HTTPS method needs libcurl
+PKG_CHECK_MODULES([CURL], [libcurl], [have_curl=yes], [have_curl=no])
+if test "x$have_curl" != "xyes"; then
+   AC_MSG_ERROR([Can't find libcurl library for HTTPS method])
+fi
+AC_SUBST(CURL_CFLAGS)
+AC_SUBST(CURL_LIBS)
+AM_CONDITIONAL(WITH_CURL, test "x$have_curl" = "xyes")
+
 dnl See if we have pkgconfig for rpm
 PKG_CHECK_MODULES([RPM], [rpm], [
       RPM_VERSION_RAW=`pkg-config --modversion rpm` 

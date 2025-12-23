@@ -2,6 +2,9 @@ AM_CPPFLAGS = -DGPG=\"@GPG@\"
 
 methodsdir=${libdir}/apt/methods
 methods_PROGRAMS = cdrom copy file ftp gpg gzip bzip2 http rsh ssh
+if WITH_CURL
+methods_PROGRAMS += https
+endif
 
 LDADD = ../apt-pkg/libapt-pkg.la
 
@@ -22,6 +25,10 @@ http_SOURCES = \
 	       connect.cc \
 	       connect.h
 http_LDADD = $(LDADD) @SOCKETLIBS@
+
+https_SOURCES = https.cc
+https_LDADD = $(LDADD) $(CURL_LIBS)
+https_CPPFLAGS = $(AM_CPPFLAGS) $(CURL_CFLAGS)
 
 ftp_SOURCES = \
 	       ftp.cc \

@@ -22,6 +22,7 @@
 #include <cstring>
 #include <sstream>
 #include <algorithm>
+#include <cerrno>
 
 #include <apt-pkg/error.h>
 #include <apt-pkg/configuration.h>
@@ -61,6 +62,56 @@ using namespace std;
 bool HideZeroEpoch;
 
 static rpmds rpmlibProv = NULL;
+
+namespace {
+string ExpandMacro(const char *macro, const char *fallback)
+{
+   char *tmp = (char *) rpmExpand(macro, NULL);
+   string val = tmp ? tmp : "";
+   free(tmp);
+   if (val.empty() && fallback != NULL)
+      val = fallback;
+   return val;
+}
+
+string RootedPath(const string &rootDir, const string &path)
+{
+   if (rootDir.empty() || rootDir == "/")
+      return path;
+   if (path.empty())
+      return rootDir;
+   if (path[0] == '/')
+      return rootDir + path;
+   return rootDir + "/" + path;
+}
+
+string FindNewestDbFile(const string &dbpath)
+{
+   DIR *dir = opendir(dbpath.c_str());
+   if (dir == NULL)
+      return "";
+
+   string newest;
+   time_t newestTime = 0;
+   struct dirent *ent;
+   while ((ent = readdir(dir)) != NULL) {
+      if (strcmp(ent->d_name, ".") == 0 || strcmp(ent->d_name, "..") == 0)
+	 continue;
+      string path = dbpath + "/" + ent->d_name;
+      struct stat st;
+      if (stat(path.c_str(), &st) != 0)
+	 continue;
+      if (!S_ISREG(st.st_mode))
+	 continue;
+      if (newest.empty() || st.st_mtime > newestTime) {
+	 newest = path;
+	 newestTime = st.st_mtime;
+      }
+   }
+   closedir(dir);
+   return newest;
+}
+} // namespace
 
 string RPMHandler::EVR() const
 {
@@ -561,12 +612,29 @@ RPMDBHandler::RPMDBHandler(bool WriteLock)
    // change any information in the database directly, we will
    // restore the mtime and save our cache.
    struct stat St;
-   stat(DataPath(false).c_str(), &St);
-   DbFileMtime = St.st_mtime;
+   if (stat(DataPath(false).c_str(), &St) == 0)
+      DbFileMtime = St.st_mtime;
+   else
+      DbFileMtime = 0;
 
    Handler = rpmtsCreate();
    rpmtsSetVSFlags(Handler, (rpmVSFlags_e)-1);
    rpmtsSetRootDir(Handler, Dir.c_str());
+
+   int openFlags = WriteLock ? O_RDWR : O_RDONLY;
+   int rc = rpmtsOpenDB(Handler, openFlags);
+   if (rc != 0) {
+      string backend = DbBackend();
+      string dbpath = ExpandMacro("%{_dbpath}", "/var/lib/rpm");
+      _error->Error(_("Cannot open rpmdb (backend=%s, dbpath=%s, root=%s): %s"),
+		    backend.c_str(),
+		    dbpath.c_str(),
+		    Dir.c_str(),
+		    strerror(errno));
+      rpmtsFree(Handler);
+      Handler = NULL;
+      return;
+   }
 
    RpmIter = raptInitIterator(Handler, RPMDBI_PACKAGES, NULL, 0);
    if (RpmIter == NULL) {
@@ -586,7 +654,7 @@ RPMDBHandler::RPMDBHandler(bool WriteLock)
    rpmdbFreeIterator(countIt);
 
    // Restore just after opening the database, and just after closing.
-   if (WriteLock) {
+   if (WriteLock && DbFileMtime != 0) {
       struct utimbuf Ut;
       Ut.actime = DbFileMtime;
       Ut.modtime = DbFileMtime;
@@ -609,7 +677,7 @@ RPMDBHandler::~RPMDBHandler()
    }
 
    // Restore just after opening the database, and just after closing.
-   if (WriteLock) {
+   if (WriteLock && DbFileMtime != 0) {
       struct utimbuf Ut;
       Ut.actime = DbFileMtime;
       Ut.modtime = DbFileMtime;
@@ -619,15 +687,57 @@ RPMDBHandler::~RPMDBHandler()
 
 string RPMDBHandler::DataPath(bool DirectoryOnly)
 {
-   string File = "Packages";
-   char *tmp = (char *) rpmExpand("%{_dbpath}", NULL);
-   string DBPath(_config->Find("RPM::RootDir")+tmp);
-   free(tmp);
-
    if (DirectoryOnly == true)
-       return DBPath;
-   else
-       return DBPath+"/"+File;
+      return DbPath();
+   return PrimaryDbFile();
+}
+
+string RPMDBHandler::DbBackend()
+{
+   rpmReadConfigFiles(NULL, NULL);
+   return ExpandMacro("%{_db_backend}", "");
+}
+
+string RPMDBHandler::DbPath(const string &rootDir)
+{
+   rpmReadConfigFiles(NULL, NULL);
+   string dbpath = ExpandMacro("%{_dbpath}", "/var/lib/rpm");
+   return RootedPath(rootDir, dbpath);
+}
+
+string RPMDBHandler::DbPath()
+{
+   return DbPath(_config->Find("RPM::RootDir", "/"));
+}
+
+string RPMDBHandler::PrimaryDbFile(const string &rootDir)
+{
+   string backend = DbBackend();
+   string dbpath = DbPath(rootDir);
+
+   if (backend == "sqlite")
+      return dbpath + "/rpmdb.sqlite";
+   if (backend == "bdb" || backend.empty())
+      return dbpath + "/Packages";
+   if (backend == "ndb") {
+      string candidate = dbpath + "/Packages.db";
+      if (FileExists(candidate))
+	 return candidate;
+      string newest = FindNewestDbFile(dbpath);
+      if (!newest.empty())
+	 return newest;
+      return candidate;
+   }
+
+   string newest = FindNewestDbFile(dbpath);
+   if (!newest.empty())
+      return newest;
+   return dbpath;
+}
+
+string RPMDBHandler::PrimaryDbFile()
+{
+   return PrimaryDbFile(_config->Find("RPM::RootDir", "/"));
 }
 
 bool RPMDBHandler::Skip()

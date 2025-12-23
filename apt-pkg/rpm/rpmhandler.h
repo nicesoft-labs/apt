@@ -213,6 +213,11 @@ class RPMDBHandler : public RPMHdrHandler
 
    public:
 
+   static string DbBackend();
+   static string DbPath(const string &rootDir);
+   static string DbPath();
+   static string PrimaryDbFile(const string &rootDir);
+   static string PrimaryDbFile();
    static string DataPath(bool DirectoryOnly=true);
    virtual bool Skip();
    virtual bool Jump(off_t Offset);

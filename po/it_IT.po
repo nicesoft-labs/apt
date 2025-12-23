@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: apt\n"
-"Report-Msgid-Bugs-To: apt-rpm@lists.laiskiainen.org\n"
+"Report-Msgid-Bugs-To: support@niceos.ru\n"
 "POT-Creation-Date: 2017-09-06 22:26+0300\n"
 "PO-Revision-Date: 2001-01-11 15:40-02:00\n"
 "Last-Translator: Stefano Corsi <ippo@madeinlinux.com>\n"
@@ -120,7 +120,7 @@ msgstr "Spazio totale occupato: "
 #: cmdline/apt-cache.cc:329 cmdline/cmdline.cc:1055
 #, c-format
 msgid "Package file %s is out of sync."
-msgstr "Il pacchetto %s non Ë sincronizzato."
+msgstr "Il pacchetto %s non √® sincronizzato."
 
 #: cmdline/apt-cache.cc:495 cmdline/apt-cache.cc:713 cmdline/apt-cache.cc:1056
 #: cmdline/cmdline.cc:978 cmdline/cmdline.cc:1091 cmdline/cmdline.cc:1185
@@ -329,7 +329,7 @@ msgstr "Nome non valido, prova ancora "
 
 #: cmdline/apt-cdrom.cc:703
 msgid "This Disc is called:"
-msgstr "Il nome di questo disco Ë:"
+msgstr "Il nome di questo disco √®:"
 
 #: cmdline/apt-cdrom.cc:736
 msgid "Source List entries for this Disc are:"
@@ -426,7 +426,7 @@ msgstr "Dipendenze irrisolte. Prova ad usare -f."
 #, fuzzy
 msgid "Packages need to be removed but Remove is disabled."
 msgstr ""
-"Devono essere eliminati dei pacchetti ma Ë stato specificato No Remove."
+"Devono essere eliminati dei pacchetti ma √® stato specificato No Remove."
 
 #: cmdline/apt-get.cc:302 cmdline/apt-get.cc:1553 cmdline/apt-shell.cc:363
 #: cmdline/apt-shell.cc:1489 cmdline/cmdline.cc:736
@@ -436,7 +436,7 @@ msgstr "Impossible bloccare lo scaricamento della directory"
 #: cmdline/apt-get.cc:312 cmdline/apt-get.cc:1601 cmdline/apt-get.cc:1827
 #: cmdline/apt-shell.cc:373 cmdline/apt-shell.cc:1548 apt-pkg/cachefile.cc:67
 msgid "The list of sources could not be read."
-msgstr "Non Ë possibile leggere la lista delle fonti."
+msgstr "Non √® possibile leggere la lista delle fonti."
 
 #: cmdline/apt-get.cc:332 cmdline/apt-shell.cc:393
 #, fuzzy, c-format
@@ -465,13 +465,13 @@ msgstr "Peccato, non hai spazio sufficiente in %s"
 
 #: cmdline/apt-get.cc:370 cmdline/apt-shell.cc:431
 msgid "There are problems and -y was used without --force-yes"
-msgstr "Ci sono dei problemi e -y Ë stato usato senza --force-yes"
+msgstr "Ci sono dei problemi e -y √® stato usato senza --force-yes"
 
 #: cmdline/apt-get.cc:376 cmdline/apt-get.cc:396 cmdline/apt-shell.cc:437
 #: cmdline/apt-shell.cc:457
 msgid "Trivial Only specified but this is not a trivial operation."
 msgstr ""
-"E' stato specificato `Solo triviale' ma questa non Ë un'operazione triviale."
+"E' stato specificato `Solo triviale' ma questa non √® un'operazione triviale."
 
 #: cmdline/apt-get.cc:378 cmdline/apt-shell.cc:439
 msgid "Yes, do as I say!"
@@ -545,13 +545,13 @@ msgstr "Nota, selezionando "
 #: cmdline/apt-get.cc:689 cmdline/apt-shell.cc:715
 #, fuzzy, c-format
 msgid "Package %s is a virtual package with no good providers.\n"
-msgstr " Ë un pacchetto virtuale fornito da:"
+msgstr " √® un pacchetto virtuale fornito da:"
 
 #: cmdline/apt-get.cc:695 cmdline/apt-get.cc:751 cmdline/apt-shell.cc:721
 #: cmdline/apt-shell.cc:777 cmdline/cmdline.cc:1845
 #, fuzzy, c-format
 msgid "Package %s is a virtual package provided by:\n"
-msgstr " Ë un pacchetto virtuale fornito da:"
+msgstr " √® un pacchetto virtuale fornito da:"
 
 #: cmdline/apt-get.cc:703 cmdline/apt-get.cc:763 cmdline/apt-shell.cc:729
 #: cmdline/apt-shell.cc:789
@@ -566,17 +566,17 @@ msgstr "Bisognerebbe esplicitarne uno per installarlo."
 #: cmdline/apt-get.cc:709 cmdline/apt-shell.cc:735
 #, fuzzy, c-format
 msgid "Package %s is a virtual package with multiple good providers.\n"
-msgstr " Ë un pacchetto virtuale fornito da:"
+msgstr " √® un pacchetto virtuale fornito da:"
 
 #: cmdline/apt-get.cc:720 cmdline/apt-shell.cc:746
 #, fuzzy, c-format
 msgid "Skipping %s, it is already installed and upgrade is not set.\n"
-msgstr ", Ë gi‡ installato e l'opzione no-upgrade Ë abilitata."
+msgstr ", √® gi√† installato e l'opzione no-upgrade √® abilitata."
 
 #: cmdline/apt-get.cc:738 cmdline/apt-shell.cc:764
 #, fuzzy, c-format
 msgid "Package %s is not installed, so not removed\n"
-msgstr "Il pacchetto %s non Ë installato"
+msgstr "Il pacchetto %s non √® installato"
 
 #: cmdline/apt-get.cc:774 cmdline/apt-shell.cc:800
 #, c-format
@@ -599,12 +599,12 @@ msgstr "Il pacchetto %s non ha alcun candidato di installazione"
 #: cmdline/apt-get.cc:819 cmdline/apt-shell.cc:851
 #, fuzzy, c-format
 msgid "Reinstallation of %s is not possible, it cannot be downloaded.\n"
-msgstr " non Ë possibile, non si puÚ scaricarlo"
+msgstr " non √® possibile, non si pu√≤ scaricarlo"
 
 #: cmdline/apt-get.cc:827 cmdline/apt-shell.cc:859
 #, fuzzy, c-format
 msgid "%s is already the newest version.\n"
-msgstr " Ë gi‡ la versione pi&ugrave nuova"
+msgstr " √® gi√† la versione pi&ugrave nuova"
 
 #: cmdline/apt-get.cc:856 cmdline/apt-shell.cc:888
 #, c-format
@@ -633,7 +633,7 @@ msgstr ""
 #: cmdline/apt-get.cc:925 cmdline/apt-shell.cc:948
 #, fuzzy, c-format
 msgid "Sources list %s could not be read"
-msgstr "Non Ë possibile leggere la lista delle fonti."
+msgstr "Non √® possibile leggere la lista delle fonti."
 
 #: cmdline/apt-get.cc:928 cmdline/apt-shell.cc:951
 #, c-format
@@ -656,24 +656,24 @@ msgid ""
 "Some index files failed to download, they have been ignored, or old ones "
 "used instead."
 msgstr ""
-"Lo scaricamento di alcuni archivi di indice non Ë riuscito, sono stati "
+"Lo scaricamento di alcuni archivi di indice non √® riuscito, sono stati "
 "ignorati, o al loro posto sono stati utilizzati i vecchi."
 
 #: cmdline/apt-get.cc:1060 cmdline/apt-shell.cc:1084
 msgid "Internal Error, AllUpgrade broke stuff"
-msgstr "Errore interno, AllUpgrade si Ë rotto"
+msgstr "Errore interno, AllUpgrade si √® rotto"
 
 #: cmdline/apt-get.cc:1157 cmdline/apt-get.cc:1174 cmdline/apt-shell.cc:1186
 #: cmdline/apt-shell.cc:1203
 #, fuzzy, c-format
 msgid "Couldn't parse name '%s'"
-msgstr "Il pacchetto %s non Ë stato trovato"
+msgstr "Il pacchetto %s non √® stato trovato"
 
 #: cmdline/apt-get.cc:1272 cmdline/apt-get.cc:1311 cmdline/apt-shell.cc:1299
 #: cmdline/apt-shell.cc:1339
 #, c-format
 msgid "Couldn't find package %s"
-msgstr "Il pacchetto %s non Ë stato trovato"
+msgstr "Il pacchetto %s non √® stato trovato"
 
 #: cmdline/apt-get.cc:1286 cmdline/apt-shell.cc:1313 cmdline/cmdline.cc:49
 #, fuzzy, c-format
@@ -709,11 +709,11 @@ msgid ""
 "the package is simply not installable and a bug report against\n"
 "that package should be filed."
 msgstr ""
-"Dal momento che hai richiesto un' operazione singola Ë molto probabile che"
+"Dal momento che hai richiesto un' operazione singola √® molto probabile che"
 
 #: cmdline/apt-get.cc:1378 cmdline/apt-shell.cc:1414
 msgid "The following information may help to resolve the situation:"
-msgstr "La seguente informazione ti puÚ aiutare a risolvere il problema:"
+msgstr "La seguente informazione ti pu√≤ aiutare a risolvere il problema:"
 
 #: cmdline/apt-get.cc:1381 cmdline/apt-shell.cc:1418
 #, fuzzy
@@ -1216,32 +1216,32 @@ msgstr "Purtroppo i seguenti pacchetti non soddisfano tutte le dipendenze:"
 #: cmdline/cmdline.cc:322
 #, fuzzy, c-format
 msgid "but %s is installed"
-msgstr " Ë installato"
+msgstr " √® installato"
 
 #: cmdline/cmdline.cc:324
 #, fuzzy, c-format
 msgid "but %s is to be installed"
-msgstr " dovr‡ essere installato"
+msgstr " dovr√† essere installato"
 
 #: cmdline/cmdline.cc:331
 #, fuzzy
 msgid "but it is not installable"
-msgstr "non Ë installabile"
+msgstr "non √® installabile"
 
 #: cmdline/cmdline.cc:333
 #, fuzzy
 msgid "but it is a virtual package"
-msgstr "Ë un pacchetto virtuale"
+msgstr "√® un pacchetto virtuale"
 
 #: cmdline/cmdline.cc:336
 #, fuzzy
 msgid "but it is not installed"
-msgstr "non Ë installato"
+msgstr "non √® installato"
 
 #: cmdline/cmdline.cc:336
 #, fuzzy
 msgid "but it is not going to be installed"
-msgstr "non verr‡ installato"
+msgstr "non verr√† installato"
 
 #: cmdline/cmdline.cc:341
 msgid " or"
@@ -1357,7 +1357,7 @@ msgstr "Bisognerebbe esplicitarne uno per installarlo."
 #: cmdline/cmdline.cc:1857
 #, fuzzy, c-format
 msgid "Package %s is a virtual package with multiple providers."
-msgstr " Ë un pacchetto virtuale fornito da:"
+msgstr " √® un pacchetto virtuale fornito da:"
 
 #: cmdline/cmdline.cc:1916
 #, fuzzy
@@ -1503,7 +1503,7 @@ msgstr ""
 #: apt-pkg/contrib/fileutl.cc:109
 #, fuzzy, c-format
 msgid "Could not get lock %s"
-msgstr "Il pacchetto %s non Ë stato trovato"
+msgstr "Il pacchetto %s non √® stato trovato"
 
 #: apt-pkg/contrib/fileutl.cc:379
 #, c-format
@@ -1523,7 +1523,7 @@ msgstr ""
 #: apt-pkg/contrib/fileutl.cc:394 apt-pkg/rpm/rpmpm.cc:627
 #, fuzzy, c-format
 msgid "Sub-process %s exited unexpectedly"
-msgstr "Il metodo %s Ë terminato inaspettatamente!"
+msgstr "Il metodo %s √® terminato inaspettatamente!"
 
 #: apt-pkg/contrib/fileutl.cc:438
 #, fuzzy, c-format
@@ -1631,7 +1631,7 @@ msgstr "Impossibile analizzare il pacchetto %s (1)"
 #: apt-pkg/rpm/rpmhandler.cc:732
 #, fuzzy, c-format
 msgid "Corrupted package index %s"
-msgstr "Il pacchetto %s non Ë stato trovato"
+msgstr "Il pacchetto %s non √® stato trovato"
 
 #: apt-pkg/rpm/rpmhandler.cc:751
 #, c-format
@@ -1754,7 +1754,7 @@ msgstr "Impossibile aprire l'indice hash"
 #: apt-pkg/rpm/rpmpackagedata.cc:56
 #, fuzzy, c-format
 msgid "could not open package priority file %s"
-msgstr "Il pacchetto %s non Ë stato trovato"
+msgstr "Il pacchetto %s non √® stato trovato"
 
 #: apt-pkg/rpm/rpmpackagedata.cc:65
 #, c-format
@@ -1815,12 +1815,12 @@ msgstr ""
 #: apt-pkg/rpm/rpmpm.cc:590
 #, fuzzy
 msgid "Could not exec "
-msgstr "Il pacchetto %s non Ë stato trovato"
+msgstr "Il pacchetto %s non √® stato trovato"
 
 #: apt-pkg/rpm/rpmpm.cc:605
 #, fuzzy
 msgid "Couldn't wait for subprocess"
-msgstr "Il pacchetto %s non Ë stato trovato"
+msgstr "Il pacchetto %s non √® stato trovato"
 
 #: apt-pkg/rpm/rpmpm.cc:621
 #, c-format
@@ -1873,7 +1873,7 @@ msgstr "Impossibile ridurre il gruppo da aggiornare"
 #: apt-pkg/acquire.cc:58
 #, c-format
 msgid "Lists directory %spartial is missing."
-msgstr "La lista di directory %spartial Ë mancante."
+msgstr "La lista di directory %spartial √® mancante."
 
 #: apt-pkg/acquire.cc:62
 #, c-format
@@ -1972,7 +1972,7 @@ msgstr "Impossible correggere i pacchetti persi."
 #: apt-pkg/cachefile.cc:73
 msgid "The package lists or status file could not be parsed or opened."
 msgstr ""
-"Non Ë stato possibile aprire la lista di pacchetti o il file di status."
+"Non √® stato possibile aprire la lista di pacchetti o il file di status."
 
 #: apt-pkg/cachefile.cc:77
 #, fuzzy
@@ -2009,7 +2009,7 @@ msgstr ""
 #: apt-pkg/init.cc:135
 #, fuzzy, c-format
 msgid "Packaging system '%s' is not supported"
-msgstr "Il pacchetto %s non Ë installato"
+msgstr "Il pacchetto %s non √® installato"
 
 #: apt-pkg/init.cc:151
 #, fuzzy
@@ -2023,9 +2023,9 @@ msgid ""
 "package %s due to a Conflicts/Pre-Depends loop. This is often bad, but if "
 "you really want to do it, activate the APT::Force-LoopBreak option."
 msgstr ""
-"L'esecuzione di questa installazione costringer‡ a rimuovere temporaneamnete "
+"L'esecuzione di questa installazione costringer√† a rimuovere temporaneamnete "
 "il pacchetto essenziale %s per un loop di Conflitti/Dipendenze. Questo "
-"spesso Ë un brutto segno, ma se veramente vuoi farlo attiva l'opzione APT::"
+"spesso √® un brutto segno, ma se veramente vuoi farlo attiva l'opzione APT::"
 "Force-LoopBreak."
 
 #: apt-pkg/pkgcache.cc:128
@@ -2035,7 +2035,7 @@ msgstr "  -p=? La cache di pacchetti. ["
 
 #: apt-pkg/pkgcache.cc:134
 msgid "The package cache file is corrupted"
-msgstr "Il file della cache Ë corrotto"
+msgstr "Il file della cache √® corrotto"
 
 #: apt-pkg/pkgcache.cc:139
 msgid "The package cache file is an incompatible version"
@@ -2233,7 +2233,7 @@ msgstr "Linea errata %u nella lista di sorgenti %s (analisi di dist)"
 #: apt-pkg/sourcelist.cc:209 apt-pkg/sourcelist.cc:249
 #, fuzzy, c-format
 msgid "Vendor block %s is invalid"
-msgstr "Il blocco %s non Ë valido"
+msgstr "Il blocco %s non √® valido"
 
 #: apt-pkg/sourcelist.cc:333
 #, fuzzy, c-format
@@ -2264,7 +2264,7 @@ msgstr ""
 #, fuzzy
 msgid "You must put some 'source' URIs in your sources.list"
 msgstr ""
-"Purtroppo Ë necessario inserire qualche 'uri' sorgente nella tua sources.list"
+"Purtroppo √® necessario inserire qualche 'uri' sorgente nella tua sources.list"
 
 #: apt-pkg/tagfile.cc:67
 #, c-format
@@ -2448,7 +2448,7 @@ msgstr ""
 #: methods/ftp.cc:740
 #, fuzzy
 msgid "Could not bind a socket"
-msgstr "Il pacchetto %s non Ë stato trovato"
+msgstr "Il pacchetto %s non √® stato trovato"
 
 #: methods/ftp.cc:744
 msgid "Could not listen on the socket"
@@ -2457,7 +2457,7 @@ msgstr ""
 #: methods/ftp.cc:751
 #, fuzzy
 msgid "Could not determine the socket's name"
-msgstr "Non si puÚ determinare spazio libero in  %s"
+msgstr "Non si pu√≤ determinare spazio libero in  %s"
 
 #: methods/ftp.cc:783
 msgid "Unable to send PORT command"
@@ -2521,7 +2521,7 @@ msgstr ""
 #: methods/gzip.cc:60
 #, fuzzy, c-format
 msgid "Couldn't open pipe for %s"
-msgstr "Il pacchetto %s non Ë stato trovato"
+msgstr "Il pacchetto %s non √® stato trovato"
 
 #: methods/gzip.cc:105
 #, c-format

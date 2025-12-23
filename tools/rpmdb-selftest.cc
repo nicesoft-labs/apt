@@ -13,6 +13,7 @@
 #include <rpm/rpmts.h>
 
 #include <cstdlib>
+#include <fcntl.h>
 #include <cerrno>
 #include <cstring>
 #include <iostream>

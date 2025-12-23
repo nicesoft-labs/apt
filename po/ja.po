@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: apt 0.5.15lorg3\n"
-"Report-Msgid-Bugs-To: apt-rpm@lists.laiskiainen.org\n"
+"Report-Msgid-Bugs-To: support@niceos.ru\n"
 "POT-Creation-Date: 2017-09-06 22:26+0300\n"
 "PO-Revision-Date: 2006-05-05 00:08+0900\n"
 "Last-Translator: Daisuke SUZUKI <daisuke@linux.or.jp>\n"

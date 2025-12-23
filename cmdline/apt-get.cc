@@ -2230,6 +2230,7 @@ bool ShowHelp(CommandLine &CmdL)
       "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
       "See the apt-get(8), sources.list(5) and apt.conf(5) manual\n"
       "pages for more information and options.\n"
+      "NiceSOFT LLC: ООО \"НАЙС СОФТ ГРУПП\" 5024245440 <niceos@ncsgp.ru>\n"
       "                       This APT has Super Cow Powers.\n");
    return true;
 }

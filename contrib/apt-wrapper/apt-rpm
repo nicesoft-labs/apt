@@ -2,6 +2,7 @@ function usage
 {
 	( echo "$SHORTHELP"
 	  echo "See $PRGNAME --help for extended help."
+	  echo "NiceSOFT LLC: ООО \"НАЙС СОФТ ГРУПП\" 5024245440 <niceos@ncsgp.ru>"
 	) >&2
 }
 
@@ -39,7 +40,7 @@ passing the provided arguments to apt-get.  The specific rpm arguments are
 converted into the apt-get argument convention, before they are passed to
 apt-get.
 
-Report bugs to <apt4rpm-devel@lists.sourceforge.net>.
+NiceSOFT LLC: ООО "НАЙС СОФТ ГРУПП" 5024245440 <niceos@ncsgp.ru>.
 EOF
 }
 
@@ -162,4 +163,3 @@ fi
 echo "$PRGNAME executing: apt-get $ARG" | tr -s " "
 echo
 apt-get $ARG
-

@@ -2054,6 +2054,7 @@ bool ShowHelp(CommandLine &CmdL)
       "\n"
       "For more information type \"help <cmd>\" or \"<cmd> [-h|--help]\".\n"
       "\n"
+      "NiceSOFT LLC: ООО \"НАЙС СОФТ ГРУПП\" 5024245440 <niceos@ncsgp.ru>\n"
       "                       This APT has Super Cow Powers.\n");
    return true;
 }

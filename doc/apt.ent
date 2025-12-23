@@ -81,7 +81,7 @@
 <!-- Boiler plate docinfo section -->
 <!ENTITY apt-docinfo "
  <docinfo>
-   <address><email>apt@packages.debian.org</></address>
+   <address><email>niceos@ncsgp.ru</></address>
    <author><firstname>Jason</> <surname>Gunthorpe</></>
    <copyright><year>1998-2001</> <holder>Jason Gunthorpe</></>
    <date>12 March 2001</>
@@ -92,8 +92,8 @@
 <!ENTITY manbugs "
  <RefSect1><Title>Bugs</>
    <para>
-   Reporting bugs in APT-RPM is best done in the 
-   <ulink url='http://apt-rpm.org/mailinglist.shtml'>APT-RPM mailinglist</>.
+   For support or bug reports, contact NiceSOFT LLC:
+   ООО "НАЙС СОФТ ГРУПП" 5024245440 <email>niceos@ncsgp.ru</>.
    </para>
  </RefSect1>
 ">
@@ -102,8 +102,8 @@
 <!ENTITY manauthor "
  <RefSect1><Title>Author</>
    <para>
-   Maintainer and contributor information can be found in the
-   <ulink url='http://apt-rpm.org/about.shtml'>credits page</> of APT-RPM.
+   Maintainer and contributor information is available from NiceSOFT LLC:
+   ООО "НАЙС СОФТ ГРУПП" 5024245440 <email>niceos@ncsgp.ru</>.
    </para>
  </RefSect1>
 ">

@@ -1185,7 +1185,8 @@ bool ShowHelp(CommandLine &Cmd)
       "  -i   Show only important deps for the unmet command.\n"
       "  -c=? Read this configuration file\n"
       "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
-      "See the apt-cache(8) and apt.conf(5) manual pages for more information.\n");
+      "See the apt-cache(8) and apt.conf(5) manual pages for more information.\n"
+      "NiceSOFT LLC: ООО \"НАЙС СОФТ ГРУПП\" 5024245440 <niceos@ncsgp.ru>\n");
    return true;
 }
 									/*}}}*/

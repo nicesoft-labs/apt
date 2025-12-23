@@ -16,10 +16,7 @@
 
  <refentryinfo>
    <author>
-    <surname>Debian apt development team</surname>
-   </author>
-   <author>
-    <surname>Conectiva apt-rpm development team</surname>
+    <surname>NiceSOFT LLC</surname>
    </author>
    &apt-product;
    <!-- The last update date -->
@@ -365,8 +362,7 @@
 
  <refsect1><title>Bugs</title>
    <para>Report bugs to
-   <email>apt-rpm@distro2.conectiva.com.br</email></para>
+   <email>niceos@ncsgp.ru</email></para>
  </refsect1>
 
 </refentry>
-

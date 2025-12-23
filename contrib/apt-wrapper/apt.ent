@@ -95,7 +95,7 @@
 <!-- Boiler plate docinfo section -->
 <!ENTITY apt-docinfo "
  <refentryinfo>
-   <address><email>apt@packages.debian.org</email></address>
+   <address><email>niceos@ncsgp.ru</email></address>
    <author><firstname>Jason</firstname> <surname>Gunthorpe</surname></author>
    <copyright><year>1998-2001</year> <holder>Jason Gunthorpe</holder></copyright>
    <date>14 December 2003</date>
@@ -106,7 +106,7 @@
 
 <!ENTITY apt-email "
    <address>
-    <email>apt@packages.debian.org</email>
+    <email>niceos@ncsgp.ru</email>
    </address>
 ">
 
@@ -119,7 +119,7 @@
 
 <!ENTITY apt-author.team "
    <author>
-    <othername>APT team</othername>
+    <othername>NiceSOFT LLC</othername>
    </author>
 ">
 
@@ -129,7 +129,7 @@
 
 <!ENTITY apt-email "
    <address>
-    <email>apt@packages.debian.org</email>
+    <email>niceos@ncsgp.ru</email>
    </address>
 ">
 
@@ -142,7 +142,7 @@
 
 <!ENTITY apt-author.team "
    <author>
-    <othername>APT team</othername>
+    <othername>NiceSOFT LLC</othername>
    </author>
 ">
 
@@ -160,10 +160,8 @@
 <!-- Boiler plate Bug reporting section -->
 <!ENTITY manbugs "
  <refsect1><title>Bugs</title>
-   <para><ulink url='http://bugs.debian.org/src:apt'>APT bug page</ulink>. 
-   If you wish to report a bug in APT, please see
-   <filename>/usr/share/doc/debian/bug-reporting.txt</filename> or the
-   &reportbug; command.
+   <para>For support or bug reports, contact NiceSOFT LLC:
+   ООО "НАЙС СОФТ ГРУПП" 5024245440 <email>niceos@ncsgp.ru</email>.
    </para>
  </refsect1>
 ">
@@ -171,7 +169,8 @@
 <!-- Boiler plate Author section -->
 <!ENTITY manauthor "
  <refsect1><title>Author</title>
-   <para>APT was written by the APT team <email>apt@packages.debian.org</email>.
+   <para>APT is maintained and rebranded by NiceSOFT LLC
+   <email>niceos@ncsgp.ru</email>.
    </para>
  </refsect1>
 ">
@@ -224,4 +223,3 @@
    or several other variations.
    </para>
 ">
-

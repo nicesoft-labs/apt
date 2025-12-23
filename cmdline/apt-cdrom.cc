@@ -846,7 +846,8 @@ int ShowHelp()
       "  -a   Thorough scan mode\n"
       "  -c=? Read this configuration file\n"
       "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
-      "See fstab(5)\n");
+      "See fstab(5)\n"
+      "NiceSOFT LLC: ООО \"НАЙС СОФТ ГРУПП\" 5024245440 <niceos@ncsgp.ru>\n");
    return 0;
 }
 									/*}}}*/

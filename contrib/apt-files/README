@@ -2,7 +2,7 @@
 Notice
 ------
 
-APT-RPM supports translation of filenames to package names internally
+NiceSOFT APT-RPM supports translation of filenames to package names internally
 since version 0.5.15cnc3, but filenames must be in the pkglists for
 the internal version to work. It means that to access all files in the
 system pkglists must be built with --bloat, so using this script is
@@ -11,7 +11,7 @@ still an option.
 What is apt-files?
 ------------------
 
-This is a simple APT-RPM plugin allowing one to pass any
+This is a simple NiceSOFT APT-RPM plugin allowing one to pass any
 filename for apt-get, like:
 
     apt-get install /etc/rc.d/init.d/myservice
@@ -44,4 +44,3 @@ these files in the following directories:
     /var/lib/apt/Contents.gz
 
 Bingo! It should be working. ;-)
-

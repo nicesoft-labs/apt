@@ -979,7 +979,7 @@ msgstr ""
 "  -c=? Читать этот файл конфигурации\n"
 "  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "Подробнее см. man-страницы apt-get(8), sources.list(5) и apt.conf(5).\n"
-"                       У этого APT есть сверхсила Супер-Коровы.\n"
+"                      apt-rpm от NiceSOFT LLC для НАЙС.ОС\n"
 
 #: cmdline/apt-shell.cc:148 cmdline/apt-shell.cc:2696
 msgid "There are broken packages. "
@@ -1108,7 +1108,7 @@ msgstr ""
 "\n"
 "Для справки введите \"help <cmd>\" или \"<cmd> [-h|--help]\".\n"
 "\n"
-"                       У этого APT есть сверхсила Супер-Коровы.\n"
+"                      apt-rpm от NiceSOFT LLC для НАЙС.ОС\n"
 
 #: cmdline/apt-shell.cc:2069
 msgid ""

@@ -1,48 +1,45 @@
-# Russian translation for APT.
-# Copyright (C) 2001-2003 Free Software Foundation, Inc.
-# Alexander Bokovoy <ab@altlinux.ru>, 2001.
-# Dmitry V. Levin <ldv@altlinux.ru>, 2002-2003.
-# Vyacheslav Dikonov <slava@altlinux.ru>, 2003.
-# Anton V. Denisov <avd@altlinux.org>, 2003.
+# Russian messages for apt
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Ralf Corsepius <corsepiu@users.sourceforge.net>, 2002, 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: apt-0.5.15cnc4-alt0.1\n"
+"Project-Id-Version: apt\n"
 "Report-Msgid-Bugs-To: support@niceos.ru\n"
 "POT-Creation-Date: 2017-09-06 22:26+0300\n"
-"PO-Revision-Date: 2003-12-08 17:41+1200\n"
-"Last-Translator: Anton V. Denisov <avd@altlinux.org>\n"
-"Language-Team: ALT Linux Team <devel@altlinux.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2025-12-29 00:00+0300\n"
+"Last-Translator: NiceOS Translation Team <support@niceos.ru>\n"
+"Language-Team: Russian <support@niceos.ru>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=KOI8-R\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: cmdline/acqprogress.cc:57
 msgid "Hit "
-msgstr "îÁÊÄÅÎÏ "
+msgstr "Есть "
 
 #: cmdline/acqprogress.cc:81
 msgid "Get:"
-msgstr "ðÏÌÕÞÅÎÏ: "
+msgstr "Взять:"
 
 #: cmdline/acqprogress.cc:112
 msgid "Ign "
-msgstr "ðÒÏÐÕÝÅÎÏ "
+msgstr "Игн "
 
 #: cmdline/acqprogress.cc:116
 msgid "Err "
-msgstr "ïÛÉÂËÁ "
+msgstr "Ош "
 
 #: cmdline/acqprogress.cc:137
 #, c-format
 msgid "Fetched %sB in %s (%sB/s)\n"
-msgstr "ðÏÌÕÞÅÎÏ %sB ÚÁ %s (%sB/s).\n"
+msgstr "Получено %sB за %s (%sB/с)\n"
 
 #: cmdline/acqprogress.cc:228
 #, c-format
 msgid " [Working]"
-msgstr " [ðÏÄÏÖÄÉÔÅ]"
+msgstr " [В работе]"
 
 #: cmdline/acqprogress.cc:274
 #, c-format
@@ -51,8 +48,9 @@ msgid ""
 " '%s'\n"
 "in the drive '%s' and press enter\n"
 msgstr ""
-"óÍÅÎÁ ÄÉÓËÁ: ÷ÓÔÁ×ØÔÅ, ÐÏÖÁÌÕÊÓÔÁ, ÄÉÓË Ó ÍÅÔËÏÊ '%s'\n"
-"× ÕÓÔÒÏÊÓÔ×Ï '%s' É ÎÁÖÍÉÔÅ <Enter>.\n"
+"Смена носителя: вставьте диск с меткой\n"
+" '%s'\n"
+"в привод '%s' и нажмите Enter\n"
 
 #: cmdline/acqprogress.cc:297
 #, c-format
@@ -60,86 +58,88 @@ msgid ""
 "Please login to %s\n"
 "Username: "
 msgstr ""
+"Войдите на %s\n"
+"Имя пользователя: "
 
 #: cmdline/acqprogress.cc:311
 msgid "Password: "
-msgstr ""
+msgstr "Пароль: "
 
 #: cmdline/apt-cache.cc:100
 msgid "Total Package Names : "
-msgstr "éÍ£Î ÐÁËÅÔÏ×: "
+msgstr "Всего имён пакетов: "
 
 #: cmdline/apt-cache.cc:140
 msgid "  Normal Packages: "
-msgstr "  îÏÒÍÁÌØÎÙÅ ÐÁËÅÔÙ: "
+msgstr "  Обычных пакетов: "
 
 #: cmdline/apt-cache.cc:141
 msgid "  Pure Virtual Packages: "
-msgstr "  ãÅÌÉËÏÍ ×ÉÒÔÕÁÌØÎÙÅ ÐÁËÅÔÙ: "
+msgstr "  Чисто виртуальных пакетов: "
 
 #: cmdline/apt-cache.cc:142
 msgid "  Single Virtual Packages: "
-msgstr "  ïÄÉÎÏÞÎÙÅ ×ÉÒÔÕÁÌØÎÙÅ ÐÁËÅÔÙ: "
+msgstr "  Одиночных виртуальных пакетов: "
 
 #: cmdline/apt-cache.cc:143
 msgid "  Mixed Virtual Packages: "
-msgstr "  óÍÅÛÁÎÎÙÅ ×ÉÒÔÕÁÌØÎÙÅ ÐÁËÅÔÙ: "
+msgstr "  Смешанных виртуальных пакетов: "
 
 #: cmdline/apt-cache.cc:144
 msgid "  Missing: "
-msgstr "  ïÔÓÕÔÓÔ×ÕÀÔ: "
+msgstr "  Отсутствует: "
 
 #: cmdline/apt-cache.cc:146
 msgid "Total Distinct Versions: "
-msgstr "òÁÚÌÉÞÎÙÈ ×ÅÒÓÉÊ: "
+msgstr "Всего различных версий: "
 
 #: cmdline/apt-cache.cc:148
 msgid "Total Dependencies: "
-msgstr "÷ÓÅÇÏ ÚÁ×ÉÓÉÍÏÓÔÅÊ: "
+msgstr "Всего зависимостей: "
 
 #: cmdline/apt-cache.cc:151
 msgid "Total Ver/File relations: "
-msgstr "÷ÓÅÇÏ ÏÔÎÏÛÅÎÉÊ ÷ÅÒÓÉÑ/æÁÊÌ: "
+msgstr "Всего связей Версия/Файл: "
 
 #: cmdline/apt-cache.cc:153
 msgid "Total Provides Mappings: "
-msgstr "÷ÓÅÇÏ ÓÏÏÔ×ÅÔÓÔ×ÉÊ ÓÅÒ×ÉÓÏ×: "
+msgstr "Всего соответствий Provides: "
 
 #: cmdline/apt-cache.cc:165
 msgid "Total Globbed Strings: "
-msgstr "÷ÓÅÇÏ ÓÏ×ÐÁ×ÛÉÈ ÓÔÒÏË: "
+msgstr "Всего строк с шаблонами (glob): "
 
 #: cmdline/apt-cache.cc:179
 msgid "Total Dependency Version space: "
-msgstr "÷ÓÅÇÏ ÚÁ×ÉÓÉÍÏÓÔÅÊ: "
+msgstr "Всего пространства версий зависимостей: "
 
 #: cmdline/apt-cache.cc:184
 msgid "Total Slack space: "
-msgstr "÷ÓÅÇÏ ÚÁÎÑÔÏ ÍÅÓÔÁ: "
+msgstr "Всего резервного (slack) пространства: "
 
 #: cmdline/apt-cache.cc:192
 msgid "Total Space Accounted for: "
-msgstr "÷ÓÅÇÏ ÂÕÄÅÔ ÚÁÎÑÔÏ ÍÅÓÔÁ: "
+msgstr "Всего учтённого пространства: "
 
 #: cmdline/apt-cache.cc:329 cmdline/cmdline.cc:1055
 #, c-format
 msgid "Package file %s is out of sync."
-msgstr "æÁÊÌ ÐÁËÅÔÁ %s ×ÙÛÅÌ ÉÚ ÐÏÄ ËÏÎÔÒÏÌÑ."
+msgstr "Файл пакетов %s не синхронизирован."
 
 #: cmdline/apt-cache.cc:495 cmdline/apt-cache.cc:713 cmdline/apt-cache.cc:1056
 #: cmdline/cmdline.cc:978 cmdline/cmdline.cc:1091 cmdline/cmdline.cc:1185
 #: cmdline/cmdline.cc:1274 cmdline/cmdline.cc:1839
 #, c-format
 msgid "Unable to locate package %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÎÁÊÔÉ ÐÁËÅÔ %s"
+msgstr "Не удалось найти пакет %s"
 
 #: cmdline/apt-cache.cc:1010
 msgid "Package Files:"
-msgstr "æÁÊÌÙ ÐÁËÅÔÏ×:"
+msgstr "Файлы пакетов:"
 
 #: cmdline/apt-cache.cc:1017 cmdline/apt-cache.cc:1107
 msgid "Cache is out of sync, can't x-ref a package file"
-msgstr "óÏÄÅÒÖÉÍÏÅ ËÜÛÁ ÕÓÔÁÒÅÌÏ, ÎÅ×ÏÚÍÏÖÎÏ ÐÏÌÕÞÉÔØ ÄÁÎÎÙÅ Ï ÐÁËÅÔÅ."
+msgstr "Кэш не синхронизирован, невозможно сопоставить (x-ref) файл пакета"
 
 #: cmdline/apt-cache.cc:1018
 #, c-format
@@ -148,31 +148,31 @@ msgstr "%4i %s\n"
 
 #: cmdline/apt-cache.cc:1030
 msgid "Pinned Packages:"
-msgstr "ðÒÅÄÐÏÞÉÔÁÅÍÙÅ ÐÁËÅÔÙ:"
+msgstr "Закреплённые (pinned) пакеты:"
 
 #: cmdline/apt-cache.cc:1042 cmdline/apt-cache.cc:1083
 msgid "(not found)"
-msgstr "(ÎÅ ÎÁÊÄÅÎÏ)"
+msgstr "(не найдено)"
 
 #: cmdline/apt-cache.cc:1063
 msgid "  Installed: "
-msgstr "  õÓÔÁÎÏ×ÌÅÎ: "
+msgstr "  Установлено: "
 
 #: cmdline/apt-cache.cc:1065 cmdline/apt-cache.cc:1073
 msgid "(none)"
-msgstr "(ÎÅÔ)"
+msgstr "(нет)"
 
 #: cmdline/apt-cache.cc:1070
 msgid "  Candidate: "
-msgstr "  ëÁÎÄÉÄÁÔ: "
+msgstr "  Кандидат: "
 
 #: cmdline/apt-cache.cc:1080
 msgid "  Package Pin: "
-msgstr "  ðÒÅÄÐÏÞÔÅÎÉÅ: "
+msgstr "  Закрепление (pin) пакета: "
 
 #: cmdline/apt-cache.cc:1089
 msgid "  Version Table:"
-msgstr "  ôÁÂÌÉÃÁ ×ÅÒÓÉÊ:"
+msgstr "  Таблица версий:"
 
 #: cmdline/apt-cache.cc:1108
 #, c-format
@@ -183,10 +183,9 @@ msgstr "       %4i %s\n"
 #: cmdline/apt-get.cc:2140 cmdline/apt-shell.cc:1977
 #, c-format
 msgid "%s %s for %s %s compiled on %s %s\n"
-msgstr "%s %s ÄÌÑ %s %s ÓÏÂÒÁÎ %s %s\n"
+msgstr "%s %s для %s %s собрано %s %s\n"
 
 #: cmdline/apt-cache.cc:1143
-#, fuzzy
 msgid ""
 "Usage: apt-cache [options] command\n"
 "       apt-cache [options] add file1 [file2 ...]\n"
@@ -218,33 +217,35 @@ msgid ""
 "   xvcg - Generate package graphs for xvcg\n"
 "   policy - Show policy settings\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: apt-cache [ÐÁÒÁÍÅÔÒÙ] ËÏÍÁÎÄÁ\n"
-"               apt-cache [ÐÁÒÁÍÅÔÒÙ] add ÆÁÊÌ1 [ÆÁÊÌ2 ...]\n"
-"               apt-cache [ÐÁÒÁÍÅÔÒÙ] showpkg ÐÁËÅÔ1 [ÐÁËÅÔ2 ...]\n"
-"               apt-cache [ÐÁÒÁÍÅÔÒÙ] showsrc ÐÁËÅÔ1 [ÐÁËÅÔ2 ...]\n"
+"Использование: apt-cache [параметры] команда\n"
+"              apt-cache [параметры] add файл1 [файл2 ...]\n"
+"              apt-cache [параметры] showpkg pkg1 [pkg2 ...]\n"
+"              apt-cache [параметры] showsrc pkg1 [pkg2 ...]\n"
 "\n"
-"apt-cache - ÎÉÚËÏÕÒÏ×ÎÅ×ÏÅ ÓÒÅÄÓÔ×Ï ÄÌÑ ÒÁÂÏÔÙ Ó Ä×ÏÉÞÎÙÍÉ ÆÁÊÌÁÍÉ ËÜÛÁ APT\n"
-"É ÐÏÌÕÞÅÎÉÑ ÉÚ ÎÉÈ ÉÎÆÏÒÍÁÃÉÉ.\n"
+"apt-cache — низкоуровневый инструмент для работы с двоичными\n"
+"кэш-файлами APT и запроса информации из них.\n"
 "\n"
-"ëÏÍÁÎÄÙ:\n"
-"   add - äÏÂÁ×ÉÔØ ÐÁËÅÔ × ËÜÛ ÉÓÈÏÄÎÉËÏ×\n"
-"   gencaches - óÏÚÄÁÔØ ÆÁÊÌÙ ËÜÛÅÊ ÐÁËÅÔÏ× É ÉÓÈÏÄÎÉËÏ×\n"
-"   showpkg - ðÏËÁÚÁÔØ ÏÂÝÉÅ Ó×ÅÄÅÎÉÑ Ï ÐÁËÅÔÅ\n"
-"   showsrc - ðÏËÁÚÁÔØ ÏÂÝÉÅ Ó×ÅÄÅÎÉÑ ÏÂ ÉÓÈÏÄÎÏÍ ÐÁËÅÔÅ\n"
-"   stats - ðÏËÁÚÁÔØ ÏÂÝÕÀ ÓÔÁÔÉÓÔÉËÕ\n"
-"   dump - ÷ÙÄÁÔØ ×Ó£ ÓÏÄÅÒÖÉÍÏÅ ËÜÛÁ × ÓÖÁÔÏÊ ÆÏÒÍÅ\n"
-"   dumpavail - ÷Ù×ÅÓÔÉ ÓÐÉÓÏË ÄÏÓÔÕÐÎÙÈ ÐÁËÅÔÏ× ÎÁ ÓÔÁÎÄÁÒÔÎÙÊ ×Ù×ÏÄ\n"
-"   unmet - ðÏÌÕÞÉÔØ ÓÐÉÓÏË ÎÅÕÄÏ×ÌÅÔ×ÏÒ£ÎÎÙÈ ÚÁ×ÉÓÉÍÏÓÔÅÊ\n"
-"   search - éÓËÁÔØ × ÓÐÉÓËÅ ÐÁËÅÔÏ× Ó ÉÓÐÏÌØÚÏ×ÁÎÉÅÍ ÒÅÇÕÌÑÒÎÙÈ ×ÙÒÁÖÅÎÉÊ\n"
-"   show - ðÏËÁÚÁÔØ Ó×ÅÄÅÎÉÑ Ï ÐÁËÅÔÅ × ÕÄÏÂÎÏÊ ÄÌÑ ÞÔÅÎÉÑ ÆÏÒÍÅ\n"
-"   depends - ðÏËÁÚÁÔØ Ó×ÅÄÅÎÉÑ Ï ÚÁ×ÉÓÉÍÏÓÔÑÈ ÕËÁÚÁÎÎÏÇÏ ÐÁËÅÔÁ\n"
-"   whatdepends - ðÏËÁÚÁÔØ Ó×ÅÄÅÎÉÑ Ï ÐÁËÅÔÁÈ, ÚÁ×ÉÓÑÝÉÈ ÏÔ ÕËÁÚÁÎÎÏÇÏ "
-"ÐÁËÅÔÁ\n"
-"   pkgnames - ðÏÌÕÞÉÔØ ÐÏÌÎÙÊ ÓÐÉÓÏË ÉÍ£Î ÐÁËÅÔÏ× Ó ×ÏÚÍÏÖÎÏÓÔØÀ ÚÁÄÁÎÉÑ "
-"ÆÉÌØÔÒÏ×\n"
-"   dotty - ðÏÓÔÒÏÉÔØ ÇÒÁÆ ÚÁ×ÉÓÉÍÏÓÔÅÊ × ÆÏÒÍÁÔÅ GraphVis\n"
-"   xvcg - ðÏÓÔÒÏÉÔØ ÇÒÁÆ ÚÁ×ÉÓÉÍÏÓÔÅÊ × ÆÏÒÍÁÔÅ xvcg\n"
-"   policy - óÏÏÂÝÉÔØ Ó×ÅÄÅÎÉÑ Ï ÐÒÉÏÒÉÔÅÔÎÏÓÔÉ ÉÓÔÏÞÎÉËÏ× ÐÁËÅÔÏ×\n"
+"Команды:\n"
+"   add - Добавить файл пакета в кэш источников\n"
+"   gencaches - Построить кэш пакетов и кэш источников\n"
+"   showpkg - Показать общую информацию по одному пакету\n"
+"   showsrc - Показать записи исходников\n"
+"   stats - Показать базовую статистику\n"
+"   dump - Показать весь файл в кратком виде\n"
+"   dumpavail - Вывести файл available в stdout\n"
+"   unmet - Показать неудовлетворённые зависимости\n"
+"   search - Искать по списку пакетов по шаблону regex\n"
+"   searchfile - Искать файл в пакетах\n"
+"   files - Показать список файлов пакета(ов)\n"
+"   changelog - Показать записи changelog пакета(ов)\n"
+"   show - Показать читаемую запись пакета\n"
+"   depends - Показать «сырую» информацию о зависимостях пакета\n"
+"   whatdepends - Показать пакеты, зависящие от указанных возможностей\n"
+"   whatprovides - Показать пакеты, предоставляющие указанные возможности\n"
+"   pkgnames - Вывести список имён всех пакетов\n"
+"   dotty - Сгенерировать графы пакетов для GraphVis\n"
+"   xvcg - Сгенерировать графы пакетов для xvcg\n"
+"   policy - Показать настройки политики\n"
 
 #: cmdline/apt-cache.cc:1179
 msgid ""
@@ -260,122 +261,117 @@ msgid ""
 "See the apt-cache(8) and apt.conf(5) manual pages for more information.\n"
 msgstr ""
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h   ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ\n"
-"  -p=? éÍÑ ÆÁÊÌÁ ÄÌÑ ÈÒÁÎÅÎÉÑ ËÜÛÁ ÐÁËÅÔÏ×\n"
-"  -s=? éÍÑ ÆÁÊÌÁ ÄÌÑ ÈÒÁÎÅÎÉÑ ËÜÛÁ ÉÓÈÏÄÎÉËÏ×\n"
-"  -q   ïÔËÌÀÞÉÔØ ÉÎÄÉËÁÔÏÒ ÐÒÏÃÅÓÓÁ\n"
-"  -i   ðÏËÁÚÙ×ÁÔØ ÔÏÌØËÏ ÓÁÍÙÅ ×ÁÖÎÙÅ ÚÁ×ÉÓÉÍÏÓÔÉ ÄÌÑ ËÏÍÁÎÄÙ unmet\n"
-"  -c=? éÓÐÏÌØÚÏ×ÁÔØ ÕËÁÚÁÎÎÙÊ ÆÁÊÌ ËÏÎÆÉÇÕÒÁÃÉÉ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
-"äÌÑ ÂÏÌÅÅ ÐÏÌÎÏÇÏ ÏÐÉÓÁÎÉÑ ÓÍ. ÓÔÒÁÎÉÃÙ ÒÕËÏ×ÏÄÓÔ×Á: apt-cache(8) É apt."
-"conf(5).\n"
+"Параметры:\n"
+"  -h   Этот текст справки.\n"
+"  -p=? Кэш пакетов.\n"
+"  -s=? Кэш исходников.\n"
+"  -q   Отключить индикатор прогресса.\n"
+"  -i   Для команды unmet показывать только важные зависимости.\n"
+"  -c=? Читать этот файл конфигурации\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
+"Подробнее см. man-страницы apt-cache(8) и apt.conf(5).\n"
 
 #: cmdline/apt-cdrom.cc:376 cmdline/apt-cdrom.cc:500
 #, c-format
 msgid "Failed to rename %s.new to %s"
-msgstr "îÅ ÕÄÁÌÏÓØ ÐÅÒÅÉÍÅÎÏ×ÁÔØ %s.new × %s"
+msgstr "Не удалось переименовать %s.new в %s"
 
 #: cmdline/apt-cdrom.cc:399 apt-pkg/sourcelist.cc:316
 #, c-format
 msgid "Opening %s"
-msgstr "ïÔËÒÙÔÉÅ %s"
+msgstr "Открывается %s"
 
 #: cmdline/apt-cdrom.cc:406
 #, c-format
 msgid "Failed to open %s.new"
-msgstr "îÅ ÕÄÁÌÏÓØ ÏÔËÒÙÔØ %s.new"
+msgstr "Не удалось открыть %s.new"
 
 #: cmdline/apt-cdrom.cc:545 cmdline/apt-cdrom.cc:789
 msgid "Using CD-ROM mount point "
-msgstr "éÓÐÏÌØÚÕÅÔÓÑ ÔÏÞËÁ ÍÏÎÔÉÒÏ×ÁÎÉÑ CD-ROM "
+msgstr "Используется точка монтирования CD-ROM "
 
 #: cmdline/apt-cdrom.cc:553 cmdline/apt-cdrom.cc:811 methods/cdrom.cc:81
 #: methods/cdrom.cc:193
 #, c-format
 msgid "Unable to read the cdrom database %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÞÉÔÁÔØ ÂÁÚÕ ÄÁÎÎÙÈ ËÏÍÐÁËÔ-ÄÉÓËÏ× × %s."
+msgstr "Не удалось прочитать базу данных CD-ROM %s"
 
 #: cmdline/apt-cdrom.cc:570
 msgid "Unmounting CD-ROM"
-msgstr "òÁÚÍÏÎÔÉÒÕÅÔÓÑ CD-ROM"
+msgstr "Размонтирование CD-ROM"
 
 #: cmdline/apt-cdrom.cc:574
 msgid "Please insert a Disc in the drive and press enter"
-msgstr "÷ÓÔÁ×ØÔÅ, ÐÏÖÁÌÕÊÓÔÁ, ÄÉÓË × ÐÒÉ×ÏÄ É ÎÁÖÍÉÔÅ <Enter>"
+msgstr "Вставьте диск в привод и нажмите Enter"
 
 #: cmdline/apt-cdrom.cc:575 cmdline/apt-cdrom.cc:790
 msgid "Mounting CD-ROM"
-msgstr "íÏÎÔÉÒÕÅÔÓÑ CD-ROM"
+msgstr "Монтирование CD-ROM"
 
 #: cmdline/apt-cdrom.cc:577 cmdline/apt-cdrom.cc:792
 msgid "Failed to mount the cdrom."
-msgstr "îÅ ÕÄÁÌÏÓØ ÓÍÏÎÔÉÒÏ×ÁÔØ CD-ROM."
+msgstr "Не удалось смонтировать CD-ROM."
 
 #: cmdline/apt-cdrom.cc:581 cmdline/apt-cdrom.cc:795
 msgid "Identifying.. "
-msgstr "òÁÓÐÏÚÎÁ£ÔÓÑ.. "
+msgstr "Определение.. "
 
 #: cmdline/apt-cdrom.cc:601
 msgid "Scanning Disc for index files..  "
-msgstr "äÉÓË ÓËÁÎÉÒÕÅÔÓÑ × ÐÏÉÓËÁÈ ÉÎÄÅËÓÎÙÈ ÆÁÊÌÏ×..  "
+msgstr "Сканирование диска на наличие индексных файлов..  "
 
 #: cmdline/apt-cdrom.cc:621
 msgid "I found (binary):"
-msgstr "îÁÊÄÅÎÏ (ÂÉÎÁÒÎÙÈ):"
+msgstr "Найдено (двоичные):"
 
 #: cmdline/apt-cdrom.cc:624
 msgid "I found (source):"
-msgstr "îÁÊÄÅÎÏ (ÉÓÈÏÄÎÙÈ):"
+msgstr "Найдено (исходные):"
 
 #: cmdline/apt-cdrom.cc:639
 msgid "Found "
-msgstr "îÁÊÄÅÎÏ "
+msgstr "Найдено "
 
 #: cmdline/apt-cdrom.cc:639
 msgid " package indexes and "
-msgstr " ÉÎÄÅËÓÏ× ÐÁËÅÔÏ× É "
+msgstr " индекс(ов) пакетов и "
 
 #: cmdline/apt-cdrom.cc:640
 msgid " source indexes."
-msgstr " ÉÎÄÅËÓÏ× ÉÓÈÏÄÎÙÈ ÐÁËÅÔÏ×."
+msgstr " индекс(ов) исходников."
 
 #: cmdline/apt-cdrom.cc:647
 msgid ""
 "Unable to locate any package files, perhaps this is not an APT enabled disc"
-msgstr ""
-"îÅ×ÏÚÍÏÖÎÏ ÎÁÊÔÉ ÎÉ ÏÄÎÏÇÏ ÆÁÊÌÁ ÐÁËÅÔÏ×, ×ÏÚÍÏÖÎÏ ÜÔÏÔ ÄÉÓË ÎÅ ÐÒÅÄÎÁÚÎÁÞÅÎ "
-"ÄÌÑ APT"
+msgstr "Не удалось найти файлы пакетов — возможно, этот диск не предназначен для APT"
 
 #: cmdline/apt-cdrom.cc:671
 msgid "Found label '"
-msgstr "îÁÊÄÅÎÁ ÍÅÔËÁ '"
+msgstr "Найдена метка '"
 
 #: cmdline/apt-cdrom.cc:680
-#, fuzzy
 msgid "Please provide a name for this Disc, such as 'Distribution Disk 1'"
-msgstr "ðÏÖÁÌÕÊÓÔÁ, ÚÁÄÁÊÔÅ ÉÍÑ ÄÌÑ ÜÔÏÇÏ ÄÉÓËÁ, ÎÁÐÒÉÍÅÒ, 'ALT Linux Disk 1'"
+msgstr "Задайте имя для этого диска, например «Диск дистрибутива 1»"
 
 #: cmdline/apt-cdrom.cc:689
 msgid "That is not a valid name, try again "
-msgstr "üÔÏ ÉÍÑ ÏÛÉÂÏÞÎÏ, ÐÏÐÒÏÂÕÊÔÅ ÓÎÏ×Á "
+msgstr "Недопустимое имя, попробуйте ещё раз "
 
 #: cmdline/apt-cdrom.cc:703
 msgid "This Disc is called:"
-msgstr "üÔÏÔ ÄÉÓË ÎÁÚ×ÁÎ:"
+msgstr "Имя диска:"
 
 #: cmdline/apt-cdrom.cc:736
 msgid "Source List entries for this Disc are:"
-msgstr "óÐÉÓÏË ÉÓÈÏÄÎÙÈ ÐÁËÅÔÏ× ÄÌÑ ÜÔÏÇÏ ÄÉÓËÁ:"
+msgstr "Записи Source List для этого диска:"
 
 #: cmdline/apt-cdrom.cc:769
 msgid "Repeat this process for the rest of the CDs in your set."
-msgstr "ðÏ×ÔÏÒÉÔÅ ÜÔÕ ÐÒÏÃÅÄÕÒÕ ÄÌÑ ÏÓÔÁ×ÛÉÈÓÑ ÄÉÓËÏ× ÉÚ ÷ÁÛÅÇÏ ÎÁÂÏÒÁ."
+msgstr "Повторите этот процесс для остальных CD в наборе."
 
 #: cmdline/apt-cdrom.cc:814
 msgid "Stored Label: '"
-msgstr "óÏÈÒÁÎ£ÎÎÁÑ ÍÅÔËÁ: '"
+msgstr "Сохранённая метка: '"
 
 #: cmdline/apt-cdrom.cc:830
 msgid ""
@@ -400,32 +396,30 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "See fstab(5)\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: apt-cdrom [ÐÁÒÁÍÅÔÒÙ] ËÏÍÁÎÄÁ\n"
+"Использование: apt-cdrom [параметры] команда\n"
 "\n"
-"apt-cdrom ÜÔÏ ÕÔÉÌÉÔÁ ÄÌÑ ÄÏÂÁ×ÌÅÎÉÑ CDROM ÄÉÓËÏ× × ÓÐÉÓÏË ÉÓÔÏÞÎÉËÏ× APT. "
-"ôÏÞËÁ\n"
-"ÍÏÎÔÉÒÏ×ÁÎÉÑ CDROM É ÉÎÆÏÒÍÁÃÉÑ ÏÂ ÕÓÔÒÏÊÓÔ×Å ÉÚ×ÌÅËÁÀÔÓÑ ÉÚ apt.conf\n"
-"É /etc/fstab.\n"
+"apt-cdrom — инструмент для добавления CD-ROM в список источников APT.\n"
+"Точка монтирования и информация об устройстве CD-ROM берутся из apt.conf\n"
+"и /etc/fstab.\n"
 "\n"
-"ëÏÍÁÎÄÙ:\n"
-"   add - äÏÂÁ×ÉÔØ CDROM\n"
-"   ident - ÷Ù×ÅÓÔÉ ÉÄÅÎÔÉÆÉËÁÃÉÏÎÎÕÀ ÚÁÐÉÓØ CDROM\n"
+"Команды:\n"
+"   add - Добавить CD-ROM\n"
+"   ident - Показать идентификатор CD-ROM\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h   ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ \n"
-"  -d   ôÏÞËÁ ÍÏÎÔÉÒÏ×ÁÎÉÑ CD-ROM\n"
-"  -r   ðÅÒÅÉÍÅÎÏ×ÁÔØ ÕÖÅ ÒÁÓÐÏÚÎÁÎÎÙÊ CD-ROM\n"
-"  -m   îÅ ÍÏÎÔÉÒÏ×ÁÔØ ÄÉÓË\n"
-"  -f   `âÙÓÔÒÙÊ ÒÅÖÉÍ', ÎÅ ÐÒÏ×ÅÒÑÔØ ÆÁÊÌÙ ÐÁËÅÔÏ×\n"
-"  -a   ôÝÁÔÅÌØÎÙÊ ÒÅÖÉÍ ÓËÁÎÉÒÏ×ÁÎÉÑ\n"
-"  -c=? éÓÐÏÌØÚÏ×ÁÔØ ÕËÁÚÁÎÎÙÊ ÆÁÊÌ ËÏÎÆÉÇÕÒÁÃÉÉ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
-"óÍ. ÔÁËÖÅ fstab(5)\n"
+"Параметры:\n"
+"  -h   Этот текст справки\n"
+"  -d   Точка монтирования CD-ROM\n"
+"  -r   Переименовать распознанный CD-ROM\n"
+"  -m   Не выполнять монтирование\n"
+"  -f   Быстрый режим, не проверять файлы пакетов\n"
+"  -a   Режим тщательного сканирования\n"
+"  -c=? Читать этот файл конфигурации\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
+"См. fstab(5)\n"
 
 #: cmdline/apt-config.cc:43
 msgid "Arguments not in pairs"
-msgstr "áÒÇÕÍÅÎÔÙ ÄÏÌÖÎÙ ÂÙÔØ ÐÁÒÎÙÍÉ"
+msgstr "Аргументы указаны не парами"
 
 #: cmdline/apt-config.cc:78
 msgid ""
@@ -442,111 +436,102 @@ msgid ""
 "  -c=? Read this configuration file\n"
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: apt-config [ÐÁÒÁÍÅÔÒÙ] ËÏÍÁÎÄÁ\n"
+"Использование: apt-config [параметры] команда\n"
 "\n"
-"apt-config - ÉÎÓÔÒÕÍÅÎÔ ÄÌÑ ÞÔÅÎÉÑ ËÏÎÆÉÇÕÒÁÃÉÏÎÎÏÇÏ ÆÁÊÌÁ APT.\n"
+"apt-config — простой инструмент для чтения файла конфигурации APT.\n"
 "\n"
-"ëÏÍÁÎÄÙ:\n"
-"   shell - òÅÖÉÍ ÏÂÏÌÏÞËÉ\n"
-"   dump - ðÏËÁÚÁÔØ ÎÁÓÔÒÏÊËÉ\n"
+"Команды:\n"
+"   shell - Режим оболочки\n"
+"   dump - Показать конфигурацию\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h   ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ\n"
-"  -c=? éÓÐÏÌØÚÏ×ÁÔØ ÕËÁÚÁÎÎÙÊ ÆÁÊÌ ËÏÎÆÉÇÕÒÁÃÉÉ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h   Этот текст справки.\n"
+"  -c=? Читать этот файл конфигурации\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 
 #: cmdline/apt-get.cc:166
 msgid "There are changes to be made"
-msgstr "åÓÔØ ÉÚÍÅÎÅÎÉÑ, ËÏÔÏÒÙÅ ÂÕÄÕÔ ÓÄÅÌÁÎÙ"
+msgstr "Есть изменения, которые необходимо выполнить"
 
 #: cmdline/apt-get.cc:201 cmdline/apt-shell.cc:262
 msgid "Correcting dependencies..."
-msgstr "éÓÐÒÁ×ÌÅÎÉÅ ÚÁ×ÉÓÉÍÏÓÔÅÊ..."
+msgstr "Исправление зависимостей..."
 
 #: cmdline/apt-get.cc:204 cmdline/apt-shell.cc:265
 msgid " failed."
-msgstr " ÎÅ×ÏÚÍÏÖÎÏ."
+msgstr " не удалось."
 
 #: cmdline/apt-get.cc:207 cmdline/apt-shell.cc:268
 msgid "Unable to correct dependencies"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÉÓÐÒÁ×ÉÔØ ÚÁ×ÉÓÉÍÏÓÔÉ"
+msgstr "Не удалось исправить зависимости"
 
 #: cmdline/apt-get.cc:210 cmdline/apt-shell.cc:271
 msgid "Unable to minimize the upgrade set"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÕÍÅÎØÛÉÔØ ËÏÌÉÞÅÓÔ×Ï ÏÂÎÏ×ÌÅÎÉÊ"
+msgstr "Не удалось минимизировать набор обновления"
 
 #: cmdline/apt-get.cc:212 cmdline/apt-shell.cc:273
 msgid " Done"
-msgstr " úÁ×ÅÒÛÅÎÏ"
+msgstr " Готово"
 
 #: cmdline/apt-get.cc:216
-#, fuzzy
 msgid "You might want to run `apt-get --fix-broken install' to correct these."
-msgstr ""
-"÷ÏÚÍÏÖÎÏ, ÷ÁÍ ÐÏÔÒÅÂÕÅÔÓÑ ÚÁÐÕÓÔÉÔØ `apt-get -f install' ÄÌÑ ÉÓÐÒÁ×ÌÅÎÉÑ."
+msgstr "Возможно, стоит выполнить `apt-get --fix-broken install`, чтобы исправить это."
 
 #: cmdline/apt-get.cc:219 cmdline/apt-shell.cc:280
-#, fuzzy
 msgid "Unmet dependencies. Try using --fix-broken."
-msgstr "îÅÕÄÏ×ÌÅÔ×ÏÒÅÎÎÙÅ ÚÁ×ÉÓÉÍÏÓÔÉ. ðÏÐÒÏÂÕÊÔÅ ÄÏÂÁ×ÉÔØ ÐÁÒÁÍÅÔÒ -f."
+msgstr "Неудовлетворённые зависимости. Попробуйте использовать --fix-broken."
 
 #: cmdline/apt-get.cc:276 cmdline/apt-shell.cc:337
 msgid "Packages need to be removed but Remove is disabled."
-msgstr ""
-"îÅÏÂÈÏÄÉÍÏ ÕÄÁÌÉÔØ ÎÅËÏÔÏÒÙÅ ÐÁËÅÔÙ, ÎÏ ÜÔÏ ÂÙÌÏ ÚÁÐÒÅÝÅÎÏ ÐÁÒÁÍÅÔÒÏÍ No "
-"Remove (ÎÅ ÕÄÁÌÑÔØ)."
+msgstr "Пакеты необходимо удалить, но удаление (Remove) отключено."
 
 #: cmdline/apt-get.cc:302 cmdline/apt-get.cc:1553 cmdline/apt-shell.cc:363
 #: cmdline/apt-shell.cc:1489 cmdline/cmdline.cc:736
 msgid "Unable to lock the download directory"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÒÁÚÂÌÏËÉÒÏ×ÁÔØ ×ÒÅÍÅÎÎÙÊ ËÁÔÁÌÏÇ ÄÌÑ ÓËÁÞÉ×ÁÅÍÙÈ ÆÁÊÌÏ×"
+msgstr "Не удалось заблокировать каталог загрузки"
 
 #: cmdline/apt-get.cc:312 cmdline/apt-get.cc:1601 cmdline/apt-get.cc:1827
 #: cmdline/apt-shell.cc:373 cmdline/apt-shell.cc:1548 apt-pkg/cachefile.cc:67
 msgid "The list of sources could not be read."
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÞÉÔÁÔØ ÓÐÉÓÏË ÉÓÈÏÄÎÙÈ ÐÁËÅÔÏ×."
+msgstr "Не удалось прочитать список источников."
 
 #: cmdline/apt-get.cc:332 cmdline/apt-shell.cc:393
 #, c-format
 msgid "Need to get %sB/%sB of archives.\n"
-msgstr "îÅÏÂÈÏÄÉÍÏ ÐÏÌÕÞÉÔØ %sB/%sB ÁÒÈÉ×Ï×.\n"
+msgstr "Нужно получить %sB/%sB архивов.\n"
 
 #: cmdline/apt-get.cc:335 cmdline/apt-shell.cc:396
 #, c-format
 msgid "Need to get %sB of archives.\n"
-msgstr "îÅÏÂÈÏÄÉÍÏ ÐÏÌÕÞÉÔØ %sB ÁÒÈÉ×Ï×.\n"
+msgstr "Нужно получить %sB архивов.\n"
 
 #: cmdline/apt-get.cc:340 cmdline/apt-shell.cc:212 cmdline/apt-shell.cc:401
 #, c-format
 msgid "After unpacking %sB of additional disk space will be used.\n"
-msgstr ""
-"ðÏÓÌÅ ÒÁÓÐÁËÏ×ËÉ ÐÏÔÒÅÂÕÅÔÓÑ ÄÏÐÏÌÎÉÔÅÌØÎÏ %sB ÄÉÓËÏ×ÏÇÏ ÐÒÏÓÔÒÁÎÓÔ×Á.\n"
+msgstr "После распаковки будет использовано дополнительно %sB дискового пространства.\n"
 
 #: cmdline/apt-get.cc:343 cmdline/apt-shell.cc:215 cmdline/apt-shell.cc:404
 #, c-format
 msgid "After unpacking %sB disk space will be freed.\n"
-msgstr "ðÏÓÌÅ ÒÁÓÐÁËÏ×ËÉ ÂÕÄÅÔ ÏÓ×ÏÂÏÖÄÅÎÏ %sB ÄÉÓËÏ×ÏÇÏ ÐÒÏÓÔÒÁÎÓÔ×Á.\n"
+msgstr "После распаковки будет освобождено %sB дискового пространства.\n"
 
 #: cmdline/apt-get.cc:361 cmdline/apt-shell.cc:422
 #, c-format
 msgid "You don't have enough free space in %s."
-msgstr "îÅÄÏÓÔÁÔÏÞÎÏ Ó×ÏÂÏÄÎÏÇÏ ÍÅÓÔÁ × %s"
+msgstr "Недостаточно свободного места в %s."
 
 #: cmdline/apt-get.cc:370 cmdline/apt-shell.cc:431
 msgid "There are problems and -y was used without --force-yes"
-msgstr "ïÂÎÁÒÕÖÅÎÙ ÐÒÏÂÌÅÍÙ, Á ÐÁÒÁÍÅÔÒ -y ÂÙÌ ÉÓÐÏÌØÚÏ×ÁÎ ÂÅÚ --force-yes"
+msgstr "Обнаружены проблемы, и был использован -y без --force-yes"
 
 #: cmdline/apt-get.cc:376 cmdline/apt-get.cc:396 cmdline/apt-shell.cc:437
 #: cmdline/apt-shell.cc:457
 msgid "Trivial Only specified but this is not a trivial operation."
-msgstr ""
-"âÙÌ ÕËÁÚÁÎ ÐÁÒÁÍÅÔÒ Trivial Only, ÎÏ ÓÏ×ÅÒÛÁÅÍÏÅ ÄÅÊÓÔ×ÉÅ ÎÅ ÏÔÎÏÓÉÔÓÑ Ë "
-"ÒÁÚÒÑÄÕ ÔÒÉ×ÉÁÌØÎÙÈ."
+msgstr "Указан режим «только тривиальное», но операция не является тривиальной."
 
 #: cmdline/apt-get.cc:378 cmdline/apt-shell.cc:439
 msgid "Yes, do as I say!"
-msgstr "Yes, do as I say!"
+msgstr "Да, выполнить как сказано!"
 
 #: cmdline/apt-get.cc:380 cmdline/apt-shell.cc:441
 #, c-format
@@ -555,101 +540,97 @@ msgid ""
 "To continue type in the phrase '%s'\n"
 " ?] "
 msgstr ""
-"÷Ù ÄÅÌÁÅÔÅ ÎÅÞÔÏ ÐÏÔÅÎÃÉÁÌØÎÏ ÏÐÁÓÎÏÅ!\n"
-"÷×ÅÄÉÔÅ ÆÒÁÚÕ '%s' ÞÔÏÂÙ ÐÒÏÄÏÌÖÉÔØ.\n"
-" "
+"Вы собираетесь выполнить потенциально опасное действие.\n"
+"Чтобы продолжить, введите фразу «%s»\n"
+" ?] "
 
 #: cmdline/apt-get.cc:386 cmdline/apt-get.cc:405 cmdline/apt-shell.cc:230
 #: cmdline/apt-shell.cc:447 cmdline/apt-shell.cc:466
 msgid "Abort."
-msgstr "ðÒÅÒ×ÁÎÏ."
+msgstr "Прервано."
 
 #: cmdline/apt-get.cc:401 cmdline/apt-shell.cc:228 cmdline/apt-shell.cc:462
 msgid "Do you want to continue? [Y/n] "
-msgstr "ðÒÏÄÏÌÖÉÔØ? [Y/n] "
+msgstr "Продолжить? [Д/н] "
 
 #: cmdline/apt-get.cc:479 cmdline/apt-get.cc:584 cmdline/apt-get.cc:1001
 #: cmdline/apt-get.cc:1739 cmdline/apt-shell.cc:539 cmdline/apt-shell.cc:1021
 #, c-format
 msgid "Failed to fetch %s  %s\n"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÏÌÕÞÉÔØ %s  %s\n"
+msgstr "Не удалось получить %s  %s\n"
 
 #: cmdline/apt-get.cc:497 cmdline/apt-shell.cc:557
 msgid "Some files failed to download"
-msgstr "îÅËÏÔÏÒÙÅ ÆÁÊÌÙ ÎÅ ÕÄÁÌÏÓØ ÐÏÌÕÞÉÔØ"
+msgstr "Некоторые файлы не удалось загрузить"
 
 #: cmdline/apt-get.cc:498 cmdline/apt-get.cc:1748 cmdline/apt-shell.cc:558
 msgid "Download complete and in download only mode"
-msgstr "óËÁÞÉ×ÁÎÉÅ ÐÁËÅÔÏ× ÚÁ×ÅÒÛÅÎÏ × ÒÅÖÉÍÅ 'ÔÏÌØËÏ ÓËÁÞÁÔØ'."
+msgstr "Загрузка завершена, включён режим «только загрузка»"
 
 #: cmdline/apt-get.cc:504 cmdline/apt-shell.cc:564
 msgid ""
 "Unable to fetch some archives, maybe run apt-get update or try with --fix-"
 "missing?"
-msgstr ""
-"ðÏÌÕÞÉÔØ ÎÅËÏÔÏÒÙÅ ÁÒÈÉ×Ù ÎÅ×ÏÚÍÏÖÎÏ. ðÏÐÒÏÂÕÊÔÅ ××ÅÓÔÉ ËÏÍÁÎÄÕ apt-get "
-"update ÉÌÉ ÄÏÂÁ×ÉÔØ ÐÁÒÁÍÅÔÒ --fix-missing."
+msgstr "Не удалось получить некоторые архивы. Попробуйте выполнить apt-get update или использовать --fix-missing."
 
 #: cmdline/apt-get.cc:508 cmdline/apt-shell.cc:568
 msgid "--fix-missing and media swapping is not currently supported"
-msgstr ""
-"ðÁÒÁÍÅÔÒ --fix-missing É ÓÍÅÎÁ ÎÏÓÉÔÅÌÅÊ Ó ÁÒÈÉ×ÁÍÉ ÓÅÊÞÁÓ ÎÅ ÐÏÄÄÅÒÖÉ×ÁÀÔÓÑ."
+msgstr "В настоящее время не поддерживается сочетание --fix-missing и смены носителей"
 
 #: cmdline/apt-get.cc:513 cmdline/apt-shell.cc:573
 msgid "Unable to correct missing packages."
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÉÓÐÒÁ×ÉÔØ ÏÔÓÕÔÓÔ×ÕÀÝÉÅ ÐÁËÅÔÙ."
+msgstr "Не удалось исправить отсутствующие пакеты."
 
 #: cmdline/apt-get.cc:514 cmdline/apt-shell.cc:574
 msgid "Aborting Install."
-msgstr "ðÒÅÒÙ×ÁÎÉÅ ÕÓÔÁÎÏ×ËÉ."
+msgstr "Установка прервана."
 
 #: cmdline/apt-get.cc:589 cmdline/apt-get.cc:1744
 msgid "Failed to fetch some archives."
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÓËÁÞÁÔØ ÎÅËÏÔÏÒÙÅ ÁÒÈÉ×Ù."
+msgstr "Не удалось получить некоторые архивы."
 
 #: cmdline/apt-get.cc:683 cmdline/apt-get.cc:1199 cmdline/apt-get.cc:1262
 #: cmdline/apt-get.cc:1297 cmdline/apt-get.cc:1641 cmdline/apt-shell.cc:709
 #: cmdline/apt-shell.cc:1289 cmdline/apt-shell.cc:1324
 #, c-format
 msgid "Selecting %s for '%s'\n"
-msgstr "÷ÙÂÒÁÎÏ %s ÄÌÑ '%s'\n"
+msgstr "Выбор %s для «%s»\n"
 
 #: cmdline/apt-get.cc:689 cmdline/apt-shell.cc:715
-#, fuzzy, c-format
+#, c-format
 msgid "Package %s is a virtual package with no good providers.\n"
-msgstr "÷ÉÒÔÕÁÌØÎÙÊ ÐÁËÅÔ %s ÐÒÅÄÏÓÔÁ×ÌÑÅÔÓÑ ÓÌÅÄÕÀÝÉÍÉ ÐÁËÅÔÁÍÉ:\n"
+msgstr "Пакет %s — виртуальный пакет без подходящих поставщиков.\n"
 
 #: cmdline/apt-get.cc:695 cmdline/apt-get.cc:751 cmdline/apt-shell.cc:721
 #: cmdline/apt-shell.cc:777 cmdline/cmdline.cc:1845
 #, c-format
 msgid "Package %s is a virtual package provided by:\n"
-msgstr "÷ÉÒÔÕÁÌØÎÙÊ ÐÁËÅÔ %s ÐÒÅÄÏÓÔÁ×ÌÑÅÔÓÑ ÓÌÅÄÕÀÝÉÍÉ ÐÁËÅÔÁÍÉ:\n"
+msgstr "Пакет %s — виртуальный пакет, предоставляемый:\n"
 
 #: cmdline/apt-get.cc:703 cmdline/apt-get.cc:763 cmdline/apt-shell.cc:729
 #: cmdline/apt-shell.cc:789
 msgid " [Installed]"
-msgstr " [õÓÔÁÎÏ×ÌÅÎÏ]"
+msgstr " [Установлено]"
 
 #: cmdline/apt-get.cc:708 cmdline/apt-get.cc:768 cmdline/apt-shell.cc:734
 #: cmdline/apt-shell.cc:794
 msgid "You should explicitly select one to install."
-msgstr "îÅÏÂÈÏÄÉÍÏ ÔÏÞÎÏ ÕËÁÚÁÔØ, ËÁËÏÊ ÉÚ ÐÁËÅÔÏ× ÄÏÌÖÅÎ ÂÙÔØ ÕÓÔÁÎÏ×ÌÅÎ."
+msgstr "Следует явно выбрать один вариант для установки."
 
 #: cmdline/apt-get.cc:709 cmdline/apt-shell.cc:735
-#, fuzzy, c-format
+#, c-format
 msgid "Package %s is a virtual package with multiple good providers.\n"
-msgstr "÷ÉÒÔÕÁÌØÎÙÊ ÐÁËÅÔ %s ÐÒÅÄÏÓÔÁ×ÌÑÅÔÓÑ ÓÌÅÄÕÀÝÉÍÉ ÐÁËÅÔÁÍÉ:\n"
+msgstr "Пакет %s — виртуальный пакет с несколькими подходящими поставщиками.\n"
 
 #: cmdline/apt-get.cc:720 cmdline/apt-shell.cc:746
 #, c-format
 msgid "Skipping %s, it is already installed and upgrade is not set.\n"
-msgstr ""
-"ðÁËÅÔ %s ÐÒÏÐÕÝÅÎ, ÔÁË ËÁË ÏÎ ÕÖÅ ÕÓÔÁÎÏ×ÌÅÎ, Á ËÏÍÁÎÄÙ ÏÂÎÏ×ÌÅÎÉÑ ÎÅ ÂÙÌÏ.\n"
+msgstr "Пропуск %s: пакет уже установлен, а обновление (upgrade) не задано.\n"
 
 #: cmdline/apt-get.cc:738 cmdline/apt-shell.cc:764
 #, c-format
 msgid "Package %s is not installed, so not removed\n"
-msgstr "ðÁËÅÔ %s ÎÅ ÕÓÔÁÎÏ×ÌÅÎ, É ÎÅ ÍÏÖÅÔ ÂÙÔØ ÕÄÁÌ£Î.\n"
+msgstr "Пакет %s не установлен, поэтому не удаляется\n"
 
 #: cmdline/apt-get.cc:774 cmdline/apt-shell.cc:800
 #, c-format
@@ -659,119 +640,110 @@ msgid ""
 "never uploaded, has been obsoleted or is not available with the contents\n"
 "of sources.list\n"
 msgstr ""
-"ðÁËÅÔ %s ÐÒÉÓÕÔÓÔ×ÕÅÔ × ÂÁÚÅ ÄÁÎÎÙÈ, ÎÏ ÎÅ ÉÍÅÅÔ ÄÏÓÔÕÐÎÏÊ ×ÅÒÓÉÉ.\n"
-"ëÁË ÐÒÁ×ÉÌÏ ÜÔÏ ÏÚÎÁÞÁÅÔ, ÞÔÏ ÈÏÔÑ ÐÁËÅÔ ÕÐÏÍÉÎÁÅÔÓÑ × ÓÐÉÓËÅ ÚÁ×ÉÓÉÍÏÓÔÅÊ,\n"
-"ÏÎ ÏÔÓÕÔÓÔ×ÕÅÔ × ÒÅÐÏÚÉÔÏÒÉÉ, ÂÙÌ ×ÙÔÅÓÎÅÎ, ÌÉÂÏ × sources.list ÎÅÔ ÁÄÒÅÓÁ\n"
-"ÒÅÐÏÚÉÔÏÒÉÑ, ÓÏÄÅÒÖÁÝÅÇÏ ÐÁËÅÔ.\n"
+"Для пакета %s нет доступной версии, но он присутствует в базе.\n"
+"Обычно это означает, что пакет был упомянут в зависимости и\n"
+"никогда не был загружен, устарел или недоступен согласно содержимому\n"
+"sources.list\n"
 
 #: cmdline/apt-get.cc:796 cmdline/apt-shell.cc:822
 msgid "However the following packages replace it:"
-msgstr "ôÅÍ ÎÅ ÍÅÎÅÅ, ÓÌÅÄÕÀÝÉÅ ÐÁËÅÔÙ ÚÁÍÅÎÑÀÔ ÅÇÏ:"
+msgstr "Однако его заменяют следующие пакеты:"
 
 #: cmdline/apt-get.cc:799 cmdline/apt-shell.cc:825
 #, c-format
 msgid "Package %s has no installation candidate"
-msgstr "äÌÑ ÐÁËÅÔÁ %s ÎÅ ÎÁÊÄÅÎÏ ÐÏÄÈÏÄÑÝÅÇÏ ËÁÎÄÉÄÁÔÁ ÄÌÑ ÕÓÔÁÎÏ×ËÉ"
+msgstr "Для пакета %s нет кандидата на установку"
 
 #: cmdline/apt-get.cc:819 cmdline/apt-shell.cc:851
 #, c-format
 msgid "Reinstallation of %s is not possible, it cannot be downloaded.\n"
-msgstr "ðÅÒÅÕÓÔÁÎÏ×ÉÔØ %s ÎÅ×ÏÚÍÏÖÎÏ, ÐÏÔÏÍÕ ÞÔÏ ÜÔÏÔ ÐÁËÅÔ ÎÅÌØÚÑ ÓËÁÞÁÔØ.\n"
+msgstr "Повторная установка %s невозможна: пакет нельзя скачать.\n"
 
 #: cmdline/apt-get.cc:827 cmdline/apt-shell.cc:859
 #, c-format
 msgid "%s is already the newest version.\n"
-msgstr "ðÏÓÌÅÄÎÑÑ ×ÅÒÓÉÑ %s ÕÖÅ ÕÓÔÁÎÏ×ÌÅÎÁ.\n"
+msgstr "%s уже имеет самую новую версию.\n"
 
 #: cmdline/apt-get.cc:856 cmdline/apt-shell.cc:888
 #, c-format
 msgid "Release %s'%s' for '%s' was not found"
-msgstr "ïÐÉÓÁÎÉÅ %s'%s' ÄÌÑ '%s' ÎÅ ÎÁÊÄÅÎÏ."
+msgstr "Релиз %s'%s' для «%s» не найден"
 
 #: cmdline/apt-get.cc:858 cmdline/apt-shell.cc:890
 #, c-format
 msgid "Version %s'%s' for '%s' was not found"
-msgstr "÷ÅÒÓÉÑ %s'%s' ÄÌÑ '%s' ÎÅ ÎÁÊÄÅÎÁ"
+msgstr "Версия %s'%s' для «%s» не найдена"
 
 #: cmdline/apt-get.cc:866 cmdline/apt-shell.cc:898
 #, c-format
 msgid "Selected version %s (%s) for %s\n"
-msgstr "÷ÙÂÒÁÎÁ ×ÅÒÓÉÑ %s (%s) ÄÌÑ %s\n"
+msgstr "Выбрана версия %s (%s) для %s\n"
 
 #: cmdline/apt-get.cc:869 cmdline/apt-shell.cc:901
 #, c-format
 msgid "Selected version %s for %s\n"
-msgstr "÷ÙÂÒÁÎÁ ×ÅÒÓÉÑ %s ÄÌÑ %s\n"
+msgstr "Выбрана версия %s для %s\n"
 
 #: cmdline/apt-get.cc:902
 msgid "The update command takes no arguments"
-msgstr "äÌÑ ËÏÍÁÎÄÙ ÏÂÎÏ×ÌÅÎÉÑ ÎÅ ÔÒÅÂÕÀÔÓÑ ÁÒÇÕÍÅÎÔÙ"
+msgstr "Команда update не принимает аргументов"
 
 #: cmdline/apt-get.cc:925 cmdline/apt-shell.cc:948
 #, c-format
 msgid "Sources list %s could not be read"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÞÉÔÁÔØ ÓÐÉÓÏË ÉÓÔÏÞÎÉËÏ× ÉÚ %s"
+msgstr "Не удалось прочитать список источников %s"
 
 #: cmdline/apt-get.cc:928 cmdline/apt-shell.cc:951
 #, c-format
 msgid "Sources list %s doesn't exist"
-msgstr "óÐÉÓÏË ÉÓÔÏÞÎÉËÏ× %s ÏÔÓÕÔÓÔ×ÕÅÔ."
+msgstr "Список источников %s не существует"
 
 #: cmdline/apt-get.cc:941 cmdline/apt-shell.cc:963
 msgid "Unable to lock the list directory"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÚÁÂÌÏËÉÒÏ×ÁÔØ ËÁÔÁÌÏÇ"
+msgstr "Не удалось заблокировать каталог списков"
 
 #: cmdline/apt-get.cc:973 cmdline/apt-shell.cc:993
 msgid ""
 "Release files for some repositories could not be retrieved or authenticated. "
 "Such repositories are being ignored."
-msgstr ""
-"îÅ×ÏÚÍÏÖÎÏ ÐÏÌÕÞÉÔØ ÉÌÉ ÐÒÏ×ÅÒÉÔØ ÆÁÊÌÙ ÏÐÉÓÁÎÉÑ ÎÅËÏÔÏÒÙÈ ÒÅÐÏÚÉÔÏÒÉÅ×. üÔÉ "
-"ÒÅÐÏÚÉÔÏÒÉÉ ÂÕÄÕÔ ÉÇÎÏÒÉÒÏ×ÁÔØÓÑ."
+msgstr "Файлы Release для некоторых репозиториев не удалось получить или проверить. Такие репозитории будут проигнорированы."
 
 #: cmdline/apt-get.cc:1041 cmdline/apt-shell.cc:1055
 msgid ""
 "Some index files failed to download, they have been ignored, or old ones "
 "used instead."
-msgstr ""
-"îÅËÏÔÏÒÙÅ ÉÎÄÅËÓÎÙÅ ÆÁÊÌÙ ÎÅ ÕÄÁÌÏÓØ ÓËÁÞÁÔØ, ÏÎÉ ÌÉÂÏ ÂÙÌÉ ÐÒÏÉÇÎÏÒÉÒÏ×ÁÎÙ, "
-"ÌÉÂÏ ×ÍÅÓÔÏ ÎÉÈ ÂÙÌÉ ÉÓÐÏÌØÚÏ×ÁÎÙ ÓÔÁÒÙÅ ×ÅÒÓÉÉ."
+msgstr "Некоторые индексные файлы не удалось загрузить — они проигнорированы или вместо них использованы старые."
 
 #: cmdline/apt-get.cc:1060 cmdline/apt-shell.cc:1084
 msgid "Internal Error, AllUpgrade broke stuff"
-msgstr "÷ÎÕÔÒÅÎÎÑÑ ÏÛÉÂËÁ, ÒÅÚÕÌØÔÁÔ ÒÁÂÏÔÙ AllUpgrade ×ÓÅ ÉÓÐÏÒÔÉÌ"
+msgstr "Внутренняя ошибка: AllUpgrade всё сломал"
 
 #: cmdline/apt-get.cc:1157 cmdline/apt-get.cc:1174 cmdline/apt-shell.cc:1186
 #: cmdline/apt-shell.cc:1203
 #, c-format
 msgid "Couldn't parse name '%s'"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÒÁÚÏÂÒÁÔØ ÉÍÑ '%s'"
+msgstr "Не удалось разобрать имя «%s»"
 
 #: cmdline/apt-get.cc:1272 cmdline/apt-get.cc:1311 cmdline/apt-shell.cc:1299
 #: cmdline/apt-shell.cc:1339
 #, c-format
 msgid "Couldn't find package %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÎÁÊÔÉ ÐÁËÅÔ %s"
+msgstr "Не удалось найти пакет %s"
 
 #: cmdline/apt-get.cc:1286 cmdline/apt-shell.cc:1313 cmdline/cmdline.cc:49
 #, c-format
 msgid "Regex compilation error - %s"
-msgstr "ïÛÉÂËÁ ËÏÍÐÉÌÑÃÉÉ ÒÅÇÕÌÑÒÎÏÇÏ ×ÙÒÁÖÅÎÉÑ - %s"
+msgstr "Ошибка компиляции регулярного выражения — %s"
 
 #: cmdline/apt-get.cc:1341
-#, fuzzy
 msgid "You might want to run `apt-get --fix-broken install' to correct these:"
-msgstr ""
-"÷ÏÚÍÏÖÎÏ, ÷ÁÍ ÐÏÔÒÅÂÕÅÔÓÑ ÚÁÐÕÓÔÉÔØ `apt-get -f install' ÄÌÑ ÉÓÐÒÁ×ÌÅÎÉÑ:"
+msgstr "Возможно, стоит выполнить `apt-get --fix-broken install`, чтобы исправить:"
 
 #: cmdline/apt-get.cc:1344
-#, fuzzy
 msgid ""
 "Unmet dependencies. Try 'apt-get --fix-broken install' with no packages (or "
 "specify a solution)."
-msgstr ""
-"îÅËÏÔÏÒÙÅ ÚÁ×ÉÓÉÍÏÓÔÉ ÎÅ ÂÙÌÉ ÎÁÊÄÅÎÙ. ðÏÐÒÏÂÕÊÔÅ `apt-get -f install' ÂÅÚ "
-"ÕËÁÚÁÎÉÑ ÐÁËÅÔÏ× ÉÌÉ ÕËÁÖÉÔÅ ÐÁËÅÔ-ÒÅÛÅÎÉÅ."
+msgstr "Неудовлетворённые зависимости. Попробуйте 'apt-get --fix-broken install' без указания пакетов (или задайте решение)."
 
 #: cmdline/apt-get.cc:1366 cmdline/apt-shell.cc:1402
 #, fuzzy
@@ -780,10 +752,9 @@ msgid ""
 "requested an impossible situation or that some of the repositories\n"
 "in use are in an inconsistent state at the moment."
 msgstr ""
-"îÅËÏÔÏÒÙÅ ÐÁËÅÔÙ ÕÓÔÁÎÏ×ÉÔØ ÎÅ×ÏÚÍÏÖÎÏ. üÔÏ ÍÏÖÅÔ ÏÚÎÁÞÁÔØ, ÞÔÏ ÷Ù\n"
-"ÐÏÔÒÅÂÏ×ÁÌÉ ÎÅ×ÏÚÍÏÖÎÏÇÏ, ÌÉÂÏ ÐÏÌØÚÕÅÔÅÓØ ÎÅÓÔÁÂÉÌØÎÙÍ ÒÅÐÏÚÉÔÏÒÉÅÍ.\n"
-"þÁÓÔØ ÎÅÏÂÈÏÄÉÍÙÈ ÐÁËÅÔÏ× ÌÉÂÏ ÅÝ£ ÎÅ ÓÏÚÄÁÎÁ, ÌÉÂÏ ÂÙÌÁ ÕÄÁÌÅÎÁ\n"
-"ÉÚ ËÁÔÁÌÏÇÁ '÷ÈÏÄÑÝÉÅ'."
+"Некоторые пакеты не удалось установить. Это может означать, что вы\n"
+"запросили невозможную ситуацию или что некоторые используемые репозитории\n"
+"сейчас находятся в несогласованном состоянии."
 
 #: cmdline/apt-get.cc:1373 cmdline/apt-shell.cc:1409
 msgid ""
@@ -791,147 +762,141 @@ msgid ""
 "the package is simply not installable and a bug report against\n"
 "that package should be filed."
 msgstr ""
-"ôÁË ËÁË ÄÌÑ ×ÙÐÏÌÎÅÎÉÑ ÷ÁÛÅÇÏ ÚÁÐÒÏÓÁ ÄÏÓÔÁÔÏÞÎÏ ÏÄÎÏÊ ÏÐÅÒÁÃÉÉ, ÔÏ\n"
-"ÓËÏÒÅÅ ×ÓÅÇÏ ÜÔÏÔ ÐÁËÅÔ ÐÒÏÓÔÏ ÎÅ×ÏÚÍÏÖÎÏ ÕÓÔÁÎÏ×ÉÔØ. óÏÏÂÝÉÔÅ, ÐÏÖÁÌÕÊÓÔÁ,\n"
-"ÏÂ ÜÔÏÍ ËÁË Ï ÎÁÊÄÅÎÎÏÊ ÏÛÉÂËÅ × ÐÁËÅÔÅ."
+"Поскольку вы запросили только одну операцию, весьма вероятно, что\n"
+"пакет просто не подлежит установке, и следует отправить сообщение об ошибке\n"
+"по этому пакету."
 
 #: cmdline/apt-get.cc:1378 cmdline/apt-shell.cc:1414
 msgid "The following information may help to resolve the situation:"
-msgstr "üÔÉ Ó×ÅÄÅÎÉÑ ÍÏÇÕÔ ÐÏÍÏÞØ ÎÁÊÔÉ ×ÙÈÏÄ ÉÚ ÓÉÔÕÁÃÉÉ:"
+msgstr "Следующая информация может помочь разрешить ситуацию:"
 
 #: cmdline/apt-get.cc:1381 cmdline/apt-shell.cc:1418
 msgid "Broken packages"
-msgstr "éÚ×ÉÎÉÔÅ, `ÂÉÔÙÅ' ÐÁËÅÔÙ"
+msgstr "Повреждённые пакеты"
 
 #: cmdline/apt-get.cc:1408
 msgid "The following extra packages will be installed:"
-msgstr "óÌÅÄÕÀÝÉÅ ÄÏÐÏÌÎÉÔÅÌØÎÙÅ ÐÁËÅÔÙ ÂÕÄÕÔ ÕÓÔÁÎÏ×ÌÅÎÙ:"
+msgstr "Будут установлены следующие дополнительные пакеты:"
 
 #: cmdline/apt-get.cc:1488
 msgid "Suggested packages:"
-msgstr "ðÒÅÄÐÏÞÉÔÁÅÍÙÅ ÐÁËÅÔÙ:"
+msgstr "Предлагаемые пакеты:"
 
 #: cmdline/apt-get.cc:1489
 msgid "Recommended packages:"
-msgstr "òÅËÏÍÅÎÄÕÅÍÙÅ ÐÁËÅÔÙ"
+msgstr "Рекомендуемые пакеты:"
 
 #: cmdline/apt-get.cc:1513 cmdline/apt-shell.cc:1445
 msgid "Calculating Upgrade... "
-msgstr "ðÏÄÓÞÅÔ ÏÂÎÏ×ÌÅÎÉÊ... "
+msgstr "Расчёт обновления... "
 
 #: cmdline/apt-get.cc:1516 cmdline/apt-shell.cc:1448 methods/connect.cc:102
 #: methods/ftp.cc:706
 msgid "Failed"
-msgstr "ïÛÉÂËÁ"
+msgstr "Не удалось"
 
 #: cmdline/apt-get.cc:1532 cmdline/apt-shell.cc:1460
 msgid "Done"
-msgstr "úÁ×ÅÒÛÅÎÏ"
+msgstr "Готово"
 
 #: cmdline/apt-get.cc:1596
 msgid "Must specify at least one package to fetch source for"
-msgstr "äÌÑ ÓËÁÞÉ×ÁÎÉÑ ÉÓÈÏÄÎÉËÁ ÎÅÏÂÈÏÄÉÍÏ ÕËÁÚÁÔØ ÈÏÔÑ ÂÙ ÏÄÉÎ ÐÁËÅÔ."
+msgstr "Нужно указать хотя бы один пакет, для которого получать исходники"
 
 #: cmdline/apt-get.cc:1654 cmdline/apt-get.cc:1845 cmdline/apt-shell.cc:1566
 #, c-format
 msgid "Unable to find a source package for %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÎÁÊÔÉ ÉÓÈÏÄÎÙÊ ÐÁËÅÔ ÄÌÑ %s"
+msgstr "Не удалось найти исходный пакет для %s"
 
 #: cmdline/apt-get.cc:1699
 #, c-format
 msgid "You don't have enough free space in %s"
-msgstr "îÅÄÏÓÔÁÔÏÞÎÏ Ó×ÏÂÏÄÎÏÇÏ ÍÅÓÔÁ × %s"
+msgstr "Недостаточно свободного места в %s"
 
 #: cmdline/apt-get.cc:1704
 #, c-format
 msgid "Need to get %sB/%sB of source archives.\n"
-msgstr "îÅÏÂÈÏÄÉÍÏ ÐÏÌÕÞÉÔØ %sB/%sB ÉÓÈÏÄÎÙÈ ÁÒÈÉ×Ï×.\n"
+msgstr "Нужно получить %sB/%sB архивов исходников.\n"
 
 #: cmdline/apt-get.cc:1707
 #, c-format
 msgid "Need to get %sB of source archives.\n"
-msgstr "îÅÏÂÈÏÄÉÍÏ ÐÏÌÕÞÉÔØ %sB ÉÓÈÏÄÎÙÈ ÁÒÈÉ×Ï×.\n"
+msgstr "Нужно получить %sB архивов исходников.\n"
 
 #: cmdline/apt-get.cc:1713
 #, c-format
 msgid "Fetch Source %s\n"
-msgstr "ðÏÌÕÞÅÎÉÅ ÉÓÈÏÄÎÉËÁ ÐÁËÅÔÁ %s\n"
+msgstr "Получение исходников %s\n"
 
 #: cmdline/apt-get.cc:1773
 #, c-format
 msgid "Build command '%s' failed.\n"
-msgstr "ëÏÍÁÎÄÁ ÓÂÏÒËÉ ÐÁËÅÔÁ '%s' ×ÙÚ×ÁÌÁ ÏÛÉÂËÕ.\n"
+msgstr "Команда сборки «%s» завершилась неудачно.\n"
 
 #: cmdline/apt-get.cc:1785
 #, c-format
 msgid "Unpack command '%s' failed.\n"
-msgstr "ëÏÍÁÎÄÁ ÒÁÓÐÁËÏ×ËÉ '%s' ×ÙÚ×ÁÌÁ ÏÛÉÂËÕ.\n"
+msgstr "Команда распаковки «%s» завершилась неудачно.\n"
 
 #: cmdline/apt-get.cc:1804
 msgid "Child process failed"
-msgstr "÷ÓÐÏÍÏÇÁÔÅÌØÎÙÊ ÐÒÏÃÅÓÓ ÚÁ×ÅÒÛÉÌÓÑ Ó ÏÛÉÂËÏÊ"
+msgstr "Дочерний процесс завершился с ошибкой"
 
 #: cmdline/apt-get.cc:1822 cmdline/apt-shell.cc:1543
 msgid "Must specify at least one package to check builddeps for"
-msgstr "õËÁÖÉÔÅ ÈÏÔÑ ÂÙ ÏÄÉÎ ÐÁËÅÔ ÄÌÑ ÐÒÏ×ÅÒËÉ ÅÇÏ ÓÂÏÒÏÞÎÙÈ ÚÁ×ÉÓÉÍÏÓÔÅÊ."
+msgstr "Нужно указать хотя бы один пакет, чтобы проверить build-зависимости"
 
 #: cmdline/apt-get.cc:1850 cmdline/apt-shell.cc:1571
 #, c-format
 msgid "Unable to get build-dependency information for %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÐÒÅÄÅÌÉÔØ ÓÂÏÒÏÞÎÙÅ ÚÁ×ÉÓÉÍÏÓÔÉ ÄÌÑ %s."
+msgstr "Не удалось получить информацию о build-зависимостях для %s"
 
 #: cmdline/apt-get.cc:1870 cmdline/apt-shell.cc:1591
 #, c-format
 msgid "%s has no build depends.\n"
-msgstr "%s ÎÅ ÉÍÅÅÔ ÓÂÏÒÏÞÎÙÈ ÚÁ×ÉÓÉÍÏÓÔÅÊ.\n"
+msgstr "У %s нет build-зависимостей.\n"
 
 #: cmdline/apt-get.cc:1941 cmdline/apt-shell.cc:1662
 #, c-format
 msgid ""
 "%s dependency for %s cannot be satisfied because the package %s cannot be "
 "found"
-msgstr ""
-"ÚÁ×ÉÓÉÍÏÓÔØ %s ÄÌÑ %s ÎÅ ÍÏÖÅÔ ÂÙÔØ ÕÄÏ×ÌÅÔ×ÏÒÅÎÁ, ÐÏÔÏÍÕ ÞÔÏ ÏÔÓÕÔÓÔ×ÕÅÔ "
-"ÐÁËÅÔ %s."
+msgstr "Зависимость %s для %s не может быть удовлетворена, потому что пакет %s не найден"
 
 #: cmdline/apt-get.cc:1994 cmdline/apt-shell.cc:1715
 #, c-format
 msgid ""
 "%s dependency for %s cannot be satisfied because no available versions of "
 "package %s can satisfy version requirements"
-msgstr ""
-"ÚÁ×ÉÓÉÍÏÓÔØ %s ÄÌÑ %s ÎÅ ÍÏÖÅÔ ÂÙÔØ ÕÄÏ×ÌÅÔ×ÏÒÅÎÁ, ÐÏÔÏÍÕ ÞÔÏ ÎÉ ÏÄÎÁ ÉÚ "
-"ÄÏÓÔÕÐÎÙÈ ×ÅÒÓÉÊ ÐÁËÅÔÁ %s, ÎÅ ÍÏÖÅÔ Å£ ÕÄÏ×ÌÅÔ×ÏÒÉÔØ."
+msgstr "Зависимость %s для %s не может быть удовлетворена, потому что ни одна доступная версия пакета %s не соответствует требованиям по версии"
 
 #: cmdline/apt-get.cc:2030 cmdline/apt-shell.cc:1750
 #, c-format
 msgid "Failed to satisfy %s dependency for %s: Installed package %s is too new"
-msgstr ""
-"îÅ×ÏÚÍÏÖÎÏ ÕÄÏ×ÌÅÔ×ÏÒÉÔØ %s ÚÁ×ÉÓÉÍÏÓÔØ ÄÌÑ %s: õÓÔÁÎÏ×ÌÅÎÎÙÊ ÐÁËÅÔ %s "
-"ÓÌÉÛËÏÍ ÎÏ×."
+msgstr "Не удалось удовлетворить зависимость %s для %s: установленный пакет %s слишком новый"
 
 #: cmdline/apt-get.cc:2055 cmdline/apt-shell.cc:1775
 #, c-format
 msgid "Failed to satisfy %s dependency for %s: %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÕÄÏ×ÌÅÔ×ÏÒÉÔØ %s ÚÁ×ÉÓÉÍÏÓÔØ ÄÌÑ %s: %s"
+msgstr "Не удалось удовлетворить зависимость %s для %s: %s"
 
 #: cmdline/apt-get.cc:2072 cmdline/apt-shell.cc:1789
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Some broken packages were found while trying to process build-dependencies "
 "for %s.\n"
 "You might want to run `apt-get --fix-broken install' to correct these."
 msgstr ""
-"ïÂÎÁÒÕÖÅÎÙ ÐÏ×ÒÅÖÄ£ÎÎÙÅ ÐÁËÅÔÙ ÐÒÉ ÏÂÒÁÂÏÔËÅ ÓÂÏÒÏÞÎÙÈ ÚÁ×ÉÓÉÍÏÓÔÅÊ ÄÌÑ %s.\n"
-"÷ÏÚÍÏÖÎÏ, ÐÏÔÒÅÂÕÅÔÓÑ ÚÁÐÕÓÔÉÔØ `apt-get -f install' ÄÌÑ ÉÓÐÒÁ×ÌÅÎÉÑ."
+"При обработке build-зависимостей для %s обнаружены повреждённые пакеты.\n"
+"Возможно, стоит выполнить `apt-get --fix-broken install`, чтобы исправить это."
 
 #: cmdline/apt-get.cc:2078
 msgid "Failed to process build dependencies"
-msgstr "ïÛÉÂËÁ ÏÂÒÁÂÏÔËÉ ÓÂÏÒÏÞÎÙÈ ÚÁ×ÉÓÉÍÏÓÔÅÊ"
+msgstr "Не удалось обработать build-зависимости"
 
 #: cmdline/apt-get.cc:2145 cmdline/apt-shell.cc:1982
 msgid "Supported Modules:"
-msgstr "ðÏÄÄÅÒÖÉ×ÁÅÍÙÅ ÍÏÄÕÌÉ:"
+msgstr "Поддерживаемые модули:"
 
 #: cmdline/apt-get.cc:2186
 msgid ""
@@ -955,25 +920,25 @@ msgid ""
 "   autoclean - Erase old downloaded archive files\n"
 "   check - Verify that there are no broken dependencies\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: apt-get [ÐÁÒÁÍÅÔÒÙ] ËÏÍÁÎÄÁ\n"
-"               apt-get [ÐÁÒÁÍÅÔÒÙ] install|remove ÐÁËÅÔ1 [ÐÁËÅÔ2 ...]\n"
-"               apt-get [ÐÁÒÁÍÅÔÒÙ] source ÐÁËÅÔ1 [ÐÁËÅÔ2 ...]\n"
+"Использование: apt-get [параметры] команда\n"
+"              apt-get [параметры] install|remove pkg1 [pkg2 ...]\n"
+"              apt-get [параметры] source pkg1 [pkg2 ...]\n"
 "\n"
-"apt-get ÐÒÅÄÏÓÔÁ×ÌÑÅÔ ÐÒÏÓÔÏÊ ËÏÍÁÎÄÎÙÊ ÉÎÔÅÒÆÅÊÓ ÄÌÑ ÐÏÌÕÞÅÎÉÑ É\n"
-"ÕÓÔÁÎÏ×ËÉ ÐÁËÅÔÏ×. þÁÝÅ ÄÒÕÇÉÈ ÉÓÐÏÌØÚÕÀÔÓÑ ËÏÍÁÎÄÙ update (ÏÂÎÏ×ÉÔØ)\n"
-"É install (ÕÓÔÁÎÏ×ÉÔØ).\n"
+"apt-get — простой интерфейс командной строки для загрузки и\n"
+"установки пакетов. Наиболее часто используемые команды — update\n"
+"и install.\n"
 "\n"
-"ëÏÍÁÎÄÙ:\n"
-"   update - ðÏÌÕÞÉÔØ ÏÂÎÏ×Ì£ÎÎÙÅ ÓÐÉÓËÉ ÐÁËÅÔÏ×\n"
-"   upgrade - ðÒÏÉÚ×ÅÓÔÉ ÏÂÎÏ×ÌÅÎÉÅ\n"
-"   install - õÓÔÁÎÏ×ÉÔØ ÎÏ×ÙÅ ÐÁËÅÔÙ\n"
-"   remove - õÄÁÌÉÔØ ÐÁËÅÔÙ\n"
-"   source - óËÁÞÁÔØ ÁÒÈÉ×Ù ÉÓÈÏÄÎÉËÏ×\n"
-"   build-dep - õÓÔÁÎÏ×ÉÔØ ×Ó£ ÎÅÏÂÈÏÄÉÍÏÅ ÄÌÑ ÓÂÏÒËÉ ÉÓÈÏÄÎÙÈ ÐÁËÅÔÏ×\n"
-"   dist-upgrade - ïÂÎÏ×ÌÅÎÉÅ ÓÉÓÔÅÍÙ × ÃÅÌÏÍ, ÓÍ. apt-get(8)\n"
-"   clean - õÄÁÌÉÔØ ÓËÁÞÁÎÎÙÅ ÒÁÎÅÅ ÁÒÈÉ×ÎÙÅ ÆÁÊÌÙ\n"
-"   autoclean - õÄÁÌÉÔØ ÄÁ×ÎÏ ÓËÁÞÁÎÎÙÅ ÁÒÈÉ×ÎÙÅ ÆÁÊÌÙ\n"
-"   check - õÄÏÓÔÏ×ÅÒÉÔØÓÑ × ÏÔÓÕÔÓÔ×ÉÉ ÎÅÕÄÏ×ÌÅÔ×ÏÒ£ÎÎÙÈ ÚÁ×ÉÓÉÍÏÓÔÅÊ\n"
+"Команды:\n"
+"   update - Получить новые списки пакетов\n"
+"   upgrade - Выполнить обновление\n"
+"   install - Установить новые пакеты (pkg — это libc6, а не libc6.rpm)\n"
+"   remove - Удалить пакеты\n"
+"   source - Скачать архивы исходников\n"
+"   build-dep - Настроить build-зависимости для исходных пакетов\n"
+"   dist-upgrade - Обновление дистрибутива, см. apt-get(8)\n"
+"   clean - Удалить скачанные архивы\n"
+"   autoclean - Удалить старые скачанные архивы\n"
+"   check - Проверить отсутствие повреждённых зависимостей\n"
 
 #: cmdline/apt-get.cc:2214
 msgid ""
@@ -998,93 +963,84 @@ msgid ""
 "                       This APT has Super Cow Powers.\n"
 msgstr ""
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ\n"
-"  -q  óËÒÙÔØ ÉÎÄÉËÁÔÏÒ ÐÒÏÃÅÓÓÁ\n"
-"  -qq îÅ ÐÏËÁÚÙ×ÁÔØ ÎÉÞÅÇÏ ËÒÏÍÅ ÓÏÏÂÝÅÎÉÊ ÏÂ ÏÛÉÂËÁÈ\n"
-"  -d  ðÏÌÕÞÉÔØ ÐÁËÅÔÙ É ×ÙÊÔÉ âåú ÉÈ ÕÓÔÁÎÏ×ËÉ ÉÌÉ ÒÁÓÐÁËÏ×ËÉ\n"
-"  -s  óÉÍÕÌÉÒÏ×ÁÔØ ÕÐÏÒÑÄÏÞÅÎÉÅ ×ÍÅÓÔÏ ÒÅÁÌØÎÏÇÏ ÉÓÐÏÌÎÅÎÉÑ\n"
-"  -y  á×ÔÏÍÁÔÉÞÅÓËÉ ÏÔ×ÅÞÁÔØ 'äá' ÎÁ ×ÓÅ ×ÏÐÒÏÓÙ\n"
-"  -f  ðÙÔÁÔØÓÑ ÉÓÐÒÁ×ÉÔØ ÐÏÌÏÖÅÎÉÅ ÅÓÌÉ ÎÁÊÄÅÎÙ ÎÅÕÄÏ×ÌÅÔ×ÏÒ£ÎÎÙÅ "
-"ÚÁ×ÉÓÉÍÏÓÔÉ\n"
-"  -m  ðÙÔÁÔØÓÑ ÐÒÏÄÏÌÖÉÔØ ÅÓÌÉ ÞÁÓÔØ ÁÒÈÉ×Ï× ÎÅÄÏÓÔÕÐÎÁ\n"
-"  -u  ðÏËÁÚÁÔØ ÓÐÉÓÏË ÏÂÎÏ×ÌÑÅÍÙÈ ÐÁËÅÔÏ×\n"
-"  -b  óÏÂÒÁÔØ ÐÁËÅÔ ÐÏÓÌÅ ÐÏÌÕÞÅÎÉÑ ÅÇÏ ÉÓÈÏÄÎÉËÁ\n"
-"  -D  ðÒÉ ÕÄÁÌÅÎÉÉ ÐÁËÅÔÁ ÓÔÒÅÍÉÔØÓÑ ÕÄÁÌÉÔØ ËÏÍÐÏÎÅÎÔÙ, ÏÔ ËÏÔÏÒÙÈ ÏÎ "
-"ÚÁ×ÉÓÉÔ\n"
-"  -V  ðÏÄÒÏÂÎÏ ÐÏËÁÚÙ×ÁÔØ ÎÏÍÅÒÁ ×ÅÒÓÉÊ\n"
-"  -c=? éÓÐÏÌØÚÏ×ÁÔØ ÕËÁÚÁÎÎÙÊ ÆÁÊÌ ËÏÎÆÉÇÕÒÁÃÉÉ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
-"âÏÌÅÅ ÐÏÌÎÏÅ ÏÐÉÓÁÎÉÅ ÄÏÓÔÕÐÎÏ ÎÁ ÓÔÒÁÎÉÃÁÈ ÒÕËÏ×ÏÄÓÔ×Á man:\n"
-"apt-get(8), sources.list(5) É apt.conf(5).\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -q  Логируемый вывод — без индикатора прогресса\n"
+"  -qq Без вывода, кроме ошибок\n"
+"  -d  Только загрузка — НЕ устанавливать и не распаковывать архивы\n"
+"  -s  Без выполнения. Симуляция порядка действий\n"
+"  -y  Автоматически отвечать «Да» на все вопросы и не спрашивать\n"
+"  -f  Пытаться продолжить при ошибке проверки целостности\n"
+"  -m  Пытаться продолжить, если архивы не удаётся найти\n"
+"  -u  Также показывать список обновляемых пакетов\n"
+"  -b  Собрать исходный пакет после его получения\n"
+"  -D  При удалении по возможности удалять зависимости\n"
+"  -V  Показывать подробные номера версий\n"
+"  -c=? Читать этот файл конфигурации\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
+"Подробнее см. man-страницы apt-get(8), sources.list(5) и apt.conf(5).\n"
+"                       У этого APT есть сверхсила Супер-Коровы.\n"
 
 #: cmdline/apt-shell.cc:148 cmdline/apt-shell.cc:2696
 msgid "There are broken packages. "
-msgstr "ðÒÉÓÕÔÓÔ×ÕÀÔ ÐÁËÅÔÙ Ó ÎÁÒÕÛÅÎÎÙÍÉ ÚÁ×ÉÓÉÍÏÓÔÑÍÉ."
+msgstr "Есть повреждённые пакеты. "
 
 #: cmdline/apt-shell.cc:149 cmdline/apt-shell.cc:1372 cmdline/apt-shell.cc:2697
 msgid "Run `check' to see them."
-msgstr "úÁÐÕÓÔÉÔÅ ËÏÍÁÎÄÕ `check', ÞÔÏÂÙ Õ×ÉÄÅÔØ ÉÈ."
+msgstr "Выполните `check`, чтобы увидеть их."
 
 #: cmdline/apt-shell.cc:150 cmdline/apt-shell.cc:1373 cmdline/apt-shell.cc:2698
-#, fuzzy
 msgid "You can try to fix them automatically with `install --fix-broken'."
-msgstr ""
-"÷Ù ÍÏÖÅÔÅ ÐÏÐÒÏÂÏ×ÁÔØ ÉÓÐÒÁ×ÉÔØ ÉÈ Á×ÔÏÍÁÔÉÞÅÓËÉ, ÉÓÐÏÌØÚÕÑ ËÏÍÁÎÄÕ `install "
-"-f'."
+msgstr "Можно попробовать исправить их автоматически командой `install --fix-broken`."
 
 #: cmdline/apt-shell.cc:160
 msgid "Excessive arguments"
-msgstr "úÁÄÁÎÙ ÌÉÛÎÉÅ ÁÒÇÕÍÅÎÔÙ"
+msgstr "Слишком много аргументов"
 
 #: cmdline/apt-shell.cc:190
 #, c-format
 msgid "Will need more %sB of archives.\n"
-msgstr "ðÏÎÁÄÏÂÉÔÓÑ ÐÏÌÕÞÉÔØ ÂÏÌÅÅ %sB ÁÒÈÉ×Ï×.\n"
+msgstr "Потребуется ещё %sB архивов.\n"
 
 #: cmdline/apt-shell.cc:193
 #, c-format
 msgid "Will need less %sB of archives.\n"
-msgstr "ðÏÎÁÄÏÂÉÔÓÑ ÐÏÌÕÞÉÔØ ÍÅÎÅÅ %sB ÁÒÈÉ×Ï×.\n"
+msgstr "Потребуется на %sB меньше архивов.\n"
 
 #: cmdline/apt-shell.cc:199
 #, c-format
 msgid "After unpacking will need more %sB of disk space.\n"
-msgstr "ðÏÓÌÅ ÒÁÓÐÁËÏ×ËÉ ÐÏÎÁÄÏÂÉÔÓÑ ÂÏÌÅÅ %sB ÄÉÓËÏ×ÏÇÏ ÐÒÏÓÔÒÁÎÓÔ×Á.\n"
+msgstr "После распаковки потребуется ещё %sB дискового пространства.\n"
 
 #: cmdline/apt-shell.cc:202
 #, c-format
 msgid "After unpacking will need less %sB of disk space.\n"
-msgstr "ðÏÓÌÅ ÒÁÓÐÁËÏ×ËÉ ÐÏÎÁÄÏÂÉÔÓÑ ÍÅÎÅÅ %sB ÄÉÓËÏ×ÏÇÏ ÐÒÏÓÔÒÁÎÓÔ×Á.\n"
+msgstr "После распаковки потребуется на %sB меньше дискового пространства.\n"
 
 #: cmdline/apt-shell.cc:207
 #, c-format
 msgid "Will need %sB of archives.\n"
-msgstr "ðÏÎÁÄÏÂÉÔÓÑ ÐÏÌÕÞÉÔØ %sB ÁÒÈÉ×Ï×.\n"
+msgstr "Потребуется %sB архивов.\n"
 
 #: cmdline/apt-shell.cc:225
 msgid "Unrequested changes are needed to execute this operation."
-msgstr ""
-"þÔÏÂÙ ×ÙÐÏÌÎÉÔØ ÜÔÕ ÏÐÅÒÁÃÉÀ ÎÅÏÂÈÏÄÉÍÙ ÉÚÍÅÎÅÎÉÑ, ËÏÔÏÒÙÅ ÎÅ ÂÙÌÉ ÚÁÐÒÏÛÅÎÙ."
+msgstr "Для выполнения операции требуются незапрошенные изменения."
 
 #: cmdline/apt-shell.cc:277
-#, fuzzy
 msgid "You might want to run `install --fix-broken' to correct these."
-msgstr "÷ÏÚÍÏÖÎÏ, ÷ÁÍ ÐÏÔÒÅÂÕÅÔÓÑ ÚÁÐÕÓÔÉÔØ `install -f' ÄÌÑ ÉÓÐÒÁ×ÌÅÎÉÑ."
+msgstr "Возможно, стоит выполнить `install --fix-broken`, чтобы исправить это."
 
 #: cmdline/apt-shell.cc:1071 cmdline/apt-shell.cc:1109
 #: cmdline/apt-shell.cc:1436 cmdline/apt-shell.cc:1533
 #: cmdline/apt-shell.cc:2298
 msgid "You have no permissions for that"
-msgstr "÷Ù ÎÅ ÉÍÅÅÔÅ ÎÅÏÂÈÏÄÉÍÙÈ ÒÁÚÒÅÛÅÎÉÊ ÄÌÑ ÜÔÏÇÏ"
+msgstr "Недостаточно прав для этого"
 
 #: cmdline/apt-shell.cc:1371
 msgid "There are still broken packages. "
-msgstr "÷Ó£ ÅÝ£ ÅÓÔØ ÐÁËÅÔÙ Ó ÎÁÒÕÛÅÎÎÙÍÉ ÚÁ×ÉÓÉÍÏÓÔÑÍÉ."
+msgstr "Повреждённые пакеты всё ещё есть. "
 
 #: cmdline/apt-shell.cc:2023
-#, fuzzy
 msgid ""
 "\n"
 "Main commands:\n"
@@ -1121,36 +1077,38 @@ msgid ""
 "                       This APT has Super Cow Powers.\n"
 msgstr ""
 "\n"
-"çÌÁ×ÎÙÅ ËÏÍÁÎÄÙ:\n"
-"   status - ïÔÏÂÒÁÚÉÔØ ÔÅËÕÝÉÊ ×ÙÂÏÒ\n"
-"   install - õÓÔÁÎÏ×ÉÔØ ÎÏ×ÙÅ ÐÁËÅÔÙ\n"
-"   remove - õÄÁÌÉÔØ ÐÁËÅÔÙ\n"
-"   keep - óÏÈÒÁÎÉÔØ ÐÁËÅÔÙ\n"
-"   upgrade - ðÒÏÉÚ×ÅÓÔÉ ÏÂÎÏ×ÌÅÎÉÅ\n"
-"   dist-upgrade - ðÒÏÉÚ×ÅÓÔÉ ÏÂÎÏ×ÌÅÎÉÅ ÓÉÓÔÅÍÙ × ÃÅÌÏÍ\n"
-"   build-dep - õÓÔÁÎÏ×ÉÔØ ×Ó£ ÎÅÏÂÈÏÄÉÍÏÅ ÄÌÑ ÓÂÏÒËÉ ÉÓÈÏÄÎÙÈ ÐÁËÅÔÏ×\n"
-"   update - ðÏÌÕÞÉÔØ ÏÂÎÏ×Ì£ÎÎÙÅ ÓÐÉÓËÉ ÐÁËÅÔÏ×\n"
-"   commit - ðÒÉÍÅÎÉÔØ ÉÚÍÅÎÅÎÉÑ Ë ÓÉÓÔÅÍÅ\n"
-"   quit - ðÏËÉÎÕÔØ APT shell\n"
+"Основные команды:\n"
+"   status - Показать текущие выбранные действия\n"
+"   install - Установить новые пакеты\n"
+"   remove - Удалить пакеты\n"
+"   keep - Оставить пакеты\n"
+"   upgrade - Выполнить глобальное обновление\n"
+"   dist-upgrade - Выполнить глобальное обновление дистрибутива\n"
+"   build-dep - Установить build-зависимости для исходных пакетов\n"
+"   update - Получить новые списки пакетов\n"
+"   commit - Применить изменения в системе\n"
+"   quit - Выйти из APT shell\n"
 "\n"
-"äÏÐÏÌÎÉÔÅÌØÎÙÅ ËÏÍÁÎÄÙ:\n"
-"   show - ðÏËÁÚÁÔØ Ó×ÅÄÅÎÉÑ Ï ÐÁËÅÔÅ × ÕÄÏÂÎÏÊ ÄÌÑ ÞÔÅÎÉÑ ÆÏÒÍÅ\n"
-"   showpkg - ðÏËÁÚÁÔØ ÏÂÝÉÅ Ó×ÅÄÅÎÉÑ Ï ÐÁËÅÔÅ\n"
-"   list/ls - ÷Ù×ÅÓÔÉ ÓÐÉÓÏË ÐÁËÅÔÏ×\n"
-"   search - éÓËÁÔØ × ÓÐÉÓËÅ Ó ÉÓÐÏÌØÚÏ×ÁÎÉÅÍ ÒÅÇÕÌÑÒÎÙÈ ×ÙÒÁÖÅÎÉÊ\n"
-"   script - ÷ÙÐÏÌÎÉÔØ ÓËÒÉÐÔÙ.\n"
-"   depends - ðÏËÁÚÁÔØ Ó×ÅÄÅÎÉÑ Ï ÚÁ×ÉÓÉÍÏÓÔÑÈ ÕËÁÚÁÎÎÏÇÏ ÐÁËÅÔÁ\n"
-"   whatdepends - ðÏËÁÚÁÔØ Ó×ÅÄÅÎÉÑ Ï ÐÁËÅÔÁÈ, ÚÁ×ÉÓÑÝÉÈ ÏÔ ÕËÁÚÁÎÎÏÇÏ "
-"ÐÁËÅÔÁ\n"
-"   check - õÄÏÓÔÏ×ÅÒÉÔØÓÑ × ÏÔÓÕÔÓÔ×ÉÉ ÎÅÕÄÏ×ÌÅÔ×ÏÒ£ÎÎÙÈ ÚÁ×ÉÓÉÍÏÓÔÅÊ\n"
-"   unmet - ðÏÌÕÞÉÔØ ÓÐÉÓÏË ÎÅÕÄÏ×ÌÅÔ×ÏÒ£ÎÎÙÈ ÚÁ×ÉÓÉÍÏÓÔÅÊ\n"
-"   clean - õÄÁÌÉÔØ ÓËÁÞÁÎÎÙÅ ÒÁÎÅÅ ÁÒÈÉ×ÎÙÅ ÆÁÊÌÙ\n"
-"   autoclean - õÄÁÌÉÔØ ÄÁ×ÎÏ ÓËÁÞÁÎÎÙÅ ÁÒÈÉ×ÎÙÅ ÆÁÊÌÙ\n"
+"Дополнительные команды:\n"
+"   show - Показать читаемую запись пакета\n"
+"   showpkg - Показать общую информацию по одному пакету\n"
+"   list/ls - Показать список пакетов\n"
+"   search - Искать по списку пакетов по шаблону regex\n"
+"   searchfile - Искать файл в пакетах\n"
+"   files - Показать список файлов пакета(ов)\n"
+"   changelog - Показать записи changelog пакета(ов)\n"
+"   script - Запустить скрипты.\n"
+"   depends - Показать «сырую» информацию о зависимостях пакета\n"
+"   whatdepends - Показать пакеты, зависящие от указанных возможностей\n"
+"   whatprovides - Показать пакеты, предоставляющие указанные возможности\n"
+"   check - Проверить отсутствие повреждённых зависимостей\n"
+"   unmet - Показать неудовлетворённые зависимости\n"
+"   clean - Удалить скачанные архивы\n"
+"   autoclean - Удалить старые скачанные архивы\n"
 "\n"
-"äÌÑ ÐÏÌÕÞÅÎÉÑ ÄÏÐÏÌÎÉÔÅÌØÎÏÊ ÉÎÆÏÒÍÁÃÉÉ, ÉÓÐÏÌØÚÕÊÔÅ ËÏÍÁÎÄÙ \"help <cmd>\" "
-"ÉÌÉ \"<cmd> [-h|--help]\".\n"
+"Для справки введите \"help <cmd>\" или \"<cmd> [-h|--help]\".\n"
 "\n"
-"                       This APT has Super Cow Powers.\n"
+"                       У этого APT есть сверхсила Супер-Коровы.\n"
 
 #: cmdline/apt-shell.cc:2069
 msgid ""
@@ -1168,22 +1126,18 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: install [ÐÁÒÁÍÅÔÒÙ] ÐÁËÅÔ1[=×ÅÒÓÉÑ] [ÐÁËÅÔ2 ...]\n"
+"Использование: install [параметры] pkg1[=ver] [pkg2 ...]\n"
 "\n"
-"ðÏÐÙÔÁÔØÓÑ ÐÏÍÅÔÉÔØ ÕËÁÚÁÎÎÙÅ ÐÁËÅÔÙ ÄÌÑ ÕÓÔÁÎÏ×ËÉ (ÎÏ×ÙÅ ÐÁËÅÔÙ,\n"
-"ÏÂÎÏ×ÌÅÎÉÑ ÉÌÉ ÚÁÍÅÎÙ ÓÔÁÒÙÍÉ ×ÅÒÓÉÑÍÉ), ÉÚÍÅÎÑÑ ÄÒÕÇÉÅ ÐÁËÅÔÙ, ÅÓÌÉ "
-"ÐÏÔÒÅÂÕÅÔÓÑ.\n"
+"Пометить указанные пакеты для установки (новые пакеты,\n"
+"обновления или откаты), при необходимости изменяя другие пакеты.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ.\n"
-"  -y  á×ÔÏÍÁÔÉÞÅÓËÉ ÏÔ×ÅÞÁÔØ 'äá' ÎÁ ×ÓÅ ×ÏÐÒÏÓÙ\n"
-"  -f  ðÙÔÁÔØÓÑ ÉÓÐÒÁ×ÉÔØ ÐÏÌÏÖÅÎÉÅ, ÅÓÌÉ ÎÁÊÄÅÎÙ ÎÅÕÄÏ×ÌÅÔ×ÏÒ£ÎÎÙÅ "
-"ÚÁ×ÉÓÉÍÏÓÔÉ\n"
-"  -m  ðÙÔÁÔØÓÑ ÐÒÏÄÏÌÖÉÔØ, ÅÓÌÉ ÞÁÓÔØ ÁÒÈÉ×Ï× ÎÅÄÏÓÔÕÐÎÁ\n"
-"  -D  ðÒÉ ÕÄÁÌÅÎÉÉ ÐÁËÅÔÏ× ÓÔÒÅÍÉÔØÓÑ ÕÄÁÌÉÔØ ËÏÍÐÏÎÅÎÔÙ, ÏÔ ËÏÔÏÒÙÈ ÏÎÉ "
-"ÚÁ×ÉÓÑÔ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -y  Автоматически отвечать «Да» на все вопросы и не спрашивать\n"
+"  -f  Пытаться продолжить при ошибке проверки целостности\n"
+"  -m  Пытаться продолжить, если архивы не удаётся найти\n"
+"  -D  При удалении по возможности удалять зависимости\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2087
@@ -1202,21 +1156,18 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: remove [ÐÁÒÁÍÅÔÒÙ] ÐÁËÅÔ1 [ÐÁËÅÔ2 ...]\n"
+"Использование: remove [параметры] pkg1 [pkg2 ...]\n"
 "\n"
-"ðÏÐÙÔÁÔØÓÑ ÐÏÍÅÔÉÔØ ÕËÁÚÁÎÎÙÅ ÐÁËÅÔÙ ÄÌÑ ÕÄÁÌÅÎÉÑ, ÉÚÍÅÎÑÑ ÄÒÕÇÉÅ\n"
-"ÐÁËÅÔÙ, ÅÓÌÉ ÐÏÔÒÅÂÕÅÔÓÑ.\n"
+"Пометить указанные пакеты для удаления, при необходимости изменяя\n"
+"другие пакеты.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ.\n"
-"  -y  á×ÔÏÍÁÔÉÞÅÓËÉ ÏÔ×ÅÞÁÔØ 'äá' ÎÁ ×ÓÅ ×ÏÐÒÏÓÙ\n"
-"  -f  ðÙÔÁÔØÓÑ ÉÓÐÒÁ×ÉÔØ ÐÏÌÏÖÅÎÉÅ, ÅÓÌÉ ÎÁÊÄÅÎÙ ÎÅÕÄÏ×ÌÅÔ×ÏÒ£ÎÎÙÅ "
-"ÚÁ×ÉÓÉÍÏÓÔÉ\n"
-"  -m  ðÙÔÁÔØÓÑ ÐÒÏÄÏÌÖÉÔØ, ÅÓÌÉ ÞÁÓÔØ ÁÒÈÉ×Ï× ÎÅÄÏÓÔÕÐÎÁ\n"
-"  -D  ðÒÉ ÕÄÁÌÅÎÉÉ ÐÁËÅÔÏ× ÓÔÒÅÍÉÔØÓÑ ÕÄÁÌÉÔØ ËÏÍÐÏÎÅÎÔÙ, ÏÔ ËÏÔÏÒÙÈ ÏÎÉ "
-"ÚÁ×ÉÓÑÔ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -y  Автоматически отвечать «Да» на все вопросы и не спрашивать\n"
+"  -f  Пытаться продолжить при ошибке проверки целостности\n"
+"  -m  Пытаться продолжить, если архивы не удаётся найти\n"
+"  -D  При удалении по возможности удалять зависимости\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2105
@@ -1236,21 +1187,19 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: keep [ÐÁÒÁÍÅÔÒÙ] ÐÁËÅÔ1 [ÐÁËÅÔ2 ...]\n"
+"Использование: keep [параметры] pkg1 [pkg2 ...]\n"
 "\n"
-"ðÏÐÙÔÁÔØÓÑ ÓÏÈÒÁÎÉÔØ ÕËÁÚÁÎÎÙÅ ÐÁËÅÔÙ, ÐÏÍÅÞÅÎÎÙÅ × ÓÉÓÔÅÍÅ ÄÌÑ ÕÄÁÌÅÎÉÑ\n"
-"ÉÌÉ ÕÓÔÁÎÏ×ËÉ, ÉÚÍÅÎÑÑ ÄÒÕÇÉÅ ÐÁËÅÔÙ, ÅÓÌÉ ÜÔÏ ÎÅÏÂÈÏÄÉÍÏ.\n"
+"Попробовать оставить указанные пакеты в системе, если сейчас они\n"
+"помечены к удалению или установке, при необходимости изменяя\n"
+"другие пакеты.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ.\n"
-"  -y  á×ÔÏÍÁÔÉÞÅÓËÉ ÏÔ×ÅÞÁÔØ 'äá' ÎÁ ×ÓÅ ×ÏÐÒÏÓÙ\n"
-"  -f  ðÙÔÁÔØÓÑ ÉÓÐÒÁ×ÉÔØ ÐÏÌÏÖÅÎÉÅ, ÅÓÌÉ ÎÁÊÄÅÎÙ ÎÅÕÄÏ×ÌÅÔ×ÏÒ£ÎÎÙÅ "
-"ÚÁ×ÉÓÉÍÏÓÔÉ\n"
-"  -m  ðÙÔÁÔØÓÑ ÐÒÏÄÏÌÖÉÔØ, ÅÓÌÉ ÞÁÓÔØ ÁÒÈÉ×Ï× ÎÅÄÏÓÔÕÐÎÁ\n"
-"  -D  ðÒÉ ÕÄÁÌÅÎÉÉ ÐÁËÅÔÏ× ÓÔÒÅÍÉÔØÓÑ ÕÄÁÌÉÔØ ËÏÍÐÏÎÅÎÔÙ, ÏÔ ËÏÔÏÒÙÈ ÏÎÉ "
-"ÚÁ×ÉÓÑÔ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -y  Автоматически отвечать «Да» на все вопросы и не спрашивать\n"
+"  -f  Пытаться продолжить при ошибке проверки целостности\n"
+"  -m  Пытаться продолжить, если архивы не удаётся найти\n"
+"  -D  При удалении по возможности удалять зависимости\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2124
@@ -1268,20 +1217,17 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: upgrade [ÐÁÒÁÍÅÔÒÙ]\n"
+"Использование: upgrade [параметры]\n"
 "\n"
-"ðÒÏÉÚ×ÅÓÔÉ ÏÂÎÏ×ÌÅÎÉÅ.\n"
+"Выполнить глобальное обновление.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ.\n"
-"  -y  á×ÔÏÍÁÔÉÞÅÓËÉ ÏÔ×ÅÞÁÔØ 'äá' ÎÁ ×ÓÅ ×ÏÐÒÏÓÙ\n"
-"  -f  ðÙÔÁÔØÓÑ ÉÓÐÒÁ×ÉÔØ ÐÏÌÏÖÅÎÉÅ, ÅÓÌÉ ÎÁÊÄÅÎÙ ÎÅÕÄÏ×ÌÅÔ×ÏÒ£ÎÎÙÅ "
-"ÚÁ×ÉÓÉÍÏÓÔÉ\n"
-"  -m  ðÙÔÁÔØÓÑ ÐÒÏÄÏÌÖÉÔØ, ÅÓÌÉ ÞÁÓÔØ ÁÒÈÉ×Ï× ÎÅÄÏÓÔÕÐÎÁ\n"
-"  -D  ðÒÉ ÕÄÁÌÅÎÉÉ ÐÁËÅÔÏ× ÓÔÒÅÍÉÔØÓÑ ÕÄÁÌÉÔØ ËÏÍÐÏÎÅÎÔÙ, ÏÔ ËÏÔÏÒÙÈ ÏÎÉ "
-"ÚÁ×ÉÓÑÔ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -y  Автоматически отвечать «Да» на все вопросы и не спрашивать\n"
+"  -f  Пытаться продолжить при ошибке проверки целостности\n"
+"  -m  Пытаться продолжить, если архивы не удаётся найти\n"
+"  -D  При удалении по возможности удалять зависимости\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2140
@@ -1299,20 +1245,17 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: dist-upgrade [ÐÁÒÁÍÅÔÒÙ]\n"
+"Использование: dist-upgrade [параметры]\n"
 "\n"
-"ðÒÏÉÚ×ÅÓÔÉ ÏÂÎÏ×ÌÅÎÉÅ ÓÉÓÔÅÍÙ × ÃÅÌÏÍ.\n"
+"Выполнить глобальное обновление дистрибутива.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ.\n"
-"  -y  á×ÔÏÍÁÔÉÞÅÓËÉ ÏÔ×ÅÞÁÔØ 'äá' ÎÁ ×ÓÅ ×ÏÐÒÏÓÙ\n"
-"  -f  ðÙÔÁÔØÓÑ ÉÓÐÒÁ×ÉÔØ ÐÏÌÏÖÅÎÉÅ, ÅÓÌÉ ÎÁÊÄÅÎÙ ÎÅÕÄÏ×ÌÅÔ×ÏÒ£ÎÎÙÅ "
-"ÚÁ×ÉÓÉÍÏÓÔÉ\n"
-"  -m  ðÙÔÁÔØÓÑ ÐÒÏÄÏÌÖÉÔØ, ÅÓÌÉ ÞÁÓÔØ ÁÒÈÉ×Ï× ÎÅÄÏÓÔÕÐÎÁ\n"
-"  -D  ðÒÉ ÕÄÁÌÅÎÉÉ ÐÁËÅÔÏ× ÓÔÒÅÍÉÔØÓÑ ÕÄÁÌÉÔØ ËÏÍÐÏÎÅÎÔÙ, ÏÔ ËÏÔÏÒÙÈ ÏÎÉ "
-"ÚÁ×ÉÓÑÔ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -y  Автоматически отвечать «Да» на все вопросы и не спрашивать\n"
+"  -f  Пытаться продолжить при ошибке проверки целостности\n"
+"  -m  Пытаться продолжить, если архивы не удаётся найти\n"
+"  -D  При удалении по возможности удалять зависимости\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2156
@@ -1326,14 +1269,13 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: showpkg [ÐÁÒÁÍÅÔÒÙ] ÐÁËÅÔ1 [ÐÁËÅÔ2 ...]\n"
+"Использование: showpkg [параметры] pkg1 [pkg2 ...]\n"
 "\n"
-"ðÏËÁÚÁÔØ ÏÂÝÉÅ Ó×ÅÄÅÎÉÑ Ï ÐÁËÅÔÅ.\n"
+"Показать общую информацию по указанным пакетам.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h   ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2169
@@ -1348,15 +1290,14 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: show [ÐÁÒÁÍÅÔÒÙ] ÐÁËÅÔ1 [ÐÁËÅÔ2 ...]\n"
+"Использование: show [параметры] pkg1 [pkg2 ...]\n"
 "\n"
-"ðÏËÁÚÁÔØ Ó×ÅÄÅÎÉÑ Ï ÐÁËÅÔÅ × ÕÄÏÂÎÏÊ ÄÌÑ ÞÔÅÎÉÑ ÆÏÒÍÅ.\n"
+"Показать читаемую запись по указанным пакетам.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ\n"
-"  -a  ðÏËÁÚÁÔØ ÉÎÆÏÒÍÁÃÉÀ ÏÂÏ ×ÓÅÈ ×ÅÒÓÉÑÈ.\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -a  Показать информацию обо всех версиях.\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2183
@@ -1370,14 +1311,13 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: depends [ÐÁÒÁÍÅÔÒÙ] ÐÁËÅÔ1 [ÐÁËÅÔ2 ...]\n"
+"Использование: depends [параметры] pkg1 [pkg2 ...]\n"
 "\n"
-"ðÏËÁÚÁÔØ Ó×ÅÄÅÎÉÑ Ï ÚÁ×ÉÓÉÍÏÓÔÑÈ ÕËÁÚÁÎÎÏÇÏ ÐÁËÅÔÁ.\n"
+"Показать зависимости для указанных пакетов.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2196
@@ -1391,14 +1331,13 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: whatdepends [ÐÁÒÁÍÅÔÒÙ] ÐÁËÅÔ1 [ÐÁËÅÔ2 ...]\n"
+"Использование: whatdepends [параметры] pkg1 [pkg2 ...]\n"
 "\n"
-"ðÏËÁÚÁÔØ Ó×ÅÄÅÎÉÑ Ï ÐÁËÅÔÁÈ, ÚÁ×ÉÓÑÝÉÈ ÏÔ ÕËÁÚÁÎÎÏÇÏ ÐÁËÅÔÁ.\n"
+"Показать зависимости от указанных пакетов.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ.\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2209
@@ -1412,14 +1351,13 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: unmet [ÐÁÒÁÍÅÔÒÙ]\n"
+"Использование: unmet [параметры]\n"
 "\n"
-"ðÏÌÕÞÉÔØ ÓÐÉÓÏË ÎÅÕÄÏ×ÌÅÔ×ÏÒ£ÎÎÙÈ ÚÁ×ÉÓÉÍÏÓÔÅÊ.\n"
+"Показать неразрешимые зависимости в кэше.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2222
@@ -1436,16 +1374,16 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: search [ÐÁÒÁÍÅÔÒÙ] <ÒÅÇÕÌÑÒÎÏÅ ×ÙÒÁÖÅÎÉÅ>\n"
+"Использование: search [параметры] <regex>\n"
 "\n"
-"éÓËÁÔØ ÚÁÄÁÎÎÏÅ ÒÅÇÕÌÑÒÎÏÅ ×ÙÒÁÖÅÎÉÅ × ÉÍÅÎÁÈ ÐÁËÅÔÏ× É ÉÈ ÏÐÉÓÁÎÉÑÈ.\n"
+"Искать указанное регулярное выражение в именах пакетов и\n"
+"описаниях.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ.\n"
-"  -n  éÓËÁÔØ ÔÏÌØËÏ × ÉÍÅÎÁÈ ÐÁËÅÔÏ×.\n"
-"  -f  ðÏËÁÚÁÔØ ÐÏÌÎÕÀ ÉÎÆÏÒÍÁÃÉÀ Ï ÎÁÊÄÅÎÎÙÈ ÐÁËÅÔÁÈ.\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -n  Искать только в именах пакетов.\n"
+"  -f  Показывать полные записи для найденных пакетов.\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2239
@@ -1464,19 +1402,18 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: list/ls [ÐÁÒÁÍÅÔÒÙ] [ÛÁÂÌÏÎ ...]\n"
+"Использование: list/ls [параметры] [шаблон ...]\n"
 "\n"
-"÷Ù×ÅÓÔÉ ÓÐÉÓÏË ÐÁËÅÔÏ×, ÕÄÏ×ÌÅÔ×ÏÒÑÀÝÉÈ ÛÁÂÌÏÎÕ, ÉÌÉ ×ÓÅ ÐÁËÅÔÙ, ÅÓÌÉ\n"
-"ÛÁÂÌÏÎ ÎÅ ÂÙÌ ÕËÁÚÁÎ. Wildcards are accepted.\n"
+"Показать пакеты, соответствующие указанным шаблонам, или все пакеты,\n"
+"если шаблоны не заданы. Поддерживаются подстановочные знаки.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ.\n"
-"  -i  ðÏËÁÚÁÔØ ÔÏÌØËÏ ÕÓÔÁÎÏ×ÌÅÎÎÙÅ ÐÁËÅÔÙ.\n"
-"  -u  ðÏËÁÚÁÔØ ÔÏÌØËÏ ÕÓÔÁÎÏ×ÌÅÎÎÙÅ ÐÁËÅÔÙ, ËÏÔÏÒÙÅ ÍÏÇÕÔ ÂÙÔØ ÏÂÎÏ×ÌÅÎÙ.\n"
-"  -v  ðÏËÁÚÁÔØ ×ÅÒÓÉÉ ÕÓÔÁÎÏ×ÌÅÎÎÏÇÏ ÐÁËÅÔÁ É ÐÁËÅÔÁ-ËÁÎÄÉÄÁÔÁ.\n"
-"  -s  ðÏËÁÚÁÔØ ËÒÁÔËÉÅ ÏÐÉÓÁÎÉÑ ÐÁËÅÔÏ×.\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -i  Показывать только установленные пакеты.\n"
+"  -u  Показывать только установленные пакеты, которые можно обновить.\n"
+"  -v  Показывать установленные и кандидатные версии.\n"
+"  -s  Показывать краткие описания.\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2257
@@ -1490,14 +1427,13 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: commit [ÐÁÒÁÍÅÔÒÙ]\n"
+"Использование: commit [параметры]\n"
 "\n"
-"ðÒÉÍÅÎÉÔØ ÉÚÍÅÎÅÎÉÑ Ë ÓÉÓÔÅÍÅ.\n"
+"Применить изменения в системе.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2270
@@ -1511,536 +1447,529 @@ msgid ""
 "  -o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
 "\n"
 msgstr ""
-"éÓÐÏÌØÚÏ×ÁÎÉÅ: script [ÐÁÒÁÍÅÔÒÙ] ÓËÒÉÐÔ1 [ÓËÒÉÐÔ2]\n"
+"Использование: script [параметры] script1 [script2]\n"
 "\n"
-"÷ÙÐÏÌÎÉÔØ ÕËÁÚÁÎÎÙÅ ÓËÒÉÐÔÙ.\n"
+"Запустить указанные скрипты.\n"
 "\n"
-"ðÁÒÁÍÅÔÒÙ:\n"
-"  -h  ëÒÁÔËÁÑ ÓÐÒÁ×ËÁ\n"
-"  -o=? éÚÍÅÎÉÔØ ÌÀÂÏÊ ÉÚ ÐÁÒÁÍÅÔÒÏ× ÎÁÓÔÒÏÊËÉ (ÎÁÐÒÉÍÅÒ: -o dir::cache=/"
-"tmp)\n"
+"Параметры:\n"
+"  -h  Этот текст справки.\n"
+"  -o=? Установить произвольный параметр конфигурации, например -o dir::cache=/tmp\n"
 "\n"
 
 #: cmdline/apt-shell.cc:2281
 msgid "No help for that"
-msgstr "îÅÔ ÓÐÒÁ×ËÉ ÄÌÑ ÜÔÏÇÏ"
+msgstr "Справка по этому отсутствует"
 
 #: cmdline/apt-shell.cc:2706
 msgid "Welcome to the APT shell. Type \"help\" for more information."
-msgstr ""
-"äÏÂÒÏ ÐÏÖÁÌÏ×ÁÔØ × APT shell. éÓÐÏÌØÚÕÊÔÅ ËÏÍÁÎÄÕ \"help\" ÄÌÑ "
-"ÄÏÐÏÌÎÉÔÅÌØÎÏÊ ÉÎÆÏÒÍÁÃÉÉ."
+msgstr "Добро пожаловать в APT shell. Введите \"help\" для получения справки."
 
 #: cmdline/apt-shell.cc:2754
 msgid "Exceeded maximum number of command arguments"
-msgstr "ðÒÅ×ÙÛÅÎÏ ÍÁËÓÉÍÁÌØÎÏÅ ËÏÌÉÞÅÓÔ×Ï ÁÒÇÕÍÅÎÔÏ× ËÏÍÁÎÄÙ"
+msgstr "Превышено максимальное число аргументов команды"
 
+# Translator's notes:
+# unable .. ausserstande
+# upgrade .. upgrade
+# downgrade .. downgrade
 #: cmdline/cmdline.cc:27
 msgid "Y"
-msgstr "Y"
+msgstr "Д"
 
 #: cmdline/cmdline.cc:224
 msgid "The following packages have unmet dependencies:"
-msgstr "óÌÅÄÕÀÝÉÅ ÐÁËÅÔÙ ÉÍÅÀÔ ÎÅÕÄÏ×ÌÅÔ×ÏÒÅÎÎÙÅ ÚÁ×ÉÓÉÍÏÓÔÉ:"
+msgstr "Следующие пакеты имеют неудовлетворённые зависимости:"
 
 #: cmdline/cmdline.cc:322
 #, c-format
 msgid "but %s is installed"
-msgstr "ÎÏ %s ÕÖÅ ÕÓÔÁÎÏ×ÌÅÎ"
+msgstr "но %s установлен"
 
 #: cmdline/cmdline.cc:324
 #, c-format
 msgid "but %s is to be installed"
-msgstr "ÎÏ %s ÂÕÄÅÔ ÕÓÔÁÎÏ×ÌÅÎ"
+msgstr "но %s будет установлен"
 
 #: cmdline/cmdline.cc:331
 msgid "but it is not installable"
-msgstr "ÎÏ ÐÁËÅÔ ÎÅ ÍÏÖÅÔ ÂÙÔØ ÕÓÔÁÎÏ×ÌÅÎ"
+msgstr "но он не подлежит установке"
 
 #: cmdline/cmdline.cc:333
 msgid "but it is a virtual package"
-msgstr "ÎÏ ÐÁËÅÔ Ñ×ÌÑÅÔÓÑ ×ÉÒÔÕÁÌØÎÙÍ ÐÁËÅÔÏÍ"
+msgstr "но это виртуальный пакет"
 
 #: cmdline/cmdline.cc:336
 msgid "but it is not installed"
-msgstr "ÎÏ ÐÁËÅÔ ÎÅ ÕÓÔÁÎÏ×ÌÅÎ"
+msgstr "но он не установлен"
 
 #: cmdline/cmdline.cc:336
 msgid "but it is not going to be installed"
-msgstr "ÎÏ ÐÁËÅÔ ÎÅ ÂÕÄÅÔ ÕÓÔÁÎÏ×ÌÅÎ"
+msgstr "но он не будет установлен"
 
 #: cmdline/cmdline.cc:341
 msgid " or"
-msgstr " ÉÌÉ"
+msgstr " или"
 
 #: cmdline/cmdline.cc:371
 msgid "The following NEW packages will be installed:"
-msgstr "óÌÅÄÕÀÝÉÅ îï÷ùå ÐÁËÅÔÙ ÂÕÄÕÔ ÕÓÔÁÎÏ×ÌÅÎÙ:"
+msgstr "Будут установлены следующие НОВЫЕ пакеты:"
 
 #: cmdline/cmdline.cc:424
 msgid "The following packages will be REPLACED:"
-msgstr "óÌÅÄÕÀÝÉÅ ÐÁËÅÔÙ ÂÕÄÕÔ úáíåîåîù:"
+msgstr "Следующие пакеты будут ЗАМЕНЕНЫ:"
 
 #: cmdline/cmdline.cc:425
 msgid "The following packages will be REMOVED:"
-msgstr "óÌÅÄÕÀÝÉÅ ÐÁËÅÔÙ ÂÕÄÕÔ õäáìåîù:"
+msgstr "Следующие пакеты будут УДАЛЕНЫ:"
 
 #: cmdline/cmdline.cc:454
 msgid "The following packages have been kept back"
-msgstr "óÌÅÄÕÀÝÉÅ ÐÁËÅÔÙ ÂÕÄÕÔ óïèòáîåîù:"
+msgstr "Следующие пакеты удержаны (не обновлены)"
 
 #: cmdline/cmdline.cc:482
 msgid "The following packages will be upgraded"
-msgstr "óÌÅÄÕÀÝÉÅ ÐÁËÅÔÙ ÂÕÄÕÔ ïâîï÷ìåîù:"
+msgstr "Следующие пакеты будут обновлены"
 
 #: cmdline/cmdline.cc:510
 msgid "The following packages will be DOWNGRADED"
-msgstr "óÌÅÄÕÀÝÉÅ ÐÁËÅÔÙ ÂÕÄÕÔ úáíåîåîù âïìåå óôáòùíé ÷åòóéñíé:"
+msgstr "Следующие пакеты будут ПОНИЖЕНЫ"
 
 #: cmdline/cmdline.cc:532
 msgid "The following held packages will be changed:"
-msgstr "óÌÅÄÕÀÝÉÅ ÕÄÅÒÖÉ×ÁÅÍÙÅ ÐÁËÅÔÙ ÂÕÄÕÔ ÉÚÍÅÎÅÎÙ:"
+msgstr "Следующие удержанные пакеты будут изменены:"
 
 #: cmdline/cmdline.cc:623
 #, c-format
 msgid "%s (due to %s) "
-msgstr "%s (ÐÏ ÐÒÉÞÉÎÅ %s)"
+msgstr "%s (из-за %s) "
 
 #: cmdline/cmdline.cc:631
 msgid ""
 "WARNING: The following essential packages will be removed\n"
 "This should NOT be done unless you know exactly what you are doing!"
 msgstr ""
-"÷îéíáîéå: âÕÄÕÔ ÕÄÁÌÅÎÙ ×ÁÖÎÙÅ ÄÌÑ ÒÁÂÏÔÙ ÓÉÓÔÅÍÙ ÐÁËÅÔÙ\n"
-"ïÂÙÞÎÏ ÜÔÏÇÏ ÄÅÌÁÔØ ÎÅ ÓÌÅÄÕÅÔ. ÷Ù ÄÏÌÖÎÙ ÔÏÞÎÏ ÐÏÎÉÍÁÔØ ×ÏÚÍÏÖÎÙÅ "
-"ÐÏÓÌÅÄÓÔ×ÉÑ!"
+"ПРЕДУПРЕЖДЕНИЕ: следующие жизненно важные пакеты будут удалены\n"
+"ЭТО НЕЛЬЗЯ делать, если вы точно не понимаете, что делаете!"
 
 #: cmdline/cmdline.cc:697
 #, c-format
 msgid "%lu upgraded, %lu newly installed, "
-msgstr "%lu ÂÕÄÅÔ ÏÂÎÏ×ÌÅÎÏ, %lu ÎÏ×ÙÈ ÕÓÔÁÎÏ×ÌÅÎÏ, "
+msgstr "обновлено: %lu, установлено новых: %lu, "
 
 #: cmdline/cmdline.cc:701
 #, c-format
 msgid "%lu reinstalled, "
-msgstr "%lu ÐÁËÅÔÏ× ÂÕÄÅÔ ÐÅÒÅÕÓÔÁÎÏ×ÌÅÎÏ, "
+msgstr "переустановлено: %lu, "
 
 #: cmdline/cmdline.cc:703
 #, c-format
 msgid "%lu downgraded, "
-msgstr "%lu ÐÁËÅÔÏ× ÂÕÄÅÔ ÚÁÍÅÎÅÎÏ ÎÁ ÓÔÁÒÙÅ ×ÅÒÓÉÉ, "
+msgstr "понижено: %lu, "
 
 #: cmdline/cmdline.cc:706
 #, c-format
 msgid "%lu replaced, "
-msgstr "%lu ÐÁËÅÔÏ× ÂÕÄÅÔ ÚÁÍÅÎÅÎÏ, "
+msgstr "заменено: %lu, "
 
 #: cmdline/cmdline.cc:710
 #, c-format
 msgid "%lu removed and %lu not upgraded.\n"
-msgstr "%lu ÐÁËÅÔÏ× ÂÕÄÅÔ ÕÄÁÌÅÎÏ É %lu ÎÅ ÂÕÄÅÔ ÏÂÎÏ×ÌÅÎÏ.\n"
+msgstr "удалено: %lu, не обновлено: %lu.\n"
 
 #: cmdline/cmdline.cc:713
 #, c-format
 msgid "%lu removed and %lu kept.\n"
-msgstr "%lu ÐÁËÅÔÏ× ÂÕÄÅÔ ÕÄÁÌÅÎÏ É %lu ÂÕÄÅÔ ÓÏÈÒÁÎÅÎÏ.\n"
+msgstr "удалено: %lu, удержано: %lu.\n"
 
 #: cmdline/cmdline.cc:717
 #, c-format
 msgid "%lu not fully installed or removed.\n"
-msgstr "%lu ÎÅ ÕÓÔÁÎÏ×ÌÅÎÏ ÉÌÉ ÎÅ ÕÄÁÌÅÎÏ ÃÅÌÉËÏÍ.\n"
+msgstr "не полностью установлено или удалено: %lu.\n"
 
 #: cmdline/cmdline.cc:939
 #, c-format
 msgid "Package %s version %s has an unmet dep:\n"
-msgstr "ðÁËÅÔ %s ×ÅÒÓÉÉ %s ÉÍÅÅÔ ÎÅÕÄÏ×ÌÅÔ×ÏÒÅÎÎÙÅ ÚÁ×ÉÓÉÍÏÓÔÉ:\n"
+msgstr "У пакета %s версии %s есть неудовлетворённая зависимость:\n"
 
 #: cmdline/cmdline.cc:1571
 msgid "Name"
-msgstr "éÍÑ"
+msgstr "Имя"
 
 #: cmdline/cmdline.cc:1572
 msgid "Installed"
-msgstr "õÓÔÁÎÏ×ÌÅÎÏ"
+msgstr "Установлено"
 
 #: cmdline/cmdline.cc:1573
 msgid "Candidate"
-msgstr "ëÁÎÄÉÄÁÔ"
+msgstr "Кандидат"
 
 #: cmdline/cmdline.cc:1684
 msgid "You must give exactly one pattern"
-msgstr "îÅÏÂÈÏÄÉÍÏ ÕËÁÚÁÔØ ÔÏÌØËÏ ÏÄÉÎ ÏÂÒÁÚÅÃ"
+msgstr "Нужно указать ровно один шаблон"
 
 #: cmdline/cmdline.cc:1856
-#, fuzzy
 msgid "You should explicitly select one to show."
-msgstr "îÅÏÂÈÏÄÉÍÏ ÔÏÞÎÏ ÕËÁÚÁÔØ, ËÁËÏÊ ÉÚ ÐÁËÅÔÏ× ÄÏÌÖÅÎ ÂÙÔØ ÕÓÔÁÎÏ×ÌÅÎ."
+msgstr "Следует явно выбрать один вариант для отображения."
 
 #: cmdline/cmdline.cc:1857
-#, fuzzy, c-format
+#, c-format
 msgid "Package %s is a virtual package with multiple providers."
-msgstr "÷ÉÒÔÕÁÌØÎÙÊ ÐÁËÅÔ %s ÐÒÅÄÏÓÔÁ×ÌÑÅÔÓÑ ÓÌÅÄÕÀÝÉÍÉ ÐÁËÅÔÁÍÉ:\n"
+msgstr "Пакет %s — виртуальный пакет с несколькими поставщиками."
 
 #: cmdline/cmdline.cc:1916
 msgid "No packages found"
-msgstr "îÅ ÎÁÊÄÅÎÏ ÎÉ ÏÄÎÏÇÏ ÐÁËÅÔÁ"
+msgstr "Пакеты не найдены"
 
 #: cmdline/cmdline.cc:1934
 msgid "Changelog data not available for the repository."
-msgstr ""
+msgstr "Данные changelog недоступны для репозитория."
 
 #: apt-pkg/contrib/cdromutl.cc:57
 #, c-format
 msgid "Unable to stat the mount point %s"
-msgstr "îÅ ÎÁÊÄÅÎÁ ÔÏÞËÁ ÍÏÎÔÉÒÏ×ÁÎÉÑ %s ÄÉÓËÁ"
+msgstr "Не удалось выполнить stat для точки монтирования %s"
 
 #: apt-pkg/contrib/cdromutl.cc:171 apt-pkg/acquire.cc:415 apt-pkg/clean.cc:41
 #, c-format
 msgid "Unable to change to %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÅÒÅÊÔÉ Ë %s"
+msgstr "Не удалось перейти в %s"
 
 #: apt-pkg/contrib/cdromutl.cc:175 apt-pkg/contrib/configuration.cc:734
 #: apt-pkg/acquire.cc:409 apt-pkg/clean.cc:35 apt-pkg/sourcelist.cc:443
 #, c-format
 msgid "Unable to read %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÞÉÔÁÔØ %s"
+msgstr "Не удалось прочитать %s"
 
 #: apt-pkg/contrib/cdromutl.cc:213
 msgid "Failed to stat the cdrom"
-msgstr "îÅ ÎÁÊÄÅÎ CD-ROM."
+msgstr "Не удалось выполнить stat для CD-ROM"
 
 #: apt-pkg/contrib/cmndline.cc:79
 #, c-format
 msgid "Command line option '%c' [from %s] is not known."
-msgstr "îÅÉÚ×ÅÓÔÎÙÊ ÐÁÒÁÍÅÔÒ '%c' [ÉÚ %s]."
+msgstr "Неизвестный параметр командной строки «%c» [из %s]."
 
 #: apt-pkg/contrib/cmndline.cc:105 apt-pkg/contrib/cmndline.cc:113
 #: apt-pkg/contrib/cmndline.cc:121
 #, c-format
 msgid "Command line option %s is not understood"
-msgstr "îÅÉÚ×ÅÓÔÎÙÊ ÐÁÒÁÍÅÔÒ %s."
+msgstr "Параметр командной строки %s не распознан"
 
 #: apt-pkg/contrib/cmndline.cc:126
 #, c-format
 msgid "Command line option %s is not boolean"
-msgstr "ðÁÒÁÍÅÔÒ ËÏÍÁÎÄÎÏÊ ÓÔÒÏËÉ %s ÄÏÌÖÅÎ ÉÍÅÔØ ÌÏÇÉÞÅÓËÏÅ ÚÎÁÞÅÎÉÅ."
+msgstr "Параметр командной строки %s не является логическим"
 
 #: apt-pkg/contrib/cmndline.cc:165 apt-pkg/contrib/cmndline.cc:186
 #, c-format
 msgid "Option %s requires an argument."
-msgstr "ðÁÒÁÍÅÔÒ %s ÎÕÖÄÁÅÔÓÑ × ÁÒÇÕÍÅÎÔÅ."
+msgstr "Параметру %s требуется аргумент."
 
 #: apt-pkg/contrib/cmndline.cc:200 apt-pkg/contrib/cmndline.cc:206
 #, c-format
 msgid "Option %s: Configuration item specification must have an =<val>."
-msgstr ""
-"ðÁÒÁÍÅÔÒ %s: úÁÐÉÓØ ÐÁÒÁÍÅÔÒÁ ÎÁÓÔÒÏÊËÉ ÄÏÌÖÎÁ ÏËÁÎÞÉ×ÁÔØÓÑ ÎÁ =<ÚÎÁÞÅÎÉÅ>."
+msgstr "Параметр %s: спецификация элемента конфигурации должна содержать =<значение>."
 
 #: apt-pkg/contrib/cmndline.cc:236
 #, c-format
 msgid "Option %s requires an integer argument, not '%s'"
-msgstr "ðÁÒÁÍÅÔÒ %s ÔÒÅÂÕÅÔ ÞÉÓÌÅÎÎÏÇÏ ÁÒÇÕÍÅÎÔÁ ×ÍÅÓÔÏ '%s'"
+msgstr "Параметру %s требуется целочисленный аргумент, а не «%s»"
 
 #: apt-pkg/contrib/cmndline.cc:267
 #, c-format
 msgid "Option '%s' is too long"
-msgstr "óÌÉÛËÏÍ ÄÌÉÎÎÙÊ ÐÁÒÁÍÅÔÒ '%s'"
+msgstr "Параметр «%s» слишком длинный"
 
 #: apt-pkg/contrib/cmndline.cc:300
 #, c-format
 msgid "Sense %s is not understood, try true or false."
-msgstr "îÅÒÁÓÐÏÚÎÁ×ÁÅÍÏÅ ÚÎÁÞÅÎÉÅ %s, ÉÓÐÏÌØÚÕÊÔÅ true ÉÌÉ false."
+msgstr "Значение %s не распознано, попробуйте true или false."
 
 #: apt-pkg/contrib/cmndline.cc:337 apt-pkg/contrib/cmndline.cc:357
 #, c-format
 msgid "Invalid operation %s"
-msgstr "ïÛÉÂÏÞÎÁÑ ÏÐÅÒÁÃÉÑ %s"
+msgstr "Недопустимая операция %s"
 
 #: apt-pkg/contrib/configuration.cc:423
 #, c-format
 msgid "Unrecognized type abbreviation: '%c'"
-msgstr "îÅÒÁÓÐÏÚÎÁ×ÁÅÍÙÊ ÔÉÐ ÓÏËÒÁÝÅÎÉÑ: '%c'"
+msgstr "Нераспознанное сокращение типа: «%c»"
 
 #: apt-pkg/contrib/configuration.cc:482
 #, c-format
 msgid "Opening configuration file %s"
-msgstr "ïÔËÒÙÔÉÅ ËÏÎÆÉÇÕÒÁÃÉÏÎÎÏÇÏ ÆÁÊÌÁ %s"
+msgstr "Открывается файл конфигурации %s"
 
 #: apt-pkg/contrib/configuration.cc:592
 #, c-format
 msgid "Syntax error %s:%u: Block starts with no name."
-msgstr "óÉÎÔÁËÓÉÞÅÓËÁÑ ÏÛÉÂËÁ %s:%u: îÁÞÁÌÏ ÂÌÏËÁ ÂÅÚ ÉÍÅÎÉ."
+msgstr "Синтаксическая ошибка %s:%u: блок начинается без имени."
 
 #: apt-pkg/contrib/configuration.cc:611
 #, c-format
 msgid "Syntax error %s:%u: Malformed Tag"
-msgstr "óÉÎÔÁËÓÉÞÅÓËÁÑ ÏÛÉÂËÁ %s:%u: ïÛÉÂÏÞÎÁÑ ÍÅÔËÁ."
+msgstr "Синтаксическая ошибка %s:%u: некорректный тег"
 
 #: apt-pkg/contrib/configuration.cc:628
 #, c-format
 msgid "Syntax error %s:%u: Extra junk after value"
-msgstr "óÉÎÔÁËÓÉÞÅÓËÁÑ ÏÛÉÂËÁ %s:%u: ìÉÛÎÉÅ ÓÉÍ×ÏÌÙ ÐÏÓÌÅ ÚÎÁÞÅÎÉÑ."
+msgstr "Синтаксическая ошибка %s:%u: лишние символы после значения"
 
 #: apt-pkg/contrib/configuration.cc:668
 #, c-format
 msgid "Syntax error %s:%u: Directives can only be done at the top level"
-msgstr ""
-"óÉÎÔÁËÓÉÞÅÓËÁÑ ÏÛÉÂËÁ %s:%u: äÉÒÅËÔÉ×Ù ÍÏÇÕÔ ÚÁÄÁ×ÁÔØÓÑ ÔÏÌØËÏ ÎÁ ×ÙÓÛÅÍ "
-"ÕÒÏ×ÎÅ."
+msgstr "Синтаксическая ошибка %s:%u: директивы допустимы только на верхнем уровне"
 
 #: apt-pkg/contrib/configuration.cc:675
 #, c-format
 msgid "Syntax error %s:%u: Too many nested includes"
-msgstr "óÉÎÔÁËÓÉÞÅÓËÁÑ ÏÛÉÂËÁ %s:%u: óÌÉÛËÏÍ ÍÎÏÇÏ ×ÌÏÖÅÎÎÙÈ ×ËÌÀÞÅÎÉÊ."
+msgstr "Синтаксическая ошибка %s:%u: слишком много вложенных include"
 
 #: apt-pkg/contrib/configuration.cc:679 apt-pkg/contrib/configuration.cc:684
 #, c-format
 msgid "Syntax error %s:%u: Included from here"
-msgstr "óÉÎÔÁËÓÉÞÅÓËÁÑ ÏÛÉÂËÁ %s:%u: ÷ËÌÀÞÅÎÉÅ ÉÚ ÕËÁÚÁÎÎÏÇÏ ÍÅÓÔÁ."
+msgstr "Синтаксическая ошибка %s:%u: подключено отсюда"
 
 #: apt-pkg/contrib/configuration.cc:688
 #, c-format
 msgid "Syntax error %s:%u: Unsupported directive '%s'"
-msgstr "óÉÎÔÁËÓÉÞÅÓËÁÑ ÏÛÉÂËÁ %s:%u: îÅÉÚ×ÅÓÔÎÁÑ ÄÉÒÅËÔÉ×Á '%s'."
+msgstr "Синтаксическая ошибка %s:%u: неподдерживаемая директива «%s»"
 
 #: apt-pkg/contrib/configuration.cc:722
 #, c-format
 msgid "Syntax error %s:%u: Extra junk at end of file"
-msgstr "óÉÎÔÁËÓÉÞÅÓËÁÑ ÏÛÉÂËÁ %s:%u: ìÉÛÎÉÅ ÄÁÎÎÙÅ × ËÏÎÃÅ ÆÁÊÌÁ."
+msgstr "Синтаксическая ошибка %s:%u: лишние символы в конце файла"
 
 #: apt-pkg/contrib/fileutl.cc:82
 #, c-format
 msgid "Not using locking for read only lock file %s"
-msgstr "âÌÏËÉÒÏ×ËÁ ÏÔËÌÀÞÅÎÁ × Ó×ÑÚÉ Ó ÎÅÄÏÓÔÕÐÎÏÓÔØÀ ÆÁÊÌÁ %s ÐÏ ÚÁÐÉÓÉ"
+msgstr "Не используется блокировка для lock-файла только для чтения %s"
 
 #: apt-pkg/contrib/fileutl.cc:87
 #, c-format
 msgid "Could not open lock file %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÔËÒÙÔØ ÆÁÊÌ ÂÌÏËÉÒÏ×ËÉ %s"
+msgstr "Не удалось открыть lock-файл %s"
 
 #: apt-pkg/contrib/fileutl.cc:105
 #, c-format
 msgid "Not using locking for nfs mounted lock file %s"
-msgstr ""
-"âÌÏËÉÒÏ×ËÁ ÏÔËÌÀÞÅÎÁ, ÔÁË ËÁË ÆÁÊÌ ÂÌÏËÉÒÏ×ËÉ %s ÎÁÈÏÄÉÔÓÑ ÎÁ ÓÅÔÅ×ÏÍ "
-"ÒÁÚÄÅÌÅ nfs"
+msgstr "Не используется блокировка для lock-файла %s, смонтированного через NFS"
 
 #: apt-pkg/contrib/fileutl.cc:109
 #, c-format
 msgid "Could not get lock %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÚÁÂÌÏËÉÒÏ×ÁÔØ %s"
+msgstr "Не удалось получить блокировку %s"
 
 #: apt-pkg/contrib/fileutl.cc:379
 #, c-format
 msgid "Waited, for %s but it wasn't there"
-msgstr "ðÏÄÐÒÏÃÅÓÓ %s ÎÅ ÏÔ×ÅÞÁÅÔ."
+msgstr "Ожидали %s, но его там не оказалось"
 
 #: apt-pkg/contrib/fileutl.cc:389
 #, c-format
 msgid "Sub-process %s received a segmentation fault."
-msgstr "ðÏÄÐÒÏÃÅÓÓ %s ×ÙÐÏÌÎÉÌ ÎÅÄÏÐÕÓÔÉÍÕÀ ÏÐÅÒÁÃÉÀ."
+msgstr "Подпроцесс %s получил ошибку сегментации (segmentation fault)."
 
 #: apt-pkg/contrib/fileutl.cc:392 apt-pkg/rpm/rpmpm.cc:624
 #, c-format
 msgid "Sub-process %s returned an error code (%u)"
-msgstr "ðÏÄÐÒÏÃÅÓÓ %s ÚÁ×ÅÒÛÉÌÓÑ Ó ÏÛÉÂËÏÊ (%u)."
+msgstr "Подпроцесс %s вернул код ошибки (%u)"
 
 #: apt-pkg/contrib/fileutl.cc:394 apt-pkg/rpm/rpmpm.cc:627
 #, c-format
 msgid "Sub-process %s exited unexpectedly"
-msgstr "ðÏÄÐÒÏÃÅÓÓ %s ÚÁ×ÅÒÛÉÌÓÑ ÎÅÐÒÅÄÕÓÍÏÔÒÅÎÎÙÍ ÏÂÒÁÚÏÍ."
+msgstr "Подпроцесс %s неожиданно завершился"
 
 #: apt-pkg/contrib/fileutl.cc:438
 #, c-format
 msgid "Could not open file %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÔËÒÙÔØ ÆÁÊÌ %s."
+msgstr "Не удалось открыть файл %s"
 
 #: apt-pkg/contrib/fileutl.cc:473 methods/ftp.cc:342 methods/rsh.cc:193
 msgid "Read error"
-msgstr "ïÛÉÂËÁ ÞÔÅÎÉÑ"
+msgstr "Ошибка чтения"
 
 #: apt-pkg/contrib/fileutl.cc:494
 #, c-format
 msgid "read, still have %lu to read but none left"
-msgstr "ïÓÔÁÌÏÓØ ÐÒÏÞÅÓÔØ %lu, ÎÏ ÂÙÌ ÄÏÓÔÉÇÎÕÔ ËÏÎÅÃ ÆÁÊÌÁ."
+msgstr "read: осталось прочитать %lu, но больше ничего нет"
 
 #: apt-pkg/contrib/fileutl.cc:512
 msgid "Write error"
-msgstr "ïÛÉÂËÁ ÚÁÐÉÓÉ"
+msgstr "Ошибка записи"
 
 #: apt-pkg/contrib/fileutl.cc:524
 #, c-format
 msgid "write, still have %lu to write but couldn't"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÚÁÐÉÓÁÔØ %lu."
+msgstr "write: осталось записать %lu, но не удалось"
 
 #: apt-pkg/contrib/fileutl.cc:599
 msgid "Problem closing the file"
-msgstr "ïÛÉÂËÁ ÚÁËÒÙÔÉÑ ÆÁÊÌÁ."
+msgstr "Проблема при закрытии файла"
 
 #: apt-pkg/contrib/fileutl.cc:605
 msgid "Problem unlinking the file"
-msgstr "ïÛÉÂËÁ ÏÔÓÏÅÄÉÎÅÎÉÑ ÆÁÊÌÁ."
+msgstr "Проблема при удалении файла (unlink)"
 
 #: apt-pkg/contrib/fileutl.cc:616
 msgid "Problem syncing the file"
-msgstr "ïÛÉÂËÁ ÓÉÎÈÒÏÎÉÚÁÃÉÉ ÆÁÊÌÁ."
+msgstr "Проблема при синхронизации файла"
 
 #: apt-pkg/contrib/mmap.cc:78
 msgid "Can't mmap an empty file"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ×ÙÐÏÌÎÉÔØ mmap ÄÌÑ ÐÕÓÔÏÇÏ ÆÁÊÌÁ"
+msgstr "Нельзя выполнить mmap для пустого файла"
 
 #: apt-pkg/contrib/mmap.cc:83
 #, c-format
 msgid "Couldn't make mmap of %lu bytes"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ×ÙÐÏÌÎÉÔØ mmap ÄÌÑ %lu ÂÁÊÔ"
+msgstr "Не удалось выполнить mmap на %lu байт"
 
 #: apt-pkg/contrib/mmap.cc:195
 #, fuzzy
 msgid "Failed to ftruncate"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÏÌÕÞÉÔØ ÉÎÆÏÒÍÁÃÉÀ"
+msgstr "Не удалось выполнить ftruncate"
 
 #: apt-pkg/contrib/progress.cc:156
 #, c-format
 msgid "%c%s... Error!"
-msgstr "%c%s... ïÛÉÂËÁ!"
+msgstr "%c%s... Ошибка!"
 
 #: apt-pkg/contrib/progress.cc:158
 #, c-format
 msgid "%c%s... Done"
-msgstr "%c%s... úÁ×ÅÒÛÅÎÏ"
+msgstr "%c%s... Готово"
 
 #: apt-pkg/contrib/strutl.cc:937
 #, c-format
 msgid "Selection %s not found"
-msgstr "óÔÒÏË, ÓÏÏÔ×ÅÔÓÔ×ÕÀÝÉÈ %s, ÎÅ ÎÁÊÄÅÎÏ."
+msgstr "Выбор %s не найден"
 
 #: apt-pkg/rpm/repomd.cc:39
 #, fuzzy, c-format
 msgid "Could not open metadata file '%s'"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÔËÒÙÔØ ÆÁÊÌ %s."
+msgstr "Не удалось открыть файл метаданных «%s»"
 
 #: apt-pkg/rpm/rpmhandler.cc:97
 #, c-format
 msgid "Impossible flags %d in %s"
-msgstr ""
+msgstr "Недопустимые флаги %d в %s"
 
 #: apt-pkg/rpm/rpmhandler.cc:330
 msgid "could not rewind RPMFileHandler"
-msgstr "ÏÔËÁÔ RPMFileHandler ÎÅ×ÏÚÍÏÖÅÎ"
+msgstr "не удалось перемотать RPMFileHandler"
 
 #: apt-pkg/rpm/rpmhandler.cc:371 apt-pkg/rpm/rpmpm.cc:684
 #, c-format
 msgid "Failed reading file %s"
-msgstr "ïÛÉÂËÁ ÞÔÅÎÉÑ ÆÁÊÌÁ %s"
+msgstr "Не удалось прочитать файл %s"
 
 #: apt-pkg/rpm/rpmhandler.cc:526
-#, fuzzy
 msgid "Unable to determine the file size"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÐÒÅÄÅÌÉÔØ ÉÍÑ ÕÄÁÌ£ÎÎÏÊ ÓÉÓÔÅÍÙ"
+msgstr "Не удалось определить размер файла"
 
 #: apt-pkg/rpm/rpmhandler.cc:573
 msgid "could not create RPM database iterator"
-msgstr "ÎÅ×ÏÚÍÏÖÎÏ ÓÏÚÄÁÔØ ÉÔÅÒÁÔÏÒ ÂÁÚÙ ÄÁÎÎÙÈ RPM"
+msgstr "не удалось создать итератор базы данных RPM"
 
 #: apt-pkg/rpm/rpmhandler.cc:706 apt-pkg/rpm/rpmhandler.cc:728
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to open package index %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÞÉÔÁÔØ ÐÁËÅÔÎÙÊ ÆÁÊÌ %s (1)"
+msgstr "Не удалось открыть индекс пакетов %s"
 
 #: apt-pkg/rpm/rpmhandler.cc:732
-#, fuzzy, c-format
+#, c-format
 msgid "Corrupted package index %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÎÁÊÔÉ ÐÁËÅÔ %s"
+msgstr "Повреждённый индекс пакетов %s"
 
 #: apt-pkg/rpm/rpmhandler.cc:751
 #, c-format
 msgid "Inconsistent metadata, package count doesn't match in %s"
-msgstr ""
+msgstr "Несогласованные метаданные: количество пакетов не совпадает в %s"
 
 #: apt-pkg/rpm/rpmhandler.cc:1006 apt-pkg/rpm/rpmhandler.cc:1449
 #, c-format
 msgid "Ignoring unknown dependency type %s"
-msgstr ""
+msgstr "Игнорируется неизвестный тип зависимости %s"
 
 #: apt-pkg/rpm/rpmhandler.cc:1088
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to open filelist index %s"
-msgstr "îÅ ÕÄÁÌÏÓØ ÏÔËÒÙÔØ %s.new"
+msgstr "Не удалось открыть индекс списков файлов %s"
 
 #: apt-pkg/rpm/rpmhandler.cc:1133
 msgid "Internal error: xmlReader cannot rewind"
-msgstr ""
+msgstr "Внутренняя ошибка: xmlReader не может перемотать назад"
 
 #: apt-pkg/rpm/rpmhandler.cc:1248
 #, c-format
 msgid "Unsupported database scheme (%d)"
-msgstr ""
+msgstr "Неподдерживаемая схема базы данных (%d)"
 
 #: apt-pkg/rpm/rpmindexfile.cc:377 apt-pkg/rpm/rpmindexfile.cc:744
 #, c-format
 msgid "Problem with SelectFile %s"
-msgstr "ïÛÉÂËÁ SelectFile %s"
+msgstr "Проблема с SelectFile %s"
 
 #: apt-pkg/rpm/rpmindexfile.cc:386 apt-pkg/rpm/rpmindexfile.cc:753
 #: apt-pkg/rpm/rpmindexfile.cc:893
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to stat %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÏÌÕÞÉÔØ ÉÎÆÏÒÍÁÃÉÀ"
+msgstr "Не удалось выполнить stat для %s"
 
 #: apt-pkg/rpm/rpmindexfile.cc:395 apt-pkg/rpm/rpmindexfile.cc:431
 #: apt-pkg/rpm/rpmindexfile.cc:762 apt-pkg/rpm/rpmindexfile.cc:796
 #, c-format
 msgid "Problem opening %s"
-msgstr "ïÛÉÂËÁ ÏÔËÒÙÔÉÑ %s"
+msgstr "Проблема при открытии %s"
 
 #: apt-pkg/rpm/rpmindexfile.cc:401 apt-pkg/rpm/rpmindexfile.cc:768
 #: apt-pkg/rpm/rpmindexfile.cc:898
 #, c-format
 msgid "Problem with MergeList %s"
-msgstr "ïÛÉÂËÁ Ó MergeList %s"
+msgstr "Проблема с MergeList %s"
 
 #: apt-pkg/rpm/rpmindexfile.cc:436 apt-pkg/rpm/rpmindexfile.cc:801
 #: apt-pkg/rpm/rpmindexfile.cc:916
 #, c-format
 msgid "Problem with MergeFileProvides %s"
-msgstr "ïÛÉÂËÁ Ó MergeFileProvides %s"
+msgstr "Проблема с MergeFileProvides %s"
 
 #: apt-pkg/rpm/rpmindexfile.cc:665
 #, c-format
 msgid "Repository model not found for %s %s"
-msgstr ""
+msgstr "Модель репозитория не найдена для %s %s"
 
 #: apt-pkg/rpm/rpmindexfile.cc:669
 #, c-format
 msgid "Primary metadata not found in repository %s %s"
-msgstr ""
+msgstr "Primary-метаданные не найдены в репозитории %s %s"
 
 #: apt-pkg/rpm/rpmindexfile.cc:883 apt-pkg/rpm/rpmindexfile.cc:912
 msgid "Problem opening RPM database"
-msgstr "ïÛÉÂËÁ ÏÔËÒÙÔÉÑ ÂÁÚÙ ÄÁÎÎÙÈ RPM"
+msgstr "Проблема при открытии базы данных RPM"
 
 #: apt-pkg/rpm/rpmindexfile.cc:887
 msgid "Problem with SelectFile RPM Database"
-msgstr "ïÛÉÂËÁ SelectFile ÂÁÚÙ ÄÁÎÎÙÈ RPM."
+msgstr "Проблема с SelectFile RPM Database"
 
 #: apt-pkg/rpm/rpmindexfile.cc:1120 apt-pkg/sourcelist.cc:94
 #, c-format
 msgid "Malformed line %lu in source list %s (URI)"
-msgstr "îÅÐÒÁ×ÉÌØÎÁÑ ÓÔÒÏËÁ %lu × ÓÐÉÓËÅ ÉÓÔÏÞÎÉËÏ× %s (URI)"
+msgstr "Некорректная строка %lu в списке источников %s (URI)"
 
 #: apt-pkg/rpm/rpmindexfile.cc:1122 apt-pkg/sourcelist.cc:96
 #, c-format
 msgid "Malformed line %lu in source list %s (dist)"
-msgstr "îÅÐÒÁ×ÉÌØÎÁÑ ÓÔÒÏËÁ %lu × ÓÐÉÓËÅ ÉÓÔÏÞÎÉËÏ× %s (ÄÉÓÔÒÉÂÕÔÉ×)"
+msgstr "Некорректная строка %lu в списке источников %s (dist)"
 
 #: apt-pkg/rpm/rpmindexfile.cc:1125 apt-pkg/sourcelist.cc:99
 #, c-format
 msgid "Malformed line %lu in source list %s (URI parse)"
-msgstr "îÅÐÒÁ×ÉÌØÎÁÑ ÓÔÒÏËÁ %lu × ÓÐÉÓËÅ ÉÓÔÏÞÎÉËÏ× %s (ÏÂÒÁÂÏÔËÁ URI)"
+msgstr "Некорректная строка %lu в списке источников %s (разбор URI)"
 
 #: apt-pkg/rpm/rpmlistparser.cc:85
 msgid "Corrupt pkglist: no RPMTAG_NAME in header entry"
-msgstr ""
+msgstr "Повреждённый pkglist: в заголовке отсутствует RPMTAG_NAME"
 
 #: apt-pkg/rpm/rpmlistparser.cc:109
 #, c-format
@@ -2058,299 +1987,283 @@ msgid ""
 "\n"
 "RPM::Allow-Duplicated-Warning \"false\";\n"
 msgstr ""
-"÷ ÷ÁÛÅÊ ÓÉÓÔÅÍÅ ÕÓÔÁÎÏ×ÌÅÎÏ ÎÅÓËÏÌØËÏ ×ÅÒÓÉÊ ÐÁËÅÔÁ \"%s\".\n"
+"В вашей системе установлено несколько версий «%s».\n"
 "\n"
-"üÔÏÔ ÐÁËÅÔ ÎÅ ÍÏÖÅÔ ÂÙÔØ ÏÂÎÏ×Ì£Î ÏÂÙÞÎÙÍ ÐÕÔ£Í ÄÏ ÔÅÈ ÐÏÒ, ÐÏËÁ ÷Ù ÎÅ\n"
-"ÏÓÔÁ×ÉÔÅ ÔÏÌØËÏ ÏÄÎÕ ÅÇÏ ×ÅÒÓÉÀ. þÔÏÂÙ ÏÓÔÁ×ÉÔØ ÕÓÔÁÎÏ×ÌÅÎÎÙÍÉ ÎÅÓËÏÌØËÏ "
-"×ÅÒÓÉÊ,\n"
-"É ÎÅ ÐÏÌÕÞÁÔØ ÂÏÌØÛÅ ÜÔÏÇÏ ÐÒÅÄÕÐÒÅÖÄÅÎÉÑ, ÷Ù ÍÏÖÅÔÅ ÕÓÔÁÎÏ×ÉÔØ ÓÌÅÄÕÀÝÉÊ "
-"ÐÁÒÁÍÅÔÒ\n"
-"× ÷ÁÛÅÍ ÆÁÊÌÅ ËÏÎÆÉÇÕÒÁÃÉÉ:\n"
+"Этот пакет не будет корректно обновляться, если вы не оставите\n"
+"только одну версию. Чтобы оставить установленные несколько версий,\n"
+"можно убрать это предупреждение, задав следующую\n"
+"опцию в файле конфигурации:\n"
 "\n"
 "RPM::Allow-Duplicated { \"^%s$\"; };\n"
 "\n"
-"þÔÏÂÙ ÐÏÌÎÏÓÔØÀ ÚÁÐÒÅÔÉÔØ ÜÔÏ ÐÒÅÄÕÐÒÅÖÄÅÎÉÅ, ÕÓÔÁÎÏ×ÉÔÅ ÐÁÒÁÍÅÔÒ:\n"
+"Чтобы полностью отключить эти предупреждения, задайте:\n"
 "\n"
 "RPM::Allow-Duplicated-Warning \"false\";\n"
 
 #: apt-pkg/rpm/rpmlistparser.cc:435
 msgid "Bad NotAutomatic flag"
-msgstr ""
+msgstr "Некорректный флаг NotAutomatic"
 
 #: apt-pkg/rpm/rpmlistparser.cc:554 apt-pkg/repository.cc:36
 #, c-format
 msgid "could not open Release file '%s'"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÔËÒÙÔØ ÆÁÊÌ ÏÐÉÓÁÎÉÑ '%s'."
+msgstr "не удалось открыть файл Release «%s»"
 
 #: apt-pkg/rpm/rpmpackagedata.cc:56
 #, c-format
 msgid "could not open package priority file %s"
-msgstr "ÎÅ×ÏÚÍÏÖÎÏ ÏÔËÒÙÔØ ÆÁÊÌ c ÏÐÉÓÁÎÉÅÍ ÐÒÉÏÒÉÔÅÔÏ× ÐÁËÅÔÏ× %s"
+msgstr "не удалось открыть файл приоритетов пакетов %s"
 
 #: apt-pkg/rpm/rpmpackagedata.cc:65
 #, c-format
 msgid "no data in %s"
-msgstr "ÎÅÔ ÄÁÎÎÙÈ × %s"
+msgstr "нет данных в %s"
 
 #: apt-pkg/rpm/rpmpackagedata.cc:115
 #, c-format
 msgid "Bad regular expression '%s' in option RPM::Hold."
-msgstr "îÅÄÏÐÕÓÔÉÍÏÅ ÒÅÇÕÌÑÒÎÏÅ ×ÙÒÁÖÅÎÉÅ '%s' × ÐÁÒÁÍÅÔÒÅ RPM::Hold."
+msgstr "Некорректное регулярное выражение «%s» в опции RPM::Hold."
 
 #: apt-pkg/rpm/rpmpackagedata.cc:136
 #, c-format
 msgid "Bad regular expression '%s' in option RPM::Allow-Duplicated."
-msgstr ""
-"îÅÄÏÐÕÓÔÉÍÏÅ ÒÅÇÕÌÑÒÎÏÅ ×ÙÒÁÖÅÎÉÅ '%s' × ÐÁÒÁÍÅÔÒÅ RPM::Allow-Duplicated."
+msgstr "Некорректное регулярное выражение «%s» в опции RPM::Allow-Duplicated."
 
 #: apt-pkg/rpm/rpmpackagedata.cc:153
 #, c-format
 msgid "Bad entry '%s' in option RPM::FakeProvides."
-msgstr "îÅÄÏÐÕÓÔÉÍÁÑ ÚÁÐÉÓØ '%s' × ÐÁÒÁÍÅÔÒÅ RPM::FakeProvides."
+msgstr "Некорректная запись «%s» в опции RPM::FakeProvides."
 
 #: apt-pkg/rpm/rpmpackagedata.cc:207
 #, c-format
 msgid "Bad regular expression '%s' in URI translation"
-msgstr "îÅÄÏÐÕÓÔÉÍÏÅ ÒÅÇÕÌÑÒÎÏÅ ×ÙÒÁÖÅÎÉÅ '%s' × URI translation"
+msgstr "Некорректное регулярное выражение «%s» в трансляции URI"
 
 #: apt-pkg/rpm/rpmpm.cc:61
 #, c-format
 msgid "Internal Error, No file name for %s"
-msgstr "÷ÎÕÔÒÅÎÎÑÑ ÏÛÉÂËÁ, îÅ ÕËÁÚÁÎÏ ÉÍÑ ÆÁÊÌÁ ÄÌÑ ÐÁËÅÔÁ %s"
+msgstr "Внутренняя ошибка: нет имени файла для %s"
 
 #: apt-pkg/rpm/rpmpm.cc:130
 #, c-format
 msgid "Problem executing scripts %s '%s'"
-msgstr "ïÛÉÂËÁ ×ÙÐÏÌÎÅÎÉÑ ÓËÒÉÐÔÏ× %s '%s'"
+msgstr "Проблема при выполнении скриптов %s «%s»"
 
 #: apt-pkg/rpm/rpmpm.cc:141
 msgid "Sub-process returned an error code"
-msgstr "ðÏÄÐÒÏÃÅÓÓ ÚÁ×ÅÒÛÉÌÓÑ Ó ÏÛÉÂËÏÊ"
+msgstr "Подпроцесс вернул код ошибки"
 
 #: apt-pkg/rpm/rpmpm.cc:167 methods/rsh.cc:94
 msgid "Failed to create IPC pipe to subprocess"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÓÏÚÄÁÔØ IPC ËÁÎÁÌ ÄÌÑ ÐÏÄÐÒÏÃÅÓÓÁ"
+msgstr "Не удалось создать IPC-канал (pipe) для подпроцесса"
 
 #: apt-pkg/rpm/rpmpm.cc:211 apt-pkg/rpm/rpmpm.cc:218
 #, c-format
 msgid "Failure running script %s"
-msgstr "ïÛÉÂËÁ ×ÙÐÏÌÎÅÎÉÑ ÓËÒÉÐÔÁ %s"
+msgstr "Ошибка при запуске скрипта %s"
 
 #: apt-pkg/rpm/rpmpm.cc:307
 msgid "Unknown pkgRPMPM operation."
-msgstr ""
+msgstr "Неизвестная операция pkgRPMPM."
 
 #: apt-pkg/rpm/rpmpm.cc:550
 msgid "Executing RPM ("
-msgstr "úÁÐÕÓË RPM ("
+msgstr "Выполнение RPM ("
 
 #: apt-pkg/rpm/rpmpm.cc:590
-#, fuzzy
 msgid "Could not exec "
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÚÁÂÌÏËÉÒÏ×ÁÔØ %s"
+msgstr "Не удалось выполнить exec "
 
 #: apt-pkg/rpm/rpmpm.cc:605
-#, fuzzy
 msgid "Couldn't wait for subprocess"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÔËÒÙÔØ ËÁÎÁÌ ÄÌÑ %s."
+msgstr "Не удалось дождаться завершения подпроцесса"
 
 #: apt-pkg/rpm/rpmpm.cc:621
 #, c-format
 msgid "Sub-process %s recieved a segmentation fault."
-msgstr "ðÏÄÐÒÏÃÅÓÓ %s ×ÙÐÏÌÎÉÌ ÎÅÄÏÐÕÓÔÉÍÕÀ ÏÐÅÒÁÃÉÀ."
+msgstr "Подпроцесс %s получил ошибку сегментации (segmentation fault)."
 
 #: apt-pkg/rpm/rpmpm.cc:631
-#, fuzzy
 msgid "Done."
-msgstr "úÁ×ÅÒÛÅÎÏ"
+msgstr "Готово."
 
 #: apt-pkg/rpm/rpmpm.cc:681
 #, c-format
 msgid "Failed opening %s"
-msgstr "ïÛÉÂËÁ ÏÔËÒÙÔÉÑ %s"
+msgstr "Не удалось открыть %s"
 
 #: apt-pkg/rpm/rpmpm.cc:687 apt-pkg/rpm/rpmpm.cc:702
 #, c-format
 msgid "Failed adding %s to transaction %s"
-msgstr "ïÛÉÂËÁ ÄÏÂÁ×ÌÅÎÉÑ %s × ÔÒÁÎÚÁËÃÉÀ %s"
+msgstr "Не удалось добавить %s в транзакцию %s"
 
 #: apt-pkg/rpm/rpmpm.cc:768
 msgid "Transaction set check failed"
-msgstr "ðÒÏ×ÅÒËÁ ÇÒÕÐÐÙ ÔÒÁÎÚÁËÃÉÊ ÎÅ ÕÄÁÌÁÓØ"
+msgstr "Проверка набора транзакции завершилась неудачно"
 
 #: apt-pkg/rpm/rpmpm.cc:778
 #, c-format
 msgid "Ordering failed for %d packages"
-msgstr "õÐÏÒÑÄÏÞÉ×ÁÎÉÅ ÎÅ ÕÄÁÌÏÓØ ÄÌÑ %d ÐÁËÅÔÏ×"
+msgstr "Не удалось упорядочить операции для %d пакетов"
 
 #: apt-pkg/rpm/rpmpm.cc:792
 msgid "Error while running transaction"
-msgstr "ïÛÉÂËÁ ×Ï ×ÒÅÍÑ ÉÓÐÏÌÎÅÎÉÑ ÔÒÁÎÚÁËÃÉÉ"
+msgstr "Ошибка при выполнении транзакции"
 
 #: apt-pkg/rpm/rpmpm.cc:799
 msgid "Some errors occurred while running transaction"
-msgstr "ðÒÏÉÚÏÛÌÉ ÏÛÉÂËÉ ÐÒÉ ×ÙÐÏÌÎÅÎÉÉ ÔÒÁÎÚÁËÃÉÉ"
+msgstr "При выполнении транзакции произошли ошибки"
 
 #: apt-pkg/rpm/rpmrecords.cc:173 apt-pkg/rpm/rpmsrcrecords.cc:157
-#, fuzzy
 msgid "Could not allocate buffer for record text"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ×ÙÄÅÌÉÔØ ÐÁÍÑÔØ"
+msgstr "Не удалось выделить буфер для текста записи"
 
 #: apt-pkg/rpm/rpmsystem.cc:206
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to determine version for package %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÐÒÅÄÅÌÉÔØ ÉÍÑ ÕÄÁÌ£ÎÎÏÊ ÓÉÓÔÅÍÙ"
+msgstr "Не удалось определить версию для пакета %s"
 
 #: apt-pkg/acquire.cc:58
 #, c-format
 msgid "Lists directory %spartial is missing."
-msgstr "äÉÒÅËÔÏÒÉÑ ÓÏ ÓÐÉÓËÁÍÉ ÐÁËÅÔÏ× %spartial ÏÔÓÕÔÓÔ×ÕÅÔ."
+msgstr "Каталог списков %spartial отсутствует."
 
 #: apt-pkg/acquire.cc:62
 #, c-format
 msgid "Archive directory %spartial is missing."
-msgstr "äÉÒÅËÔÏÒÉÑ Ó ÁÒÈÉ×ÎÙÍÉ ÐÁËÅÔÁÍÉ %spartial ÏÔÓÕÔÓÔ×ÕÅÔ."
+msgstr "Каталог архивов %spartial отсутствует."
 
 #: apt-pkg/acquire-item.cc:169
 #, c-format
 msgid "rename failed, %s (%s -> %s)."
-msgstr "ïÛÉÂËÁ ÐÅÒÅÉÍÅÎÏ×ÁÎÉÑ, %s (%s -> %s)."
+msgstr "переименование не удалось, %s (%s -> %s)."
 
 #: apt-pkg/acquire-item.cc:211 apt-pkg/acquire-item.cc:412
 #, c-format
 msgid "%s is not listed in the checksum list for its repository"
-msgstr "%s ÏÔÓÕÔÓÔ×ÕÅÔ × ÓÐÉÓËÅ ËÏÎÔÒÏÌØÎÙÈ ÓÕÍÍ Ó×ÏÅÇÏ ÒÅÐÏÚÉÔÏÒÉÑ."
+msgstr "%s не указан в списке контрольных сумм для своего репозитория"
 
 #: apt-pkg/acquire-item.cc:231 apt-pkg/acquire-item.cc:432
 #, c-format
 msgid "Release information not available for %s"
-msgstr "ïÐÉÓÁÎÉÅ %s ÎÅ ÎÁÊÄÅÎÏ."
+msgstr "Информация Release недоступна для %s"
 
 #: apt-pkg/acquire-item.cc:283 apt-pkg/acquire-item.cc:578
 #: apt-pkg/acquire-item.cc:843
 msgid "Size mismatch"
-msgstr "îÅÓÏ×ÐÁÄÅÎÉÅ ÒÁÚÍÅÒÁ"
+msgstr "Несоответствие размера"
 
 #: apt-pkg/acquire-item.cc:294 apt-pkg/acquire-item.cc:588
 #: apt-pkg/acquire-item.cc:853
 #, fuzzy
 msgid "Checksum mismatch"
-msgstr "îÅÓÏ×ÐÁÄÅÎÉÅ ËÏÎÔÒÏÌØÎÏÊ ÓÕÍÍÙ MD5"
+msgstr "Несоответствие контрольной суммы"
 
 #: apt-pkg/acquire-item.cc:481
 msgid "No valid signatures found in Release file"
-msgstr "îÅ ÎÁÊÄÅÎÏ ÐÒÉÇÏÄÎÙÈ ÐÏÄÐÉÓÅÊ × ÆÁÊÌÅ ÏÐÉÓÁÎÉÑ"
+msgstr "В файле Release не найдено действительных подписей"
 
 #: apt-pkg/acquire-item.cc:500
 msgid "Signature fingerprint of Release file does not match (expected "
-msgstr "îÅ×ÅÒÎÁÑ ÐÏÄÐÉÓØ ÆÁÊÌÁ ÏÐÉÓÁÎÉÑ (ÄÏÌÖÎÏ ÂÙÔØ "
+msgstr "Отпечаток подписи файла Release не совпадает (ожидалось "
 
 #: apt-pkg/acquire-item.cc:504
 msgid ", got "
-msgstr ", Á ÐÏÌÕÞÅÎÏ "
+msgstr ", получено "
 
 #: apt-pkg/acquire-item.cc:529
 msgid "Could not read checksum list from Release file"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÞÉÔÁÔØ ÓÐÉÓÏË ËÏÎÔÒÏÌØÎÙÈ ÓÕÍÍ ÉÚ ÆÁÊÌÁ ÏÐÉÓÁÎÉÑ."
+msgstr "Не удалось прочитать список контрольных сумм из файла Release"
 
 #: apt-pkg/acquire-item.cc:662
 #, c-format
 msgid ""
 "I wasn't able to locate a file for the %s package. This might mean you need "
 "to manually fix this package. (due to missing arch)"
-msgstr ""
-"îÅ×ÏÚÍÏÖÎÏ ÎÁÊÔÉ ÆÁÊÌ ÐÁËÅÔÁ %s. ÷ÏÚÍÏÖÎÏ, ÐÏÔÒÅÂÕÅÔÓÑ ÉÓÐÒÁ×ÉÔØ ÐÁËÅÔ "
-"×ÒÕÞÎÕÀ (× Ó×ÑÚÉ Ó ÏÔÓÕÔÓÔ×ÉÅÍ ÎÕÖÎÏÊ ÐÌÁÔÆÏÒÍÙ)."
+msgstr "Не удалось найти файл для пакета %s. Возможно, потребуется исправить этот пакет вручную. (из-за отсутствующей архитектуры)"
 
 #: apt-pkg/acquire-item.cc:701
 #, c-format
 msgid ""
 "I wasn't able to locate file for the %s package. This might mean you need to "
 "manually fix this package."
-msgstr ""
-"îÅ×ÏÚÍÏÖÎÏ ÎÁÊÔÉ ÆÁÊÌ ÐÁËÅÔÁ %s. ÷ÏÚÍÏÖÎÏ, ÐÏÔÒÅÂÕÅÔÓÑ ÉÓÐÒÁ×ÉÔØ ÐÁËÅÔ "
-"×ÒÕÞÎÕÀ."
+msgstr "Не удалось найти файл для пакета %s. Возможно, потребуется исправить этот пакет вручную."
 
 #: apt-pkg/acquire-item.cc:734
 #, c-format
 msgid ""
 "The package index files are corrupted. No Filename: field for package %s."
-msgstr "ðÏ×ÒÅÖÄÅÎÙ ÉÎÄÅËÓÎÙÅ ÆÁÊÌÙ. ïÔÓÕÔÓÔ×ÕÅÔ ÐÏÌÅ Filename: ÄÌÑ ÐÁËÅÔÁ %s."
+msgstr "Индексные файлы пакетов повреждены. Отсутствует поле Filename: для пакета %s."
 
 #: apt-pkg/acquire-worker.cc:109
 #, c-format
 msgid "The method driver %s could not be found."
-msgstr "ðÒÏÇÒÁÍÍÁ ÏÂÒÁÂÏÔËÉ ÍÅÔÏÄÁ %s ÎÅ ÎÁÊÄÅÎÁ."
+msgstr "Драйвер метода %s не найден."
 
 #: apt-pkg/acquire-worker.cc:158
 #, c-format
 msgid "Method %s did not start correctly"
-msgstr "ðÒÏÇÒÁÍÍÁ ÏÂÒÁÂÏÔËÉ ÍÅÔÏÄÁ %s ÎÅ ÓÍÏÇÌÁ ÐÒÁ×ÉÌØÎÏ ÚÁÐÕÓÔÉÔØÓÑ"
+msgstr "Метод %s не запустился корректно"
 
 #: apt-pkg/algorithms.cc:249
 #, c-format
 msgid ""
 "The package %s needs to be reinstalled, but I can't find an archive for it."
-msgstr ""
-"îÅÏÂÈÏÄÉÍÏ ÐÅÒÅÕÓÔÁÎÏ×ÉÔØ ÐÁËÅÔ %s, ÎÏ ÎÁÊÔÉ ÅÇÏ ÁÒÈÉ×ÎÕÀ ËÏÐÉÀ ÎÅ×ÏÚÍÏÖÎÏ."
+msgstr "Пакет %s требуется переустановить, но архив для него не найден."
 
 #: apt-pkg/algorithms.cc:1151
 msgid ""
 "Error, pkgProblemResolver::Resolve generated breaks, this may be caused by "
 "held packages."
-msgstr ""
-"ïÛÉÂËÁ. ðÒÏÃÅÄÕÒÁ pkgProblemResolver::Resolve ×ÙÚ×ÁÌÁ ÏÓÔÁÎÏ×ËÕ. üÔÏ ÍÏÖÅÔ "
-"ÂÙÔØ ×ÙÚ×ÁÎÏ ÓÏÈÒÁÎÑÅÍÙÍÉ ÐÁËÅÔÁÍÉ."
+msgstr "Ошибка: pkgProblemResolver::Resolve породил разрывы (breaks), возможно из-за удержанных пакетов."
 
 #: apt-pkg/algorithms.cc:1153
 msgid "Unable to correct problems, you have held broken packages."
-msgstr ""
-"òÅÛÉÔØ ÐÒÏÂÌÅÍÕ ÎÅ×ÏÚÍÏÖÎÏ. ÷Ù ÐÏÔÒÅÂÏ×ÁÌÉ ÓÏÈÒÁÎÉÔØ ÐÁËÅÔÙ Ó ÎÁÒÕÛÅÎÎÙÍÉ "
-"ÚÁ×ÉÓÉÍÏÓÔÑÍÉ."
+msgstr "Не удалось исправить проблемы: у вас удержаны повреждённые пакеты."
 
 #: apt-pkg/cachefile.cc:73
 msgid "The package lists or status file could not be parsed or opened."
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÞÉÔÁÔØ ÓÐÉÓÏË ÐÁËÅÔÏ× ÉÌÉ ÆÁÊÌ ÓÔÁÔÕÓÁ."
+msgstr "Списки пакетов или файл состояния не удалось разобрать или открыть."
 
 #: apt-pkg/cachefile.cc:77
 msgid "You may want to run apt-get update to correct these problems"
-msgstr "÷ÏÚÍÏÖÎÏ, ÷ÁÍ ÐÏÔÒÅÂÕÅÔÓÑ ÚÁÐÕÓÔÉÔØ `apt-get update' ÄÌÑ ÉÓÐÒÁ×ÌÅÎÉÑ."
+msgstr "Возможно, стоит выполнить apt-get update, чтобы исправить эти проблемы"
 
 #: apt-pkg/clean.cc:57
 #, fuzzy, c-format
 msgid "Failed to chdir to %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÏÌÕÞÉÔØ ÉÎÆÏÒÍÁÃÉÀ"
+msgstr "Не удалось перейти в каталог %s"
 
 #: apt-pkg/clean.cc:59
 #, c-format
 msgid "Unable to stat %s."
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÞÉÔÁÔØ %s."
+msgstr "Не удалось выполнить stat для %s."
 
 #: apt-pkg/depcache.cc:64 apt-pkg/depcache.cc:93
 msgid "Building Dependency Tree"
-msgstr "ðÏÓÔÒÏÅÎÉÅ ÄÅÒÅ×Á ÚÁ×ÉÓÉÍÏÓÔÅÊ"
+msgstr "Построение дерева зависимостей"
 
 #: apt-pkg/depcache.cc:65
 msgid "Candidate Versions"
-msgstr "ïÐÒÅÄÅÌÅÎÉÅ ÎÅÏÂÈÏÄÉÍÙÈ ×ÅÒÓÉÊ"
+msgstr "Кандидатные версии"
 
 #: apt-pkg/depcache.cc:94
 msgid "Dependency Generation"
-msgstr "óÏÚÄÁÎÉÅ ÚÁ×ÉÓÉÍÏÓÔÅÊ"
+msgstr "Формирование зависимостей"
 
 #: apt-pkg/init.cc:57
 #, fuzzy, c-format
 msgid "State directory %s doesn't exist."
-msgstr "óÐÉÓÏË ÉÓÔÏÞÎÉËÏ× %s ÏÔÓÕÔÓÔ×ÕÅÔ."
+msgstr "Каталог состояния %s не существует."
 
 #: apt-pkg/init.cc:135
 #, c-format
 msgid "Packaging system '%s' is not supported"
-msgstr "ðÁËÅÔÎÁÑ ÓÉÓÔÅÍÁ '%s' ÎÅ ÐÏÄÄÅÒÖÉ×ÁÅÔÓÑ."
+msgstr "Система пакетирования «%s» не поддерживается"
 
 #: apt-pkg/init.cc:151
 msgid "Unable to determine a suitable system type"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÐÒÅÄÅÌÉÔØ ÔÉÐ ÓÉÓÔÅÍÙ."
+msgstr "Не удалось определить подходящий тип системы"
 
 #: apt-pkg/packagemanager.cc:398
 #, c-format
@@ -2358,283 +2271,267 @@ msgid ""
 "This installation run will require temporarily removing the essential "
 "package %s due to a Conflicts/Pre-Depends loop. This is often bad, but if "
 "you really want to do it, activate the APT::Force-LoopBreak option."
-msgstr ""
-"üÔÏÔ ÓÅÁÎÓ ÕÓÔÁÎÏ×ËÉ ÔÒÅÂÕÅÔ ×ÒÅÍÅÎÎÏÇÏ ÕÄÁÌÅÎÉÑ ÓÉÓÔÅÍÎÏÇÏ ÐÁËÅÔÁ %s × "
-"Ó×ÑÚÉ Ó ËÏÎÆÌÉËÔÏÍ ÉÌÉ ÚÁÃÉËÌÉ×ÁÎÉÅÍ ÐÒÅÄ×ÁÒÉÔÅÌØÎÙÈ ÚÁ×ÉÓÉÍÏÓÔÅÊ. þÁÝÅ "
-"×ÓÅÇÏ ÜÔÏ ÎÅÐÒÁ×ÉÌØÎÏ, ÎÏ ÅÓÌÉ ×Ù ÄÅÊÓÔ×ÉÔÅÌØÎÏ ÜÔÏÇÏ ÈÏÔÉÔÅ, ÔÏ "
-"ÁËÔÉ×ÉÚÉÒÕÊÔÅ ÐÁÒÁÍÅÔÒ APT::Force-LoopBreak."
+msgstr "Эта установка потребует временно удалить жизненно важный пакет %s из-за петли Conflicts/Pre-Depends. Обычно это плохо, но если вы действительно хотите это сделать, включите опцию APT::Force-LoopBreak."
 
 #: apt-pkg/pkgcache.cc:128
 msgid "Empty package cache"
-msgstr "âÕÆÅÒ ÐÁËÅÔÏ× ÐÕÓÔ."
+msgstr "Пустой кэш пакетов"
 
 #: apt-pkg/pkgcache.cc:134
 msgid "The package cache file is corrupted"
-msgstr "æÁÊÌ Ó ËÜÛÅÍ ÐÁËÅÔÏ× ÐÏ×ÒÅÖÄÅÎ"
+msgstr "Файл кэша пакетов повреждён"
 
 #: apt-pkg/pkgcache.cc:139
 msgid "The package cache file is an incompatible version"
-msgstr "æÁÊÌ Ó ËÜÛÅÍ ÐÁËÅÔÏ× ÓÆÏÒÍÉÒÏ×ÁÎ ÎÅÓÏ×ÍÅÓÔÉÍÏÊ ×ÅÒÓÉÅÊ APT"
+msgstr "Файл кэша пакетов имеет несовместимую версию"
 
 #: apt-pkg/pkgcache.cc:144
 #, c-format
 msgid "This APT does not support the Versioning System '%s'"
-msgstr "äÁÎÎÁÑ ×ÅÒÓÉÑ APT ÎÅ ÐÏÄÄÅÒÖÉ×ÁÅÔ ÓÉÓÔÅÍÕ ×ÅÒÓÉÊ '%s'."
+msgstr "Этот APT не поддерживает систему версионирования «%s»"
 
 #: apt-pkg/pkgcache.cc:149
 msgid "The package cache was built for a different architecture"
-msgstr "ëÜÛ ÐÁËÅÔÏ× ÂÙÌ ÓÏÂÒÁÎ ÄÌÑ ÄÒÕÇÏÊ ÐÌÁÔÆÏÒÍÙ"
+msgstr "Кэш пакетов собран для другой архитектуры"
 
 #: apt-pkg/pkgcache.cc:247
 msgid "Depends"
-msgstr "ôÒÅÂÕÅÔ"
+msgstr "Зависит"
 
 #: apt-pkg/pkgcache.cc:247
 msgid "PreDepends"
-msgstr "äÌÑ ÕÓÔÁÎÏ×ËÉ ÔÒÅÂÕÅÔ"
+msgstr "Предзависимости"
 
 #: apt-pkg/pkgcache.cc:247
 msgid "Suggests"
-msgstr "ðÒÅÄÌÁÇÁÅÔ"
+msgstr "Предлагает"
 
 #: apt-pkg/pkgcache.cc:248
 msgid "Recommends"
-msgstr "òÅËÏÍÅÎÄÕÅÔ"
+msgstr "Рекомендует"
 
 #: apt-pkg/pkgcache.cc:248
 msgid "Conflicts"
-msgstr "ëÏÎÆÌÉËÔÕÅÔ"
+msgstr "Конфликтует"
 
 #: apt-pkg/pkgcache.cc:248
 msgid "Replaces"
-msgstr "úÁÍÅÎÑÅÔ"
+msgstr "Заменяет"
 
 #: apt-pkg/pkgcache.cc:249
 msgid "Obsoletes"
-msgstr "÷ÙÔÅÓÎÑÅÔ"
+msgstr "Устаревает"
 
 #: apt-pkg/pkgcache.cc:260
 msgid "important"
-msgstr "×ÁÖÎÏ"
+msgstr "важно"
 
 #: apt-pkg/pkgcache.cc:260
 msgid "required"
-msgstr "ÔÒÅÂÕÅÔÓÑ"
+msgstr "требуется"
 
 #: apt-pkg/pkgcache.cc:260
 msgid "standard"
-msgstr "ÏÂÙÞÎÏ"
+msgstr "стандарт"
 
 #: apt-pkg/pkgcache.cc:261
 msgid "optional"
-msgstr "ÎÅÏÂÑÚÁÔÅÌØÎÏ"
+msgstr "опционально"
 
 #: apt-pkg/pkgcache.cc:261
 msgid "extra"
-msgstr "ÄÏÐÏÌÎÉÔÅÌØÎÏ"
+msgstr "дополнительно"
 
 #: apt-pkg/pkgcachegen.cc:70
 msgid "Cache has an incompatible versioning system"
-msgstr "÷ ËÜÛÅ ÉÓÐÏÌØÚÏ×ÁÎÁ ÎÅÓÏ×ÍÅÓÔÉÍÁÑ ÓÉÓÔÅÍÁ ×ÅÒÓÉÊ"
+msgstr "Кэш использует несовместимую систему версионирования"
 
 #: apt-pkg/pkgcachegen.cc:119
 #, c-format
 msgid "Error occured while processing %s (NewPackage)"
-msgstr "ðÒÉ ÏÂÒÁÂÏÔËÅ %s (NewPackage) ÐÒÏÉÚÏÛÌÁ ÏÛÉÂËÁ"
+msgstr "Произошла ошибка при обработке %s (NewPackage)"
 
 #: apt-pkg/pkgcachegen.cc:136
 #, c-format
 msgid "Error occured while processing %s (UsePackage1)"
-msgstr "ðÒÉ ÏÂÒÁÂÏÔËÅ %s (UsePackage1) ÐÒÏÉÚÏÛÌÁ ÏÛÉÂËÁ"
+msgstr "Произошла ошибка при обработке %s (UsePackage1)"
 
 #: apt-pkg/pkgcachegen.cc:167
 #, c-format
 msgid "Error occured while processing %s (UsePackage2)"
-msgstr "ðÒÉ ÏÂÒÁÂÏÔËÅ %s (UsePackage2) ×ÏÚÎÉËÌÁ ÏÛÉÂËÁ"
+msgstr "Произошла ошибка при обработке %s (UsePackage2)"
 
 #: apt-pkg/pkgcachegen.cc:171
 #, c-format
 msgid "Error occured while processing %s (NewFileVer1)"
-msgstr "ðÒÉ ÏÂÒÁÂÏÔËÅ %s (NewFileVer1) ×ÏÚÎÉËÌÁ ÏÛÉÂËÁ"
+msgstr "Произошла ошибка при обработке %s (NewFileVer1)"
 
 #: apt-pkg/pkgcachegen.cc:205
 #, c-format
 msgid "Error occured while processing %s (NewVersion1)"
-msgstr "ðÒÉ ÏÂÒÁÂÏÔËÅ %s (NewVersion1) ×ÏÚÎÉËÌÁ ÏÛÉÂËÁ"
+msgstr "Произошла ошибка при обработке %s (NewVersion1)"
 
 #: apt-pkg/pkgcachegen.cc:209
 #, c-format
 msgid "Error occured while processing %s (UsePackage3)"
-msgstr "ðÒÉ ÏÂÒÁÂÏÔËÅ %s (UsePackage2) ×ÏÚÎÉËÌÁ ÏÛÉÂËÁ"
+msgstr "Произошла ошибка при обработке %s (UsePackage3)"
 
 #: apt-pkg/pkgcachegen.cc:213
 #, c-format
 msgid "Error occured while processing %s (NewVersion2)"
-msgstr "ðÒÉ ÏÂÒÁÂÏÔËÅ %s (NewVersion2) ×ÏÚÎÉËÌÁ ÏÛÉÂËÁ"
+msgstr "Произошла ошибка при обработке %s (NewVersion2)"
 
 #: apt-pkg/pkgcachegen.cc:228
 msgid "Wow, you exceeded the number of package names this APT is capable of."
-msgstr ""
-"ëÏÌÉÞÅÓÔ×Ï ÉÍ£Î ÐÁËÅÔÏ× ÐÒÅ×ÙÛÁÅÔ ÍÁËÓÉÍÁÌØÎÏ ÄÏÐÕÓÔÉÍÏÅ ÄÌÑ ÄÁÎÎÏÊ ×ÅÒÓÉÉ "
-"APT!"
+msgstr "Ух ты, вы превысили количество имён пакетов, которое способен обработать этот APT."
 
 #: apt-pkg/pkgcachegen.cc:231
 msgid "Wow, you exceeded the number of versions this APT is capable of."
-msgstr ""
-"ëÏÌÉÞÅÓÔ×Ï ÒÁÚÌÉÞÎÙÈ ×ÅÒÓÉÊ ÐÒÅ×ÙÛÁÅÔ ÍÁËÓÉÍÁÌØÎÏ ÄÏÐÕÓÔÉÍÏÅ ÄÌÑ ÄÁÎÎÏÊ "
-"×ÅÒÓÉÉ APT!"
+msgstr "Ух ты, вы превысили количество версий, которое способен обработать этот APT."
 
 #: apt-pkg/pkgcachegen.cc:234
 msgid "Wow, you exceeded the number of dependencies this APT is capable of."
-msgstr ""
-"ëÏÌÉÞÅÓÔ×Ï ÚÁ×ÉÓÉÍÏÓÔÅÊ ÐÒÅ×ÙÛÁÅÔ ÍÁËÓÉÍÁÌØÎÏ ÄÏÐÕÓÔÉÍÏÅ ÄÌÑ ÄÁÎÎÏÊ ×ÅÒÓÉÉ "
-"APT!"
+msgstr "Ух ты, вы превысили количество зависимостей, которое способен обработать этот APT."
 
 #: apt-pkg/pkgcachegen.cc:268
 #, c-format
 msgid "Error occured while processing %s (FindPkg)"
-msgstr "ðÒÉ ÏÂÒÁÂÏÔËÅ %s (FindPkg) ÐÒÏÉÚÏÛÌÁ ÏÛÉÂËÁ."
+msgstr "Произошла ошибка при обработке %s (FindPkg)"
 
 #: apt-pkg/pkgcachegen.cc:293
 #, c-format
 msgid "Error occured while processing %s (CollectFileProvides)"
-msgstr "ðÒÉ ÏÂÒÁÂÏÔËÅ %s (CollectFileProvides) ÐÒÏÉÚÏÛÌÁ ÏÛÉÂËÁ."
+msgstr "Произошла ошибка при обработке %s (CollectFileProvides)"
 
 #: apt-pkg/pkgcachegen.cc:305
 #, c-format
 msgid "Package %s %s was not found while processing file dependencies"
-msgstr "îÅ ÎÁÊÄÅÎ ÐÁËÅÔ %s %s ÐÒÉ ÏÂÒÁÂÏÔËÅ ÆÁÊÌÏ×ÙÈ ÚÁ×ÉÓÉÍÏÓÔÅÊ."
+msgstr "Пакет %s %s не найден при обработке зависимостей по файлам"
 
 #: apt-pkg/pkgcachegen.cc:718 apt-pkg/pkgcachegen.cc:745
 #: apt-pkg/pkgcachegen.cc:787 apt-pkg/pkgcachegen.cc:792
 #: apt-pkg/pkgcachegen.cc:996
 msgid "Reading Package Lists"
-msgstr "þÔÅÎÉÅ ÓÐÉÓËÏ× ÐÁËÅÔÏ×"
+msgstr "Чтение списков пакетов"
 
 #: apt-pkg/pkgcachegen.cc:785
 #, c-format
 msgid "Unable to write to %s"
-msgstr "úÁÐÉÓØ × %s ÎÅ×ÏÚÍÏÖÎÁ"
+msgstr "Не удалось записать в %s"
 
 #: apt-pkg/pkgcachegen.cc:800
 msgid "Error pre-processing package lists"
-msgstr "÷Ï ×ÒÅÍÑ ÐÒÅÄ×ÁÒÉÔÅÌØÎÏÊ ÏÂÒÁÂÏÔËÉ ÓÐÉÓËÏ× ÐÁËÅÔÏ× ÐÒÏÉÚÏÛÌÁ ÏÛÉÂËÁ."
+msgstr "Ошибка предварительной обработки списков пакетов"
 
 #: apt-pkg/pkgcachegen.cc:917 apt-pkg/pkgcachegen.cc:924
 msgid "IO Error saving source cache"
-msgstr "ïÛÉÂËÁ ××ÏÄÁ-×Ù×ÏÄÁ × ÍÏÍÅÎÔ ÓÏÈÒÁÎÅÎÉÑ ËÜÛÁ ÒÅÐÏÚÉÔÏÒÉÑ"
+msgstr "Ошибка ввода-вывода при сохранении кэша исходников"
 
 #: apt-pkg/pkgrecords.cc:36
 #, c-format
 msgid "Index file type '%s' is not supported"
-msgstr "ôÉÐ ÉÎÄÅËÓÎÏÇÏ ÆÁÊÌÁ '%s' ÎÅ ÐÏÄÄÅÒÖÉ×ÁÅÔÓÑ"
+msgstr "Тип индексного файла «%s» не поддерживается"
 
 #: apt-pkg/policy.cc:330
 msgid "Invalid record in the preferences file, no Package header"
-msgstr ""
-"ïÛÉÂÏÞÎÁÑ ÚÁÐÉÓØ × ËÏÎÆÉÇÕÒÁÃÉÏÎÎÏÍ ÆÁÊÌÅ. ïÔÓÕÔÓÔ×ÕÅÔ ÚÁÇÏÌÏ×ÏË ÐÁËÅÔÁ."
+msgstr "Недопустимая запись в файле preferences: отсутствует заголовок Package"
 
 #: apt-pkg/policy.cc:352
 #, c-format
 msgid "Did not understand pin type %s"
-msgstr "îÅÐÒÉÇÏÄÎÙÊ ËÒÉÔÅÒÉÊ ÏÔÂÏÒÁ ÐÒÅÄÐÏÞÉÔÁÅÍÙÈ ÐÁËÅÔÏ× %s."
+msgstr "Не удалось понять тип pin %s"
 
 #: apt-pkg/policy.cc:360
 msgid "No priority (or zero) specified for pin"
-msgstr "îÅ ÕËÁÚÁÎ (ÉÌÉ ÕËÁÚÁÎ ÎÕÌÅ×ÏÊ) ÐÒÉÏÒÉÔÅÔ ÄÌÑ ÐÒÅÄÐÏÞÔÅÎÉÑ"
+msgstr "Для pin не задан приоритет (или задан нулевой)"
 
 #: apt-pkg/repository.cc:51
 #, c-format
 msgid "No MD5Sum data in Release file '%s'"
-msgstr "÷ ÆÁÊÌÅ ÏÐÉÓÁÎÉÑ '%s' ÎÅÔ ËÏÎÔÒÏÌØÎÏÊ ÓÕÍÍÙ MD5."
+msgstr "В файле Release «%s» отсутствуют данные MD5Sum"
 
 #: apt-pkg/repository.cc:68
 #, c-format
 msgid "Error parsing MD5Sum hash record on Release file '%s'"
-msgstr "ïÛÉÂËÁ ÐÏÌÕÞÅÎÉÑ ÈÜÛ ÚÁÐÉÓÉ MD5 ÉÚ ÆÁÊÌÁ ÏÐÉÓÁÎÉÑ '%s'."
+msgstr "Ошибка разбора записи хэша MD5Sum в файле Release «%s»"
 
 #: apt-pkg/sourcelist.cc:105
 #, c-format
 msgid "Malformed line %lu in source list %s (Absolute dist)"
-msgstr ""
-"îÅÐÒÁ×ÉÌØÎÁÑ ÓÔÒÏËÁ %lu × ÓÐÉÓËÅ ÉÓÔÏÞÎÉËÏ× %s (ÁÂÓÏÌÀÔÎÙÊ ÄÉÓÔÒÉÂÕÔÉ×)"
+msgstr "Некорректная строка %lu в списке источников %s (Absolute dist)"
 
 #: apt-pkg/sourcelist.cc:117
 #, c-format
 msgid "Malformed line %lu in source list %s (dist parse)"
-msgstr ""
-"îÅÐÒÁ×ÉÌØÎÁÑ ÓÔÒÏËÁ %lu × ÓÐÉÓËÅ ÉÓÔÏÞÎÉËÏ× %s (ÏÂÒÁÂÏÔËÁ ÄÉÓÔÒÉÂÕÔÉ×Á)"
+msgstr "Некорректная строка %lu в списке источников %s (разбор dist)"
 
 #: apt-pkg/sourcelist.cc:209 apt-pkg/sourcelist.cc:249
 #, c-format
 msgid "Vendor block %s is invalid"
-msgstr "îÅ×ÅÒÎÙÊ ÂÌÏË ÄÁÎÎÙÈ ÐÏÓÔÁ×ÝÉËÁ %s."
+msgstr "Блок vendor %s недействителен"
 
 #: apt-pkg/sourcelist.cc:333
 #, c-format
 msgid "Line %u too long in source list %s."
-msgstr "óÌÉÛËÏÍ ÄÌÉÎÎÁÑ ÚÁÐÉÓØ %u × ÓÐÉÓËÅ ÉÓÔÏÞÎÉËÏ× %s."
+msgstr "Строка %u слишком длинная в списке источников %s."
 
 #: apt-pkg/sourcelist.cc:353
 #, c-format
 msgid "Malformed line %u in source list %s (type)"
-msgstr "ïÛÉÂÏÞÎÁÑ ÚÁÐÉÓØ × ÓÔÒÏËÅ %u × ÓÐÉÓËÅ ÉÓÔÏÞÎÉËÏ× %s (ÔÉÐ ÉÓÔÏÞÎÉËÁ)"
+msgstr "Некорректная строка %u в списке источников %s (type)"
 
 #: apt-pkg/sourcelist.cc:357
 #, c-format
 msgid "Type '%s' is not known in on line %u in source list %s"
-msgstr "îÅÉÚ×ÅÓÔÎÙÊ ÔÉÐ '%s' × ÓÔÒÏËÅ %u ÓÐÉÓËÁ ÉÓÔÏÞÎÉËÏ× %s."
+msgstr "Неизвестный тип «%s» в строке %u списка источников %s"
 
 #: apt-pkg/sourcelist.cc:366 apt-pkg/sourcelist.cc:369
 #, c-format
 msgid "Malformed line %u in source list %s (vendor id)"
-msgstr "îÅÐÒÁ×ÉÌØÎÁÑ ÓÔÒÏËÁ %u × ÓÐÉÓËÅ ÉÓÔÏÞÎÉËÏ× %s (ID ÐÏÓÔÁ×ÝÉËÁ)"
+msgstr "Некорректная строка %u в списке источников %s (vendor id)"
 
 #: apt-pkg/sourcelist.cc:383
 #, c-format
 msgid "Unknown vendor ID '%s' in line %u of source list %s"
-msgstr "îÅÉÚ×ÅÓÔÎÙÊ ID ÐÏÓÔÁ×ÝÉËÁ '%s' × ÓÔÒÏËÅ %u ÓÐÉÓËÁ ÉÓÔÏÞÎÉËÏ× %s."
+msgstr "Неизвестный vendor ID «%s» в строке %u списка источников %s"
 
 #: apt-pkg/srcrecords.cc:42
 msgid "You must put some 'source' URIs in your sources.list"
-msgstr "÷ sources.list ÄÏÌÖÎÙ ÂÙÔØ ÕËÁÚÁÎÙ ÁÄÒÅÓÁ ÒÅÐÏÚÉÔÏÒÉÅ×."
+msgstr "Нужно добавить несколько URI «source» в ваш sources.list"
 
 #: apt-pkg/tagfile.cc:67
 #, c-format
 msgid "Unable to parse package file %s (1)"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÞÉÔÁÔØ ÐÁËÅÔÎÙÊ ÆÁÊÌ %s (1)"
+msgstr "Не удалось разобрать файл пакетов %s (1)"
 
 #: apt-pkg/tagfile.cc:154
 #, c-format
 msgid "Unable to parse package file %s (2)"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÞÉÔÁÔØ ÐÁËÅÔÎÙÊ ÆÁÊÌ %s (2)"
+msgstr "Не удалось разобрать файл пакетов %s (2)"
 
 #: methods/cdrom.cc:202
 msgid ""
 "Please use apt-cdrom to make this CD recognized by APT. apt-get update "
 "cannot be used to add new CDs"
-msgstr ""
-"ðÏÖÁÌÕÊÓÔÁ, ÉÓÐÏÌØÚÕÊÔÅ apt-cdrom, ÞÔÏÂÙ ÓÄÅÌÁÔØ ÜÔÏÔ CD ÄÏÓÔÕÐÎÙÍ APT. apt-"
-"get update ÎÅ ÍÏÖÅÔ ÂÙÔØ ÉÓÐÏÌØÚÏ×ÁÎ ÄÌÑ ÄÏÂÁ×ÌÅÎÉÑ ÎÏ×ÙÈ CD ÄÉÓËÏ×"
+msgstr "Используйте apt-cdrom, чтобы APT распознал этот CD. Команда apt-get update не может использоваться для добавления новых CD"
 
 #: methods/cdrom.cc:210 methods/cdrom.cc:248
 msgid "Wrong CD"
-msgstr "îÅÐÒÁ×ÉÌØÎÙÊ CD"
+msgstr "Неверный CD"
 
 #: methods/cdrom.cc:243
 #, c-format
 msgid "Unable to unmount the CD-ROM in %s, it may still be in use."
-msgstr ""
-"îÅ×ÏÚÍÏÖÎÏ ÒÁÚÍÏÎÔÉÒÏ×ÁÔØ CD-ROM × %s, ÎÁ×ÅÒÎÏÅ ÏÎ ×ÓÅ ÅÝÅ ÉÓÐÏÌØÚÕÅÔÓÑ"
+msgstr "Не удалось размонтировать CD-ROM в %s: возможно, он всё ещё используется."
 
 #: methods/cdrom.cc:266 methods/file.cc:82
 msgid "File not found"
-msgstr "æÁÊÌ ÎÅ ÎÁÊÄÅÎ"
+msgstr "Файл не найден"
 
 #: methods/connect.cc:67
 #, c-format
 msgid "Connecting to %s (%s)"
-msgstr "óÏÅÄÉÎÅÎÉÅ Ó %s (%s)"
+msgstr "Подключение к %s (%s)"
 
 #: methods/connect.cc:74
 #, c-format
@@ -2644,314 +2541,304 @@ msgstr "[IP: %s %s]"
 #: methods/connect.cc:83
 #, c-format
 msgid "Could not create a socket for %s (f=%u t=%u p=%u)"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÓÏÚÄÁÔØ ÓÏËÅÔ ÄÌÑ %s (f=%u t=%u p=%u)"
+msgstr "Не удалось создать сокет для %s (f=%u t=%u p=%u)"
 
 #: methods/connect.cc:89
 #, c-format
 msgid "Cannot initiate the connection to %s:%s (%s)."
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÎÁÞÁÔØ ÓÏÅÄÉÎÅÎÉÅ Ó %s:%s (%s)."
+msgstr "Не удалось инициировать подключение к %s:%s (%s)."
 
 #: methods/connect.cc:95
 #, c-format
 msgid "Could not connect to %s:%s (%s), connection timed out"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÓÏÅÄÉÎÉÔØÓÑ Ó %s:%s (%s), ×ÒÅÍÑ ÓÏÅÄÉÎÅÎÉÑ ÉÓÔÅËÌÏ"
+msgstr "Не удалось подключиться к %s:%s (%s): превышено время ожидания"
 
+# c-format
 #: methods/connect.cc:107
 #, c-format
 msgid "Could not connect to %s:%s (%s)."
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÓÏÅÄÉÎÉÔØÓÑ Ó %s:%s (%s)."
+msgstr "Не удалось подключиться к %s:%s (%s)."
 
 #: methods/connect.cc:135 methods/rsh.cc:428
 #, c-format
 msgid "Connecting to %s"
-msgstr "óÏÅÄÉÎÑÅÍÓÑ Ó %s"
+msgstr "Подключение к %s"
 
 #: methods/connect.cc:166
 #, c-format
 msgid "Could not resolve '%s'"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÕÚÎÁÔØ ÁÄÒÅÓ ÄÌÑ '%s'"
+msgstr "Не удалось разрешить имя «%s»"
 
 #: methods/connect.cc:170
 #, c-format
 msgid "Temporary failure resolving '%s'"
-msgstr "÷ÒÅÍÅÎÎÙÊ ÓÂÏÊ ÐÒÉ ÏÐÒÅÄÅÌÅÎÉÉ ÁÄÒÅÓÁ ÄÌÑ '%s'"
+msgstr "Временная ошибка при разрешении имени «%s»"
 
 #: methods/connect.cc:172
 #, c-format
 msgid "Something wicked happened resolving '%s:%s' (%i)"
-msgstr "îÅÞÔÏ ÓÔÒÁÎÎÏ ÓÌÕÞÉÌÏÓØ ÐÒÉ ÏÐÒÅÄÅÌÅÎÉÉ ÁÄÒÅÓÁ ÄÌÑ '%s:%s' (%i)"
+msgstr "При разрешении «%s:%s» случилось что-то нехорошее (%i)"
 
 #: methods/connect.cc:219
 #, c-format
 msgid "Unable to connect to %s %s:"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÓÏÅÄÉÎÉÔØÓÑ Ó  %s %s:"
+msgstr "Не удалось подключиться к %s %s:"
 
 #: methods/copy.cc:45 methods/gzip.cc:136 methods/gzip.cc:145
 msgid "Failed to stat"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÏÌÕÞÉÔØ ÉÎÆÏÒÍÁÃÉÀ"
+msgstr "Не удалось выполнить stat"
 
 #: methods/copy.cc:82 methods/gzip.cc:142
 msgid "Failed to set modification time"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÕÓÔÁÎÏ×ÉÔØ ×ÒÅÍÑ ÍÏÄÉÆÉËÁÃÉÉ"
+msgstr "Не удалось установить время изменения"
 
 #: methods/file.cc:45
 msgid "Invalid URI, local URIS must not start with //"
-msgstr "îÅÐÒÁ×ÉÌØÎÙÊ URI, ÌÏËÁÌØÎÙÅ URIS ÎÅ ÄÏÌÖÎÙ ÎÁÞÉÎÁÔØÓÑ Ó //"
+msgstr "Недопустимый URI: локальные URI не должны начинаться с //"
 
 #: methods/ftp.cc:165
 msgid "Logging in"
-msgstr "÷ÈÏÄÉÍ"
+msgstr "Вход"
 
 #: methods/ftp.cc:171
 msgid "Unable to determine the peer name"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÐÒÅÄÅÌÉÔØ ÉÍÑ ÕÄÁÌ£ÎÎÏÊ ÓÉÓÔÅÍÙ"
+msgstr "Не удалось определить имя узла (peer)"
 
 #: methods/ftp.cc:176
 msgid "Unable to determine the local name"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÐÒÅÄÅÌÉÔØ ÉÍÑ ÌÏËÁÌØÎÏÊ ÓÉÓÔÅÍÙ."
+msgstr "Не удалось определить локальное имя"
 
 #: methods/ftp.cc:208 methods/ftp.cc:236
 #, c-format
 msgid "Server refused our connection and said: %s"
-msgstr "óÅÒ×ÅÒ ÎÅ ÐÒÉÎÑÌ ÎÁÛÅ ÓÏÅÄÉÎÅÎÉÅ É ÏÔ×ÅÔÉÌ: %s"
+msgstr "Сервер отказал в подключении и сообщил: %s"
 
 #: methods/ftp.cc:214
 #, c-format
 msgid "USER failed, server said: %s"
-msgstr "ëÏÍÁÎÄÁ USER ÚÁ×ÅÒÛÉÌÁÓØ ÎÅÕÄÁÞÎÏ, ÓÅÒ×ÅÒ ÏÔ×ÅÔÉÌ: %s"
+msgstr "Команда USER не выполнена, сервер сообщил: %s"
 
 #: methods/ftp.cc:221
 #, c-format
 msgid "PASS failed, server said: %s"
-msgstr "ëÏÍÁÎÄÁ PASS ÚÁ×ÅÒÛÉÌÁÓØ ÎÅÕÄÁÞÎÏ, ÓÅÒ×ÅÒ ÏÔ×ÅÔÉÌ: %s"
+msgstr "Команда PASS не выполнена, сервер сообщил: %s"
 
 #: methods/ftp.cc:241
 msgid ""
 "A proxy server was specified but no login script, Acquire::ftp::ProxyLogin "
 "is empty."
-msgstr ""
-"ðÒÏËÓÉ ÓÅÒ×ÅÒ ÂÙÌ ÕËÁÚÁÎ, ÎÏ ÏÔÓÕÔÓÔ×ÕÅÔ login ÓËÒÉÐÔ, ÐÁÒÁÍÅÔÒ Acquire::"
-"ftp::ProxyLogin ÐÕÓÔ"
+msgstr "Указан proxy-сервер, но не задан скрипт входа: Acquire::ftp::ProxyLogin пуст."
 
 #: methods/ftp.cc:269
 #, c-format
 msgid "Login script command '%s' failed, server said: %s"
-msgstr "ëÏÍÁÎÄÁ '%s' login ÓËÒÉÐÔÁ ÚÁ×ÅÒÛÉÌÁÓØ ÎÅÕÄÁÞÎÏ, ÓÅÒ×ÅÒ ÏÔ×ÅÔÉÌ: %s"
+msgstr "Команда скрипта входа «%s» завершилась неудачно, сервер сообщил: %s"
 
 #: methods/ftp.cc:295
 #, c-format
 msgid "TYPE failed, server said: %s"
-msgstr "ëÏÍÁÎÄÁ TYPE ÚÁ×ÅÒÛÉÌÁÓØ ÎÅÕÄÁÞÎÏ, ÓÅÒ×ÅÒ ÏÔ×ÅÔÉÌ: %s"
+msgstr "Команда TYPE не выполнена, сервер сообщил: %s"
 
 #: methods/ftp.cc:333 methods/ftp.cc:444 methods/rsh.cc:186 methods/rsh.cc:229
 msgid "Connection timeout"
-msgstr "÷ÒÅÍÑ ÓÏÅÄÉÎÅÎÉÑ ÉÓÔÅËÌÏ"
+msgstr "Время ожидания соединения истекло"
 
 #: methods/ftp.cc:339
 msgid "Server closed the connection"
-msgstr "óÅÒ×ÅÒ ÚÁËÒÙÌ ÓÏÅÄÉÎÅÎÉÅ"
+msgstr "Сервер закрыл соединение"
 
 #: methods/ftp.cc:349 methods/rsh.cc:200
 msgid "A response overflowed the buffer."
-msgstr "ïÔ×ÅÔ ÐÅÒÅÐÏÌÎÉÌ ÂÕÆÅÒ."
+msgstr "Ответ переполнил буфер."
 
 #: methods/ftp.cc:366 methods/ftp.cc:378
 msgid "Protocol corruption"
-msgstr "óÂÏÊ ÐÒÏÔÏËÏÌÁ"
+msgstr "Повреждение протокола"
 
 #: methods/ftp.cc:450 methods/rsh.cc:235
 msgid "Write Error"
-msgstr "ïÛÉÂËÁ ÚÁÐÉÓÉ"
+msgstr "Ошибка записи"
 
 #: methods/ftp.cc:691 methods/ftp.cc:697 methods/ftp.cc:733
 msgid "Could not create a socket"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÓÏÚÄÁÔØ ÓÏËÅÔ"
+msgstr "Не удалось создать сокет"
 
 #: methods/ftp.cc:702
 msgid "Could not connect data socket, connection timed out"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÉÓÏÅÄÉÎÉÔØ ÓÏËÅÔ ÄÁÎÎÙÈ, ×ÒÅÍÑ ÓÏÅÄÉÎÅÎÉÑ ÉÓÔÅËÌÏ"
+msgstr "Не удалось подключить сокет данных: превышено время ожидания"
 
 #: methods/ftp.cc:708
 msgid "Could not connect passive socket."
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÉÓÏÅÄÉÎÉÔØ ÐÁÓÓÉ×ÎÙÊ ÓÏËÅÔ."
+msgstr "Не удалось подключить пассивный сокет."
 
 #: methods/ftp.cc:726
 msgid "getaddrinfo was unable to get a listening socket"
-msgstr "ÆÕÎËÃÉÑ getaddrinfo ÎÅ ÓÍÏÇÌÁ ÐÏÌÕÞÉÔØ ÓÏËÅÔ"
+msgstr "getaddrinfo не удалось получить слушающий сокет"
 
 #: methods/ftp.cc:740
 msgid "Could not bind a socket"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÚÁÎÑÔØ ÓÏËÅÔ"
+msgstr "Не удалось выполнить bind сокета"
 
 #: methods/ftp.cc:744
 msgid "Could not listen on the socket"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÓÌÕÛÉ×ÁÔØ ÎÁ ÓÏËÅÔÅ"
+msgstr "Не удалось начать прослушивание сокета"
 
 #: methods/ftp.cc:751
 msgid "Could not determine the socket's name"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÐÒÅÄÅÌÉÔØ ÉÍÑ ÓÏËÅÔÁ"
+msgstr "Не удалось определить имя сокета"
 
 #: methods/ftp.cc:783
 msgid "Unable to send PORT command"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÏÓÌÁÔØ PORT ËÏÍÁÎÄÕ"
+msgstr "Не удалось отправить команду PORT"
 
 #: methods/ftp.cc:793
 #, c-format
 msgid "Unknown address family %u (AF_*)"
-msgstr "îÅÉÚ×ÅÓÔÎÏÅ ÓÅÍÅÊÓÔ×Ï ÁÄÒÅÓÏ× %u (AF_*)"
+msgstr "Неизвестное семейство адресов %u (AF_*)"
 
 #: methods/ftp.cc:802
 #, c-format
 msgid "EPRT failed, server said: %s"
-msgstr "ëÏÍÁÎÄÁ EPRT ÚÁ×ÅÒÛÉÌÁÓØ ÎÅÕÄÁÞÎÏ, ÓÅÒ×ÅÒ ÏÔ×ÅÔÉÌ: %s"
+msgstr "Команда EPRT не выполнена, сервер сообщил: %s"
 
 #: methods/ftp.cc:822
 msgid "Data socket connect timed out"
-msgstr "÷ÒÅÍÑ ÓÏÅÄÉÎÅÎÉÑ Ó ÓÏËÅÔÏÍ ÄÁÎÎÙÈ ÉÓÔÅËÌÏ"
+msgstr "Истекло время ожидания подключения сокета данных"
 
 #: methods/ftp.cc:829
 msgid "Unable to accept connection"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÉÎÑÔØ ÓÏÅÄÉÎÅÎÉÅ"
+msgstr "Не удалось принять соединение"
 
 #: methods/ftp.cc:868 methods/http.cc:1060 methods/rsh.cc:306
 msgid "Problem hashing file"
-msgstr "ïÛÉÂËÁ ÐÏÌÕÞÅÎÉÑ ÈÜÛÁ ÆÁÊÌÁ"
+msgstr "Проблема при хешировании файла"
 
 #: methods/ftp.cc:881
 #, c-format
 msgid "Unable to fetch file, server said '%s'"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÓËÁÞÁÔØ ÆÁÊÌ, ÓÅÒ×ÅÒ ÏÔ×ÅÔÉÌ '%s'"
+msgstr "Не удалось получить файл, сервер сообщил «%s»"
 
 #: methods/ftp.cc:896 methods/rsh.cc:325
 msgid "Data socket timed out"
-msgstr "÷ÒÅÍÑ ÓÏËÅÔÁ ÄÁÎÎÙÈ ÉÓÔÅËÌÏ"
+msgstr "Истекло время ожидания сокета данных"
 
 #: methods/ftp.cc:926
 #, c-format
 msgid "Data transfer failed, server said '%s'"
-msgstr "ðÅÒÅÄÁÞÁ ÄÁÎÎÙÈ ÚÁËÏÎÞÉÌÁÓØ ÎÅÕÄÁÞÎÏ, ÓÅÒ×ÅÒ ÏÔ×ÅÔÉÌ '%s'"
+msgstr "Передача данных не удалась, сервер сообщил «%s»"
 
 #: methods/ftp.cc:1001
 msgid "Query"
-msgstr "úÁÐÒÏÓ"
+msgstr "Запрос"
 
 #: methods/ftp.cc:1108
 msgid "Unable to invoke "
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÐÒÏÞÉÔÁÔØ "
+msgstr "Не удалось вызвать "
 
 #: methods/gpg.cc:307
 msgid "Could not allocate memory"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ×ÙÄÅÌÉÔØ ÐÁÍÑÔØ"
+msgstr "Не удалось выделить память"
 
 #: methods/gpg.cc:311
 msgid "Could not create temporary directory"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÓÏÚÄÁÔØ ×ÒÅÍÅÎÎÕÀ ÄÉÒÅËÔÏÒÉÀ"
+msgstr "Не удалось создать временный каталог"
 
 #: methods/gzip.cc:60
 #, c-format
 msgid "Couldn't open pipe for %s"
-msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÔËÒÙÔØ ËÁÎÁÌ ÄÌÑ %s."
+msgstr "Не удалось открыть pipe для %s"
 
 #: methods/gzip.cc:105
 #, c-format
 msgid "Read error from %s process"
-msgstr "ïÛÉÂËÁ ÞÔÅÎÉÑ ÉÚ %s ÐÒÏÃÅÓÓÁ"
+msgstr "Ошибка чтения из процесса %s"
 
 #: methods/http.cc:346
 msgid "Waiting for headers"
-msgstr "ïÖÉÄÁÅÍ ÚÁÇÏÌÏ×ËÉ"
+msgstr "Ожидание заголовков"
 
 #: methods/http.cc:492
 #, c-format
 msgid "Got a single header line over %u chars"
-msgstr "ðÏÌÕÞÅÎÁ ÅÄÉÎÉÞÎÁÑ ÓÔÒÏËÁ ÚÁÇÏÌÏ×ËÁ ÂÏÌØÛÅ, ÞÅÍ %u ÓÉÍ×ÏÌÏ×"
+msgstr "Получена одиночная строка заголовка длиной более %u символов"
 
 #: methods/http.cc:500
 msgid "Bad header line"
-msgstr "ðÌÏÈÁÑ ÓÔÒÏËÁ ÚÁÇÏÌÏ×ËÁ"
+msgstr "Некорректная строка заголовка"
 
 #: methods/http.cc:519 methods/http.cc:526
 msgid "The http server sent an invalid reply header"
-msgstr "ïÔ http ÓÅÒ×ÅÒÁ ÐÏÌÕÞÅÎ ÎÅÐÒÁ×ÉÌØÎÙÊ ÏÔ×ÅÔÎÙÊ ÚÁÇÏÌÏ×ÏË"
+msgstr "HTTP-сервер отправил недействительный заголовок ответа"
 
 #: methods/http.cc:555
 msgid "The http server sent an invalid Content-Length header"
-msgstr "ïÔ http ÓÅÒ×ÅÒÁ ÐÏÌÕÞÅÎ ÎÅÐÒÁ×ÉÌØÎÙÊ Content-Length ÚÁÇÏÌÏ×ÏË"
+msgstr "HTTP-сервер отправил недействительный заголовок Content-Length"
 
 #: methods/http.cc:570
 msgid "The http server sent an invalid Content-Range header"
-msgstr "ïÔ http ÓÅÒ×ÅÒÁ ÐÏÌÕÞÅÎ ÎÅÐÒÁ×ÉÌØÎÙÊ Content-Range ÚÁÇÏÌÏ×ÏË"
+msgstr "HTTP-сервер отправил недействительный заголовок Content-Range"
 
 #: methods/http.cc:572
 msgid "This http server has broken range support"
-msgstr "üÔÏÔ http ÓÅÒ×ÅÒ ÉÍÅÅÔ ÎÅÐÒÁ×ÉÌØÎÕÀ ÐÏÄÄÅÒÖËÕ ÄÉÁÐÁÚÏÎÏ×"
+msgstr "У этого HTTP-сервера некорректная поддержка Range"
 
 #: methods/http.cc:596
 msgid "Unknown date format"
-msgstr "îÅÉÚ×ÅÓÔÎÙÊ ÆÏÒÍÁÔ ÄÁÔÙ"
+msgstr "Неизвестный формат даты"
 
 #: methods/http.cc:768
 msgid "Select failed"
-msgstr "÷ÙÂÏÒ ÎÅ×ÏÚÍÏÖÅÎ"
+msgstr "Select завершился неудачно"
 
 #: methods/http.cc:773
 msgid "Connection timed out"
-msgstr "÷ÒÅÍÑ ÓÏÅÄÉÎÅÎÉÅ ÉÓÔÅËÌÏ"
+msgstr "Время ожидания соединения истекло"
 
 #: methods/http.cc:796
 msgid "Error writing to output file"
-msgstr "ïÛÉÂËÁ ÚÁÐÉÓÉ × ×ÙÈÏÄÎÏÊ ÆÁÊÌ"
+msgstr "Ошибка записи в выходной файл"
 
 #: methods/http.cc:824
 msgid "Error writing to file"
-msgstr "ïÛÉÂËÁ ÚÁÐÉÓÉ × ÆÁÊÌ"
+msgstr "Ошибка записи в файл"
 
 #: methods/http.cc:849
 msgid "Error writing to the file"
-msgstr "ïÛÉÂËÁ ÚÁÐÉÓÉ × ÆÁÊÌ"
+msgstr "Ошибка записи в файл"
 
 #: methods/http.cc:863
 msgid "Error reading from server Remote end closed connection"
-msgstr "ïÛÉÂËÁ ÞÔÅÎÉÑ Ó ÓÅÒ×ÅÒÁ, ÕÄÁÌÅÎÎÁÑ ÓÔÏÒÏÎÁ ÚÁËÒÙÌÁ ÓÏÅÄÉÎÅÎÉÅ"
+msgstr "Ошибка чтения с сервера: удалённая сторона закрыла соединение"
 
 #: methods/http.cc:865
 msgid "Error reading from server"
-msgstr "ïÛÉÂËÁ ÞÔÅÎÉÑ Ó ÓÅÒ×ÅÒÁ"
+msgstr "Ошибка чтения с сервера"
 
 #: methods/http.cc:1225
 msgid "Bad header Data"
-msgstr "ðÌÏÈÉÅ ÄÁÎÎÙÅ ÚÁÇÏÌÏ×ËÁ"
+msgstr "Некорректные данные заголовка"
 
 #: methods/http.cc:1242
 msgid "Connection failed"
-msgstr "óÏÅÄÉÎÅÎÉÅ ÚÁ×ÅÒÛÉÌÏÓØ ÎÅÕÄÁÞÎÏ"
+msgstr "Не удалось установить соединение"
 
 #: methods/http.cc:1373
 msgid "Internal error"
-msgstr "÷ÎÕÔÒÅÎÎÑÑ ÏÛÉÂËÁ"
+msgstr "Внутренняя ошибка"
 
 #: methods/rsh.cc:267
 msgid "File Not Found"
-msgstr "æÁÊÌ ÎÅ ÎÁÊÄÅÎ"
+msgstr "Файл не найден"
 
 #: methods/rsh.cc:333
 msgid "Connection closed prematurely"
-msgstr "óÏÅÄÉÎÅÎÉÅ ÚÁËÒÙÌÏÓØ prematurely"
+msgstr "Соединение было закрыто преждевременно"
 
 #~ msgid "could not open RPM database"
-#~ msgstr "ÎÅ×ÏÚÍÏÖÎÏ ÏÔËÒÙÔØ ÂÁÚÕ ÄÁÎÎÙÈ RPM"
+#~ msgstr "не удалось открыть базу данных RPM"
 
 #~ msgid "Could not open RPM database"
-#~ msgstr "îÅ×ÏÚÍÏÖÎÏ ÏÔËÒÙÔØ ÂÁÚÕ ÄÁÎÎÙÈ RPM"
-
-#, fuzzy
-#~ msgid "You can try to fix them automatically with `install --fix-broken'0."
-#~ msgstr ""
-#~ "÷Ù ÍÏÖÅÔÅ ÐÏÐÒÏÂÏ×ÁÔØ ÉÓÐÒÁ×ÉÔØ ÉÈ Á×ÔÏÍÁÔÉÞÅÓËÉ, ÉÓÐÏÌØÚÕÑ ËÏÍÁÎÄÕ "
-#~ "`install -f'."
-
-#~ msgid "Committing changes..."
-#~ msgstr "óÏ×ÅÒÛÁÅÍ ÉÚÍÅÎÅÎÉÑ..."
+#~ msgstr "Не удалось открыть базу данных RPM"
 
 #~ msgid "Skipping unpack of already unpacked source in %s\n"
-#~ msgstr "ðÒÏÐÕÓË ÒÁÓÐÁËÏ×ËÉ ÕÖÅ ÒÁÓÐÁËÏ×ÁÎÎÙÈ ÉÓÈÏÄÎÉËÏ× ÐÁËÅÔÁ × %s\n"
+#~ msgstr "Пропуск распаковки уже распакованных исходников в %s\n"

@@ -1,4 +1,3 @@
-
 #include <apt-pkg/error.h>
 #include <apt-pkg/acquire-method.h>
 #include <apt-pkg/strutl.h>
@@ -369,7 +368,7 @@ bool GPGMethod::Fetch(FetchItem *Itm)
       if (msg != NULL) 
       {
 	 removeTmpDir(TempDir, SigCount);
-	 return _error->Error("%s", msg.c_str());
+	  return _error->Error("%s", msg);
       }
    }
    else 
@@ -393,7 +392,7 @@ bool GPGMethod::Fetch(FetchItem *Itm)
 	 if (msg != NULL)
 	 {
 	    removeTmpDir(TempDir, SigCount);	       
-	    return _error->Error("%s", msg.c_str());
+	     return _error->Error("%s", msg);
 	 }
 	 if (KeyList.empty())
 	    KeyList = KeyID;
